@@ -1,0 +1,18 @@
+# Normalise line endings in the repository; the working tree keeps whatever
+# the local platform uses. Without this the CSV and JSONL artefacts rewritten
+# on Windows appear as whole-file diffs.
+* text=auto eol=lf
+
+*.py    text eol=lf
+*.md    text eol=lf
+*.csv   text eol=lf
+*.json  text eol=lf
+*.jsonl text eol=lf
+*.cff   text eol=lf
+*.txt   text eol=lf
+
+*.xlsx    binary
+*.png     binary
+*.pdf     binary
+*.tif     binary
+*.parquet binary

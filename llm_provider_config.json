@@ -1,0 +1,111 @@
+{
+  "providers": [
+    {
+      "provider_name": "lmstudio_qwen",
+      "adapter": "openai_compatible",
+      "base_url": "http://localhost:1234/v1",
+      "model": "REPLACE_WITH_LMSTUDIO_QWEN_MODEL_ID",
+      "temperature": 0.1,
+      "max_tokens": 2400,
+      "timeout": 240,
+      "response_format_json": false
+    },
+    {
+      "provider_name": "ollama_local_llama",
+      "adapter": "ollama_native",
+      "base_url": "http://127.0.0.1:11434/api",
+      "model": "llama3:latest",
+      "temperature": 0.1,
+      "max_tokens": 1200,
+      "timeout": 240,
+      "format_json": true
+    },
+    {
+      "provider_name": "ollama_llama3_q4_pinned",
+      "adapter": "ollama_native",
+      "base_url": "http://127.0.0.1:11434/api",
+      "model": "llama3:8b-instruct-q4_0",
+      "temperature": 0.1,
+      "max_tokens": 1200,
+      "timeout": 240,
+      "format_json": true,
+      "_note": "Explicit, non-moving tag. The main generation set used the moving tag llama3:latest, whose digest was not recorded at run time and is no longer recoverable locally. Decoding settings are identical to that run (ollama_native, format: json, temperature 0.1, 1200-token limit).",
+      "_model_provenance": {
+        "resolved_tag": "llama3:8b-instruct-q4_0",
+        "architecture": "llama",
+        "parameters": "8.0B",
+        "quantization": "Q4_0",
+        "context_length": 8192,
+        "embedding_length": 4096,
+        "model_blob_digest_prefix": "sha256:6a0746a1ec1a",
+        "params_blob_digest_prefix": "sha256:3f8eb4da87fa",
+        "upstream_release": "Meta Llama 3, release date 2024-04-18",
+        "verified_on": "2026-10-26",
+        "verified_with": "ollama show llama3:8b-instruct-q4_0"
+      }
+    },
+    {
+      "provider_name": "ollama_local_llama",
+      "adapter": "openai_compatible",
+      "base_url": "http://localhost:11434/v1",
+      "model": "llama3.1",
+      "temperature": 0.1,
+      "max_tokens": 2400,
+      "timeout": 240,
+      "response_format_json": false
+    },
+    {
+      "provider_name": "ollama_cloud_gptoss20b",
+      "adapter": "ollama_native",
+      "base_url": "https://ollama.com/api",
+      "model": "gpt-oss:20b-cloud",
+      "api_key_env": "OLLAMA_API_KEY",
+      "temperature": 0.1,
+      "max_tokens": 2400,
+      "timeout": 300,
+      "format_json": false
+    },
+    {
+      "provider_name": "lmstudio_gptoss20b",
+      "adapter": "openai_compatible",
+      "base_url": "http://127.0.0.1:1234/v1",
+      "model": "openai/gpt-oss-20b",
+      "temperature": 0.1,
+      "max_tokens": 1600,
+      "timeout": 300,
+      "response_format_json": false
+    },
+    {
+      "provider_name": "lmstudio_qwen3coder30b",
+      "adapter": "openai_compatible",
+      "base_url": "http://127.0.0.1:1234/v1",
+      "model": "qwen/qwen3-coder-30b",
+      "temperature": 0.1,
+      "max_tokens": 1600,
+      "timeout": 300,
+      "response_format_json": false
+    },
+    {
+      "provider_name": "lmstudio_gptoss20b_jsonmode",
+      "adapter": "openai_compatible",
+      "base_url": "http://127.0.0.1:1234/v1",
+      "model": "openai/gpt-oss-20b",
+      "temperature": 0.1,
+      "max_tokens": 4096,
+      "timeout": 600,
+      "_note": "LM Studio rejects response_format.type='json_object' and requires 'json_schema'. An open object schema is the faithful equivalent of the Ollama `format: json` used for the Llama3 run: it constrains the output to a JSON object without imposing field requirements the Llama3 run never received.",
+      "response_format_json_schema": "permissive_object"
+    },
+    {
+      "provider_name": "lmstudio_gptoss20b_required_role_enforced",
+      "adapter": "openai_compatible",
+      "base_url": "http://127.0.0.1:1234/v1",
+      "model": "openai/gpt-oss-20b",
+      "temperature": 0.1,
+      "max_tokens": 4096,
+      "timeout": 600,
+      "response_format_json_schema": "required_role",
+      "_note": "Same as lmstudio_gptoss20b_jsonmode except that the schema enforces the presence of relational_evidence_role_statement at the decoder. Everything else is unconstrained, so the single manipulation is decoder enforcement."
+    }
+  ]
+}

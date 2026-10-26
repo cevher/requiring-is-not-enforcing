@@ -1,0 +1,5 @@
+provider_name,model,condition,json_valid,citation_correctness,n_invented_evidence_ids,forbidden_causal_count,investment_advice_count,uncertainty_compliance,role_separation_score,n_outputs
+ollama_local_llama,llama3:latest,free_form,1.0,,0.0,0.0,1.0,1.0,,2
+ollama_local_llama,llama3:latest,full,1.0,1.0,0.0,0.0,1.0,1.0,1.0,2
+ollama_local_llama,llama3:latest,no_network,1.0,1.0,0.0,0.0,1.0,1.0,1.0,2
+ollama_local_llama,llama3:latest,no_reliability,1.0,1.0,0.0,0.0,1.0,1.0,,2

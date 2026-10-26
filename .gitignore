@@ -1,0 +1,18 @@
+# Environments and caches
+.venv/
+venv/
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# Editor and OS clutter
+.DS_Store
+Thumbs.db
+*~
+$*.xlsx
+~$*.xlsx
+
+# Derivable from data_raw/prices/yfinance_raw_prices.parquet via
+# src/01_download_prices.py; excluded only because of its size (71 MB).
+# Everything else needed to reproduce the reported tables is tracked.
+data_raw/prices/prices_long.csv

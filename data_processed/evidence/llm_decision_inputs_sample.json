@@ -1,0 +1,403 @@
+{
+  "decision_id": "DEC-20110131-macro_only-logistic-raw",
+  "date": "2011-01-31",
+  "task": "Generate an evidence-grounded systemic-risk decision note.",
+  "system_instruction": "You are a financial systemic-risk decision-support assistant. You must generate concise, evidence-grounded decision notes. Do not provide investment advice. Do not claim causal contagion unless the evidence explicitly supports it. Distinguish calibrated risk scoring from relational network evidence. Every factual statement about the current decision must cite evidence_id values from the provided evidence list. If the confidence band is low or abstention_flag is 1, explicitly state that the decision should be treated cautiously.",
+  "decision_context": {
+    "target": "next_20d_external_stress",
+    "predicted_probability": 0.9743862237742318,
+    "predicted_class": 1,
+    "risk_level": "high",
+    "confidence_band": "high_confidence",
+    "abstention_flag": 0,
+    "network_role": "relational_provenance_and_explanation_not_primary_prediction"
+  },
+  "required_output_schema": {
+    "risk_summary": "2-3 sentences",
+    "main_macro_evidence": "bullet list with evidence_id citations",
+    "relational_network_evidence": "bullet list with evidence_id citations",
+    "firm_or_sector_attribution": "bullet list with evidence_id citations",
+    "uncertainty_note": "state confidence/abstention limitations",
+    "non_advice_disclaimer": "one sentence"
+  },
+  "evidence": [
+    {
+      "evidence_id": "PRED-20110131-macro_only-logistic-raw",
+      "entity_type": "decision_output",
+      "entity_id": "MARKET",
+      "source_type": "calibrated_risk_score",
+      "source_name": "expanding_window_macro_financial_model",
+      "evidence_role": "risk_score",
+      "value_or_snippet": "Predicted next-20-day external stress probability=0.9744; predicted_class=1; risk_level=high; confidence_band=high_confidence; abstention_flag=0."
+    },
+    {
+      "evidence_id": "MACRO-20110131-vix",
+      "entity_type": "market",
+      "entity_id": "MARKET",
+      "source_type": "macro_financial_stress",
+      "source_name": "open_macro_stress_data",
+      "evidence_role": "risk_score_input",
+      "value_or_snippet": "vix=19.53"
+    },
+    {
+      "evidence_id": "MACRO-20110131-nfci",
+      "entity_type": "market",
+      "entity_id": "MARKET",
+      "source_type": "macro_financial_stress",
+      "source_name": "open_macro_stress_data",
+      "evidence_role": "risk_score_input",
+      "value_or_snippet": "nfci=-0.591"
+    },
+    {
+      "evidence_id": "MACRO-20110131-term_spread_10y_2y",
+      "entity_type": "market",
+      "entity_id": "MARKET",
+      "source_type": "macro_financial_stress",
+      "source_name": "open_macro_stress_data",
+      "evidence_role": "risk_score_input",
+      "value_or_snippet": "term_spread_10y_2y=2.84"
+    },
+    {
+      "evidence_id": "MACRO-20110131-universe_market_return",
+      "entity_type": "market",
+      "entity_id": "MARKET",
+      "source_type": "macro_financial_stress",
+      "source_name": "open_macro_stress_data",
+      "evidence_role": "risk_score_input",
+      "value_or_snippet": "universe_market_return=0.0055738401743026"
+    },
+    {
+      "evidence_id": "MACRO-20110131-external_stress_label",
+      "entity_type": "market",
+      "entity_id": "MARKET",
+      "source_type": "macro_financial_stress",
+      "source_name": "open_macro_stress_data",
+      "evidence_role": "risk_score_input",
+      "value_or_snippet": "external_stress_label=0"
+    },
+    {
+      "evidence_id": "NETSUMMARY-RAW_THRESHOLD-20110131",
+      "entity_type": "network",
+      "entity_id": "MARKET_NETWORK",
+      "source_type": "financial_network_summary",
+      "source_name": "raw_threshold",
+      "evidence_role": "relational_context",
+      "value_or_snippet": "raw_threshold: density=0.0907103825136612; edges=166; nodes=61. Used as relational evidence, not as the primary risk-score driver."
+    },
+    {
+      "evidence_id": "FIRM-RAW_THRESHOLD-20110131-CVX-rank1",
+      "entity_type": "firm",
+      "entity_id": "CVX",
+      "source_type": "network_centrality",
+      "source_name": "raw_threshold",
+      "evidence_role": "firm_level_relational_attribution",
+      "value_or_snippet": "CVX ranked 1 in raw_threshold; weighted_degree=9.7138; eigenvector=nan; betweenness=0.0457; sector=Energy."
+    },
+    {
+      "evidence_id": "FIRM-RAW_THRESHOLD-20110131-RTX-rank2",
+      "entity_type": "firm",
+      "entity_id": "RTX",
+      "source_type": "network_centrality",
+      "source_name": "raw_threshold",
+      "evidence_role": "firm_level_relational_attribution",
+      "value_or_snippet": "RTX ranked 2 in raw_threshold; weighted_degree=9.1605; eigenvector=nan; betweenness=0.0821; sector=Industrials."
+    },
+    {
+      "evidence_id": "FIRM-RAW_THRESHOLD-20110131-BRK-B-rank3",
+      "entity_type": "firm",
+      "entity_id": "BRK-B",
+      "source_type": "network_centrality",
+      "source_name": "raw_threshold",
+      "evidence_role": "firm_level_relational_attribution",
+      "value_or_snippet": "BRK-B ranked 3 in raw_threshold; weighted_degree=9.0453; eigenvector=nan; betweenness=0.0928; sector=Financials."
+    },
+    {
+      "evidence_id": "FIRM-RAW_THRESHOLD-20110131-UPS-rank4",
+      "entity_type": "firm",
+      "entity_id": "UPS",
+      "source_type": "network_centrality",
+      "source_name": "raw_threshold",
+      "evidence_role": "firm_level_relational_attribution",
+      "value_or_snippet": "UPS ranked 4 in raw_threshold; weighted_degree=9.0368; eigenvector=nan; betweenness=0.0694; sector=Industrials."
+    },
+    {
+      "evidence_id": "FIRM-RAW_THRESHOLD-20110131-PLD-rank5",
+      "entity_type": "firm",
+      "entity_id": "PLD",
+      "source_type": "network_centrality",
+      "source_name": "raw_threshold",
+      "evidence_role": "firm_level_relational_attribution",
+      "value_or_snippet": "PLD ranked 5 in raw_threshold; weighted_degree=8.7411; eigenvector=nan; betweenness=0.0566; sector=Real Estate."
+    },
+    {
+      "evidence_id": "SECTOR-RAW_THRESHOLD-20110131-Energy-rank1",
+      "entity_type": "sector",
+      "entity_id": "Energy",
+      "source_type": "sector_network_centrality",
+      "source_name": "raw_threshold",
+      "evidence_role": "sector_level_relational_attribution",
+      "value_or_snippet": "Energy ranked 1 by average weighted degree in raw_threshold; mean_degree=6.4984; max_degree=9.7138; n_firms=3."
+    },
+    {
+      "evidence_id": "SECTOR-RAW_THRESHOLD-20110131-Financials-rank2",
+      "entity_type": "sector",
+      "entity_id": "Financials",
+      "source_type": "sector_network_centrality",
+      "source_name": "raw_threshold",
+      "evidence_role": "sector_level_relational_attribution",
+      "value_or_snippet": "Financials ranked 2 by average weighted degree in raw_threshold; mean_degree=5.4445; max_degree=9.0453; n_firms=11."
+    },
+    {
+      "evidence_id": "SECTOR-RAW_THRESHOLD-20110131-Industrials-rank3",
+      "entity_type": "sector",
+      "entity_id": "Industrials",
+      "source_type": "sector_network_centrality",
+      "source_name": "raw_threshold",
+      "evidence_role": "sector_level_relational_attribution",
+      "value_or_snippet": "Industrials ranked 3 by average weighted degree in raw_threshold; mean_degree=4.9930; max_degree=9.1605; n_firms=8."
+    },
+    {
+      "evidence_id": "NETSUMMARY-RAW_TOPK-20110131",
+      "entity_type": "network",
+      "entity_id": "MARKET_NETWORK",
+      "source_type": "financial_network_summary",
+      "source_name": "raw_topk",
+      "evidence_role": "relational_context",
+      "value_or_snippet": "raw_topk: density=0.1360655737704918; edges=249; nodes=61. Used as relational evidence, not as the primary risk-score driver."
+    },
+    {
+      "evidence_id": "FIRM-RAW_TOPK-20110131-RTX-rank1",
+      "entity_type": "firm",
+      "entity_id": "RTX",
+      "source_type": "network_centrality",
+      "source_name": "raw_topk",
+      "evidence_role": "firm_level_relational_attribution",
+      "value_or_snippet": "RTX ranked 1 in raw_topk; weighted_degree=10.2897; eigenvector=0.1000; betweenness=0.1470; sector=Industrials."
+    },
+    {
+      "evidence_id": "FIRM-RAW_TOPK-20110131-BRK-B-rank2",
+      "entity_type": "firm",
+      "entity_id": "BRK-B",
+      "source_type": "network_centrality",
+      "source_name": "raw_topk",
+      "evidence_role": "firm_level_relational_attribution",
+      "value_or_snippet": "BRK-B ranked 2 in raw_topk; weighted_degree=9.4951; eigenvector=0.2022; betweenness=0.1729; sector=Financials."
+    },
+    {
+      "evidence_id": "FIRM-RAW_TOPK-20110131-CVX-rank3",
+      "entity_type": "firm",
+      "entity_id": "CVX",
+      "source_type": "network_centrality",
+      "source_name": "raw_topk",
+      "evidence_role": "firm_level_relational_attribution",
+      "value_or_snippet": "CVX ranked 3 in raw_topk; weighted_degree=8.8662; eigenvector=0.0997; betweenness=0.0846; sector=Energy."
+    },
+    {
+      "evidence_id": "FIRM-RAW_TOPK-20110131-JPM-rank4",
+      "entity_type": "firm",
+      "entity_id": "JPM",
+      "source_type": "network_centrality",
+      "source_name": "raw_topk",
+      "evidence_role": "firm_level_relational_attribution",
+      "value_or_snippet": "JPM ranked 4 in raw_topk; weighted_degree=8.5178; eigenvector=0.3995; betweenness=0.0495; sector=Financials."
+    },
+    {
+      "evidence_id": "FIRM-RAW_TOPK-20110131-CAT-rank5",
+      "entity_type": "firm",
+      "entity_id": "CAT",
+      "source_type": "network_centrality",
+      "source_name": "raw_topk",
+      "evidence_role": "firm_level_relational_attribution",
+      "value_or_snippet": "CAT ranked 5 in raw_topk; weighted_degree=8.3927; eigenvector=0.0779; betweenness=0.0852; sector=Industrials."
+    },
+    {
+      "evidence_id": "SECTOR-RAW_TOPK-20110131-Energy-rank1",
+      "entity_type": "sector",
+      "entity_id": "Energy",
+      "source_type": "sector_network_centrality",
+      "source_name": "raw_topk",
+      "evidence_role": "sector_level_relational_attribution",
+      "value_or_snippet": "Energy ranked 1 by average weighted degree in raw_topk; mean_degree=6.5935; max_degree=8.8662; n_firms=3."
+    },
+    {
+      "evidence_id": "SECTOR-RAW_TOPK-20110131-Financials-rank2",
+      "entity_type": "sector",
+      "entity_id": "Financials",
+      "source_type": "sector_network_centrality",
+      "source_name": "raw_topk",
+      "evidence_role": "sector_level_relational_attribution",
+      "value_or_snippet": "Financials ranked 2 by average weighted degree in raw_topk; mean_degree=6.5591; max_degree=9.4951; n_firms=11."
+    },
+    {
+      "evidence_id": "SECTOR-RAW_TOPK-20110131-Industrials-rank3",
+      "entity_type": "sector",
+      "entity_id": "Industrials",
+      "source_type": "sector_network_centrality",
+      "source_name": "raw_topk",
+      "evidence_role": "sector_level_relational_attribution",
+      "value_or_snippet": "Industrials ranked 3 by average weighted degree in raw_topk; mean_degree=6.0999; max_degree=10.2897; n_firms=8."
+    },
+    {
+      "evidence_id": "NETSUMMARY-RESIDUAL_TOPK-20110131",
+      "entity_type": "network",
+      "entity_id": "MARKET_NETWORK",
+      "source_type": "financial_network_summary",
+      "source_name": "residual_topk",
+      "evidence_role": "relational_context",
+      "value_or_snippet": "residual_topk: density=0.126775956284153; edges=232; nodes=61. Used as relational evidence, not as the primary risk-score driver."
+    },
+    {
+      "evidence_id": "FIRM-RESIDUAL_TOPK-20110131-DUK-rank1",
+      "entity_type": "firm",
+      "entity_id": "DUK",
+      "source_type": "network_centrality",
+      "source_name": "residual_topk",
+      "evidence_role": "firm_level_relational_attribution",
+      "value_or_snippet": "DUK ranked 1 in residual_topk; weighted_degree=6.3373; eigenvector=0.0122; betweenness=0.1037; sector=Utilities."
+    },
+    {
+      "evidence_id": "FIRM-RESIDUAL_TOPK-20110131-RTX-rank2",
+      "entity_type": "firm",
+      "entity_id": "RTX",
+      "source_type": "network_centrality",
+      "source_name": "residual_topk",
+      "evidence_role": "firm_level_relational_attribution",
+      "value_or_snippet": "RTX ranked 2 in residual_topk; weighted_degree=6.0919; eigenvector=0.0187; betweenness=0.1471; sector=Industrials."
+    },
+    {
+      "evidence_id": "FIRM-RESIDUAL_TOPK-20110131-WFC-rank3",
+      "entity_type": "firm",
+      "entity_id": "WFC",
+      "source_type": "network_centrality",
+      "source_name": "residual_topk",
+      "evidence_role": "firm_level_relational_attribution",
+      "value_or_snippet": "WFC ranked 3 in residual_topk; weighted_degree=5.8048; eigenvector=0.4363; betweenness=0.0377; sector=Financials."
+    },
+    {
+      "evidence_id": "FIRM-RESIDUAL_TOPK-20110131-MS-rank4",
+      "entity_type": "firm",
+      "entity_id": "MS",
+      "source_type": "network_centrality",
+      "source_name": "residual_topk",
+      "evidence_role": "firm_level_relational_attribution",
+      "value_or_snippet": "MS ranked 4 in residual_topk; weighted_degree=5.6299; eigenvector=0.4427; betweenness=0.0254; sector=Financials."
+    },
+    {
+      "evidence_id": "FIRM-RESIDUAL_TOPK-20110131-JPM-rank5",
+      "entity_type": "firm",
+      "entity_id": "JPM",
+      "source_type": "network_centrality",
+      "source_name": "residual_topk",
+      "evidence_role": "firm_level_relational_attribution",
+      "value_or_snippet": "JPM ranked 5 in residual_topk; weighted_degree=5.6055; eigenvector=0.4521; betweenness=0.0062; sector=Financials."
+    },
+    {
+      "evidence_id": "SECTOR-RESIDUAL_TOPK-20110131-Utilities-rank1",
+      "entity_type": "sector",
+      "entity_id": "Utilities",
+      "source_type": "sector_network_centrality",
+      "source_name": "residual_topk",
+      "evidence_role": "sector_level_relational_attribution",
+      "value_or_snippet": "Utilities ranked 1 by average weighted degree in residual_topk; mean_degree=4.4447; max_degree=6.3373; n_firms=3."
+    },
+    {
+      "evidence_id": "SECTOR-RESIDUAL_TOPK-20110131-Financials-rank2",
+      "entity_type": "sector",
+      "entity_id": "Financials",
+      "source_type": "sector_network_centrality",
+      "source_name": "residual_topk",
+      "evidence_role": "sector_level_relational_attribution",
+      "value_or_snippet": "Financials ranked 2 by average weighted degree in residual_topk; mean_degree=4.3558; max_degree=5.8048; n_firms=11."
+    },
+    {
+      "evidence_id": "SECTOR-RESIDUAL_TOPK-20110131-Materials-rank3",
+      "entity_type": "sector",
+      "entity_id": "Materials",
+      "source_type": "sector_network_centrality",
+      "source_name": "residual_topk",
+      "evidence_role": "sector_level_relational_attribution",
+      "value_or_snippet": "Materials ranked 3 by average weighted degree in residual_topk; mean_degree=4.3468; max_degree=4.7189; n_firms=2."
+    },
+    {
+      "evidence_id": "NETSUMMARY-TAIL_TOPK-20110131",
+      "entity_type": "network",
+      "entity_id": "MARKET_NETWORK",
+      "source_type": "financial_network_summary",
+      "source_name": "tail_topk",
+      "evidence_role": "relational_context",
+      "value_or_snippet": "tail_topk: density=0.1344262295081967; edges=246; nodes=61. Used as relational evidence, not as the primary risk-score driver."
+    },
+    {
+      "evidence_id": "FIRM-TAIL_TOPK-20110131-XOM-rank1",
+      "entity_type": "firm",
+      "entity_id": "XOM",
+      "source_type": "network_centrality",
+      "source_name": "tail_topk",
+      "evidence_role": "firm_level_relational_attribution",
+      "value_or_snippet": "XOM ranked 1 in tail_topk; weighted_degree=1.2417; eigenvector=0.3556; betweenness=0.0916; sector=Energy."
+    },
+    {
+      "evidence_id": "FIRM-TAIL_TOPK-20110131-GOOGL-rank2",
+      "entity_type": "firm",
+      "entity_id": "GOOGL",
+      "source_type": "network_centrality",
+      "source_name": "tail_topk",
+      "evidence_role": "firm_level_relational_attribution",
+      "value_or_snippet": "GOOGL ranked 2 in tail_topk; weighted_degree=1.1333; eigenvector=0.3478; betweenness=0.0675; sector=Communication Services."
+    },
+    {
+      "evidence_id": "FIRM-TAIL_TOPK-20110131-RTX-rank3",
+      "entity_type": "firm",
+      "entity_id": "RTX",
+      "source_type": "network_centrality",
+      "source_name": "tail_topk",
+      "evidence_role": "firm_level_relational_attribution",
+      "value_or_snippet": "RTX ranked 3 in tail_topk; weighted_degree=1.0833; eigenvector=0.3097; betweenness=0.0915; sector=Industrials."
+    },
+    {
+      "evidence_id": "FIRM-TAIL_TOPK-20110131-GOOG-rank4",
+      "entity_type": "firm",
+      "entity_id": "GOOG",
+      "source_type": "network_centrality",
+      "source_name": "tail_topk",
+      "evidence_role": "firm_level_relational_attribution",
+      "value_or_snippet": "GOOG ranked 4 in tail_topk; weighted_degree=1.0583; eigenvector=0.3303; betweenness=0.0863; sector=Communication Services."
+    },
+    {
+      "evidence_id": "FIRM-TAIL_TOPK-20110131-CVX-rank5",
+      "entity_type": "firm",
+      "entity_id": "CVX",
+      "source_type": "network_centrality",
+      "source_name": "tail_topk",
+      "evidence_role": "firm_level_relational_attribution",
+      "value_or_snippet": "CVX ranked 5 in tail_topk; weighted_degree=1.0083; eigenvector=0.2805; betweenness=0.0923; sector=Energy."
+    },
+    {
+      "evidence_id": "SECTOR-TAIL_TOPK-20110131-Energy-rank1",
+      "entity_type": "sector",
+      "entity_id": "Energy",
+      "source_type": "sector_network_centrality",
+      "source_name": "tail_topk",
+      "evidence_role": "sector_level_relational_attribution",
+      "value_or_snippet": "Energy ranked 1 by average weighted degree in tail_topk; mean_degree=0.9583; max_degree=1.2417; n_firms=3."
+    },
+    {
+      "evidence_id": "SECTOR-TAIL_TOPK-20110131-Communication_Services-rank2",
+      "entity_type": "sector",
+      "entity_id": "Communication Services",
+      "source_type": "sector_network_centrality",
+      "source_name": "tail_topk",
+      "evidence_role": "sector_level_relational_attribution",
+      "value_or_snippet": "Communication Services ranked 2 by average weighted degree in tail_topk; mean_degree=0.7208; max_degree=1.1333; n_firms=4."
+    },
+    {
+      "evidence_id": "SECTOR-TAIL_TOPK-20110131-Industrials-rank3",
+      "entity_type": "sector",
+      "entity_id": "Industrials",
+      "source_type": "sector_network_centrality",
+      "source_name": "tail_topk",
+      "evidence_role": "sector_level_relational_attribution",
+      "value_or_snippet": "Industrials ranked 3 by average weighted degree in tail_topk; mean_degree=0.5135; max_degree=1.0833; n_firms=8."
+    }
+  ]
+}

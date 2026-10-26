@@ -1,0 +1,5 @@
+provider_name,model,condition,strict_json_only,json_recoverable,extra_text_ratio,harmony_leak,citation_correctness,n_invented_evidence_ids,causal_overclaim_genuine,causal_echoed_prohibition,investment_advice_count,requires_uncertainty_truth,uncertainty_compliance,role_separation_loose,role_separation_strict,n_outputs
+lmstudio_gptoss20b_jsonmode,openai/gpt-oss-20b,free_form,0.0,0.0,,0.0,,0.0,0.0,0.0,0.0,0.6,0.4,,,20
+lmstudio_gptoss20b_jsonmode,openai/gpt-oss-20b,full,0.0,0.0,,0.0,,0.0,0.0,0.0,0.0,0.6,0.4,0.0,0.0,20
+lmstudio_gptoss20b_jsonmode,openai/gpt-oss-20b,no_network,0.0,0.0,,0.0,,0.0,0.0,0.0,0.0,0.6,0.4,1.0,1.0,20
+lmstudio_gptoss20b_jsonmode,openai/gpt-oss-20b,no_reliability,0.0,0.0,,0.0,,0.0,0.0,0.0,0.0,0.6,0.4,,,20

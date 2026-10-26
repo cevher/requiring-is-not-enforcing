@@ -1,0 +1,9 @@
+annotator,condition,n,q2_value_match__E,q2_value_match__YOK,q3_role_statement__E,q3_role_statement__YOK,q4_uncertainty_reason_named__E,q4_uncertainty_reason_named__YOK,q5_entity_not_in_evidence__E,q5_entity_not_in_evidence__YOK,q6_causal_assertion__E,q6_causal_assertion__YOK,q1_id_hit_rate
+rater1,full,10,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,
+rater1,no_network,10,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,
+rater1,no_reliability,10,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,
+rater1,free_form,10,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,
+rater2,full,10,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,
+rater2,no_network,10,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,
+rater2,no_reliability,10,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,
+rater2,free_form,10,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,

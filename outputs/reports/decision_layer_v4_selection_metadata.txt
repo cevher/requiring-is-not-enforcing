@@ -1,0 +1,1 @@
+{'selected_prediction': {'selection_mode': 'preferred_default', 'target': 'next_20d_external_stress', 'feature_set': 'macro_only', 'model': 'logistic', 'calibration': 'raw'}, 'n_decisions': 144, 'n_evidence_records': 6081, 'mean_evidence_per_decision': 42.229166666666664}

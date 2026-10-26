@@ -1,0 +1,41 @@
+item_id,judge_model,status,error,elapsed_seconds,judge_evidence_faithfulness_score_1_5,judge_macro_network_role_separation_1_5,judge_uncertainty_quality_1_5,judge_decision_usefulness_1_5,judge_unsupported_claim_count_manual,judge_causal_overclaim_manual_0_1,judge_reviewer_notes
+ITEM-001,qwen/qwen3-coder-30b,ok,,6.27,5,5,5,5,0,0,The note accurately reflects the evidence and appropriately acknowledges uncertainty without overstepping causal claims.
+ITEM-002,qwen/qwen3-coder-30b,ok,,7.57,3,3,5,3,2,0,Some claims are consistent with evidence but lack precise support or context.
+ITEM-003,qwen/qwen3-coder-30b,ok,,8.0,5,5,5,5,0,0,The note accurately reflects the evidence and appropriately handles uncertainty without making causal claims.
+ITEM-004,qwen/qwen3-coder-30b,ok,,9.36,5,5,3,5,0,0,The note accurately reflects the evidence and appropriately distinguishes between macro and network roles.
+ITEM-005,qwen/qwen3-coder-30b,ok,,6.77,3,5,5,3,2,0,"The note makes several substantive claims without supporting evidence, but correctly distinguishes between systemic risk and investment advice."
+ITEM-006,qwen/qwen3-coder-30b,ok,,8.87,3,3,3,3,2,0,The note mixes macro and relational evidence without clear separation and lacks specific uncertainty tied to decision drivers.
+ITEM-007,qwen/qwen3-coder-30b,ok,,6.75,3,5,5,3,2,0,"The note makes several substantive claims without supporting evidence, but properly distinguishes between systemic risk modeling and investment advice."
+ITEM-008,qwen/qwen3-coder-30b,ok,,7.49,5,5,5,5,0,0,The note accurately reflects the evidence and appropriately acknowledges uncertainty.
+ITEM-009,qwen/qwen3-coder-30b,ok,,9.7,5,5,5,5,0,0,The note accurately reflects the evidence and avoids causal overclaims.
+ITEM-010,qwen/qwen3-coder-30b,ok,,9.88,5,5,5,5,0,0,All substantive claims are well-supported by the evidence and uncertainty is appropriately contextualized.
+ITEM-011,qwen/qwen3-coder-30b,ok,,9.55,5,5,5,5,0,0,The note accurately reflects the evidence and avoids causal overstatements.
+ITEM-012,qwen/qwen3-coder-30b,ok,,9.63,5,5,3,5,0,0,Note accurately reflects evidence and avoids causal claims.
+ITEM-013,qwen/qwen3-coder-30b,ok,,11.02,5,3,5,5,0,0,The note accurately reflects the evidence and appropriately distinguishes between macro and relational evidence without making causal claims.
+ITEM-014,qwen/qwen3-coder-30b,ok,,8.94,5,3,5,5,0,0,The note accurately reflects the evidence and appropriately distinguishes between macro and relational roles while clearly communicating uncertainty.
+ITEM-015,qwen/qwen3-coder-30b,ok,,9.37,5,5,5,5,0,0,Note accurately reflects evidence and avoids causal claims.
+ITEM-016,qwen/qwen3-coder-30b,ok,,7.7,3,5,3,3,2,0,"The note makes several substantive claims without supporting evidence, and while it acknowledges limited structured evidence, it does not clearly communicate the uncertainty tied to specific drivers."
+ITEM-017,qwen/qwen3-coder-30b,ok,,8.08,5,5,5,5,0,0,The note accurately reflects the evidence and appropriately communicates uncertainty and abstention.
+ITEM-018,qwen/qwen3-coder-30b,ok,,8.49,3,5,5,5,1,0,The note contains one unsubstantiated claim about NFCI and mixes macro and relational evidence without clear separation.
+ITEM-019,qwen/qwen3-coder-30b,ok,,10.33,5,3,5,5,0,0,The note accurately reflects the evidence and appropriately distinguishes between macro and network roles.
+ITEM-020,qwen/qwen3-coder-30b,ok,,6.61,5,5,5,5,0,0,All claims are well-supported and the note appropriately handles uncertainty and context.
+ITEM-021,qwen/qwen3-coder-30b,ok,,9.92,5,5,5,5,0,0,The note accurately reflects the evidence and appropriately flags uncertainty.
+ITEM-022,qwen/qwen3-coder-30b,ok,,8.15,5,5,5,5,0,0,The note accurately reflects the evidence and appropriately communicates uncertainty.
+ITEM-023,qwen/qwen3-coder-30b,ok,,9.62,5,3,3,3,0,0,The note accurately reflects the evidence but mixes macro and network roles without clear separation.
+ITEM-024,qwen/qwen3-coder-30b,ok,,9.75,5,5,5,5,0,0,The note accurately reflects the evidence and appropriately acknowledges uncertainty.
+ITEM-025,qwen/qwen3-coder-30b,ok,,7.89,3,5,3,3,2,0,The note makes general claims about stress risk and financial conditions without citing specific evidence to support them.
+ITEM-026,qwen/qwen3-coder-30b,ok,,8.62,3,5,5,3,2,0,"The note contains consistent claims with the context but lacks specific supporting evidence, and does not make causal claims."
+ITEM-027,qwen/qwen3-coder-30b,ok,,8.75,5,5,3,5,0,0,The note accurately reflects the evidence and appropriately acknowledges uncertainty without making unwarranted causal claims.
+ITEM-028,qwen/qwen3-coder-30b,ok,,10.9,5,3,5,5,0,0,The note accurately reflects the evidence and appropriately distinguishes between macro and network roles.
+ITEM-029,qwen/qwen3-coder-30b,ok,,9.44,5,5,5,5,0,0,The note accurately reflects the evidence and appropriately acknowledges uncertainty without overstepping causal claims.
+ITEM-030,qwen/qwen3-coder-30b,ok,,7.95,3,5,3,3,2,0,The note makes moderate claims without sufficient supporting evidence and does not clearly distinguish between systemic and firm-level risk factors.
+ITEM-031,qwen/qwen3-coder-30b,ok,,12.12,5,3,3,3,0,0,The note appropriately distinguishes between macro and network evidence but mixes layers in interpretation without clear causal separation.
+ITEM-032,qwen/qwen3-coder-30b,ok,,11.61,5,3,3,3,0,0,The note appropriately distinguishes between macro and network evidence but could better clarify the role of each in predicting systemic risk.
+ITEM-033,qwen/qwen3-coder-30b,ok,,9.88,5,5,5,5,0,0,All claims are well-supported by the note's content and context.
+ITEM-034,qwen/qwen3-coder-30b,ok,,10.78,5,5,5,5,0,0,The note accurately reflects the evidence and appropriately acknowledges uncertainty without overstepping causal claims.
+ITEM-035,qwen/qwen3-coder-30b,ok,,13.25,5,5,5,5,0,0,The note accurately reflects the evidence and avoids causal overclaims.
+ITEM-036,qwen/qwen3-coder-30b,ok,,13.1,5,5,5,5,0,0,Note accurately reflects evidence and avoids causal claims.
+ITEM-037,qwen/qwen3-coder-30b,ok,,7.44,5,5,5,5,0,0,Note accurately reflects moderate risk with appropriate uncertainty acknowledgment and clear disclaimers.
+ITEM-038,qwen/qwen3-coder-30b,ok,,10.63,5,5,3,5,0,0,The note accurately reflects the evidence and appropriately flags uncertainty without making unwarranted causal claims.
+ITEM-039,qwen/qwen3-coder-30b,ok,,7.56,3,5,5,3,2,0,"The note makes consistent claims with the context but lacks specific supporting evidence, and does not clearly distinguish between relational and predictive roles."
+ITEM-040,qwen/qwen3-coder-30b,ok,,8.83,5,5,5,5,0,0,The note accurately reflects the evidence and appropriately communicates uncertainty.

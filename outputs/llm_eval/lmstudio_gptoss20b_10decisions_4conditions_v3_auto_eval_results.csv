@@ -1,0 +1,41 @@
+provider_name,model,prompt_id,decision_id,condition,status,json_valid,json_error,n_allowed_evidence_ids,n_cited_evidence_ids,n_valid_cited_evidence_ids,n_invented_evidence_ids,citation_correctness,invented_evidence_ids,forbidden_causal_count,forbidden_causal_hits,investment_advice_count,investment_advice_hits,requires_uncertainty,uncertainty_present,uncertainty_compliance,role_separation_score,response_chars
+lmstudio_gptoss20b,openai/gpt-oss-20b,DEC-20110131-dual-rule-model-v5::full,DEC-20110131-dual-rule-model-v5,full,ok,0,JSONDecodeError('Extra data: line 1 column 1504 (char 1503)'),18,14,10,4,0.7142857142857143,DEC-20110131;FIRM-RAW_TOPK-20110131-RTX;SCORE-20110131-full;SECTOR-RAW_TOPK-20110131-Financials-rank3,0,,1,\bshort\b,1,1,1,1.0,4243
+lmstudio_gptoss20b,openai/gpt-oss-20b,DEC-20110131-dual-rule-model-v5::no_network,DEC-20110131-dual-rule-model-v5,no_network,ok,1,,7,4,4,0,1.0,,0,,0,,1,1,1,1.0,851
+lmstudio_gptoss20b,openai/gpt-oss-20b,DEC-20110131-dual-rule-model-v5::no_reliability,DEC-20110131-dual-rule-model-v5,no_reliability,ok,1,,17,7,7,0,1.0,,0,,0,,0,1,1,,1491
+lmstudio_gptoss20b,openai/gpt-oss-20b,DEC-20110131-dual-rule-model-v5::free_form,DEC-20110131-dual-rule-model-v5,free_form,ok,1,,0,0,0,0,,,0,,0,,0,0,1,,260
+lmstudio_gptoss20b,openai/gpt-oss-20b,DEC-20110429-dual-rule-model-v5::full,DEC-20110429-dual-rule-model-v5,full,ok,0,JSONDecodeError('Extra data: line 1 column 1483 (char 1482)'),18,9,9,0,1.0,,0,,0,,1,1,1,1.0,3636
+lmstudio_gptoss20b,openai/gpt-oss-20b,DEC-20110429-dual-rule-model-v5::no_network,DEC-20110429-dual-rule-model-v5,no_network,ok,1,,7,4,4,0,1.0,,0,,0,,1,1,1,1.0,918
+lmstudio_gptoss20b,openai/gpt-oss-20b,DEC-20110429-dual-rule-model-v5::no_reliability,DEC-20110429-dual-rule-model-v5,no_reliability,ok,1,,17,8,8,0,1.0,,0,,0,,0,0,1,,1322
+lmstudio_gptoss20b,openai/gpt-oss-20b,DEC-20110429-dual-rule-model-v5::free_form,DEC-20110429-dual-rule-model-v5,free_form,ok,1,,0,0,0,0,,,0,,0,,0,0,1,,257
+lmstudio_gptoss20b,openai/gpt-oss-20b,DEC-20110531-dual-rule-model-v5::full,DEC-20110531-dual-rule-model-v5,full,ok,1,,18,8,8,0,1.0,,0,,0,,1,1,1,1.0,1469
+lmstudio_gptoss20b,openai/gpt-oss-20b,DEC-20110531-dual-rule-model-v5::no_network,DEC-20110531-dual-rule-model-v5,no_network,ok,1,,7,4,4,0,1.0,,0,,0,,1,1,1,1.0,946
+lmstudio_gptoss20b,openai/gpt-oss-20b,DEC-20110531-dual-rule-model-v5::no_reliability,DEC-20110531-dual-rule-model-v5,no_reliability,ok,1,,17,8,8,0,1.0,,0,,0,,0,1,1,,1466
+lmstudio_gptoss20b,openai/gpt-oss-20b,DEC-20110531-dual-rule-model-v5::free_form,DEC-20110531-dual-rule-model-v5,free_form,ok,1,,0,0,0,0,,,0,,0,,0,0,1,,253
+lmstudio_gptoss20b,openai/gpt-oss-20b,DEC-20120430-dual-rule-model-v5::full,DEC-20120430-dual-rule-model-v5,full,ok,1,,18,8,8,0,1.0,,0,,0,,1,1,1,0.0,1365
+lmstudio_gptoss20b,openai/gpt-oss-20b,DEC-20120430-dual-rule-model-v5::no_network,DEC-20120430-dual-rule-model-v5,no_network,ok,1,,7,4,4,0,1.0,,0,,0,,1,1,1,1.0,916
+lmstudio_gptoss20b,openai/gpt-oss-20b,DEC-20120430-dual-rule-model-v5::no_reliability,DEC-20120430-dual-rule-model-v5,no_reliability,ok,1,,17,10,10,0,1.0,,0,,0,,0,1,1,,1645
+lmstudio_gptoss20b,openai/gpt-oss-20b,DEC-20120430-dual-rule-model-v5::free_form,DEC-20120430-dual-rule-model-v5,free_form,ok,1,,0,0,0,0,,,0,,0,,0,0,1,,268
+lmstudio_gptoss20b,openai/gpt-oss-20b,DEC-20151231-dual-rule-model-v5::full,DEC-20151231-dual-rule-model-v5,full,ok,1,,18,9,9,0,1.0,,0,,0,,0,1,1,1.0,1419
+lmstudio_gptoss20b,openai/gpt-oss-20b,DEC-20151231-dual-rule-model-v5::no_network,DEC-20151231-dual-rule-model-v5,no_network,ok,1,,7,3,3,0,1.0,,0,,0,,0,0,1,1.0,706
+lmstudio_gptoss20b,openai/gpt-oss-20b,DEC-20151231-dual-rule-model-v5::no_reliability,DEC-20151231-dual-rule-model-v5,no_reliability,ok,1,,17,8,8,0,1.0,,0,,0,,0,1,1,,1452
+lmstudio_gptoss20b,openai/gpt-oss-20b,DEC-20151231-dual-rule-model-v5::free_form,DEC-20151231-dual-rule-model-v5,free_form,ok,1,,0,0,0,0,,,0,,0,,0,0,1,,270
+lmstudio_gptoss20b,openai/gpt-oss-20b,DEC-20180329-dual-rule-model-v5::full,DEC-20180329-dual-rule-model-v5,full,ok,0,"JSONDecodeError(""Expecting ',' delimiter: line 1 column 1553 (char 1552)"")",18,14,12,2,0.8571428571428571,FIRM-RAW_THRESHOLD-20180329-BRK-rank1;SCORE-20180329-dual_rule-model,0,,0,,0,1,1,1.0,5289
+lmstudio_gptoss20b,openai/gpt-oss-20b,DEC-20180329-dual-rule-model-v5::no_network,DEC-20180329-dual-rule-model-v5,no_network,ok,1,,7,4,4,0,1.0,,0,,0,,0,0,1,1.0,793
+lmstudio_gptoss20b,openai/gpt-oss-20b,DEC-20180329-dual-rule-model-v5::no_reliability,DEC-20180329-dual-rule-model-v5,no_reliability,ok,1,,17,9,9,0,1.0,,0,,0,,0,1,1,,1442
+lmstudio_gptoss20b,openai/gpt-oss-20b,DEC-20180329-dual-rule-model-v5::free_form,DEC-20180329-dual-rule-model-v5,free_form,ok,1,,0,0,0,0,,,0,,0,,0,0,1,,270
+lmstudio_gptoss20b,openai/gpt-oss-20b,DEC-20210430-dual-rule-model-v5::full,DEC-20210430-dual-rule-model-v5,full,ok,1,,18,10,10,0,1.0,,0,,0,,0,0,1,0.0,1476
+lmstudio_gptoss20b,openai/gpt-oss-20b,DEC-20210430-dual-rule-model-v5::no_network,DEC-20210430-dual-rule-model-v5,no_network,ok,1,,7,4,4,0,1.0,,0,,0,,0,1,1,1.0,781
+lmstudio_gptoss20b,openai/gpt-oss-20b,DEC-20210430-dual-rule-model-v5::no_reliability,DEC-20210430-dual-rule-model-v5,no_reliability,ok,1,,17,7,7,0,1.0,,0,,0,,0,1,1,,1412
+lmstudio_gptoss20b,openai/gpt-oss-20b,DEC-20210430-dual-rule-model-v5::free_form,DEC-20210430-dual-rule-model-v5,free_form,ok,1,,0,0,0,0,,,0,,0,,0,0,1,,270
+lmstudio_gptoss20b,openai/gpt-oss-20b,DEC-20230131-dual-rule-model-v5::full,DEC-20230131-dual-rule-model-v5,full,ok,0,JSONDecodeError('Extra data: line 1 column 1552 (char 1551)'),18,12,10,2,0.8333333333333334,FIRM-RESIDUAL_TOPK-20230131-PG;SCORE-20230131-dual-rule-plus-systemic-risk,1,\bcausal contagion\b,0,,1,1,1,1.0,3557
+lmstudio_gptoss20b,openai/gpt-oss-20b,DEC-20230131-dual-rule-model-v5::no_network,DEC-20230131-dual-rule-model-v5,no_network,ok,1,,7,4,4,0,1.0,,0,,0,,1,1,1,1.0,911
+lmstudio_gptoss20b,openai/gpt-oss-20b,DEC-20230131-dual-rule-model-v5::no_reliability,DEC-20230131-dual-rule-model-v5,no_reliability,ok,1,,17,7,7,0,1.0,,0,,0,,0,1,1,,1480
+lmstudio_gptoss20b,openai/gpt-oss-20b,DEC-20230131-dual-rule-model-v5::free_form,DEC-20230131-dual-rule-model-v5,free_form,ok,1,,0,0,0,0,,,0,,0,,0,0,1,,257
+lmstudio_gptoss20b,openai/gpt-oss-20b,DEC-20230331-dual-rule-model-v5::full,DEC-20230331-dual-rule-model-v5,full,ok,0,JSONDecodeError('Extra data: line 1 column 1581 (char 1580)'),18,12,10,2,0.8333333333333334,SCORE-20230369;SECTOR-RAW_TOPK-20230331-Financials,0,,0,,1,1,1,1.0,3168
+lmstudio_gptoss20b,openai/gpt-oss-20b,DEC-20230331-dual-rule-model-v5::no_network,DEC-20230331-dual-rule-model-v5,no_network,ok,1,,7,4,4,0,1.0,,0,,0,,1,1,1,1.0,837
+lmstudio_gptoss20b,openai/gpt-oss-20b,DEC-20230331-dual-rule-model-v5::no_reliability,DEC-20230331-dual-rule-model-v5,no_reliability,ok,1,,17,7,7,0,1.0,,0,,0,,0,0,1,,1454
+lmstudio_gptoss20b,openai/gpt-oss-20b,DEC-20230331-dual-rule-model-v5::free_form,DEC-20230331-dual-rule-model-v5,free_form,ok,1,,0,0,0,0,,,0,,0,,0,0,1,,257
+lmstudio_gptoss20b,openai/gpt-oss-20b,DEC-20240731-dual-rule-model-v5::full,DEC-20240731-dual-rule-model-v5,full,ok,0,JSONDecodeError('Extra data: line 1 column 1571 (char 1570)'),18,14,12,2,0.8571428571428571,RELIABILITY-20240731-BIN_0P2_0P3;SECTOR-RAW_TOPK-20240731-Communication_Services,0,,1,\bshort\b,0,1,1,1.0,5830
+lmstudio_gptoss20b,openai/gpt-oss-20b,DEC-20240731-dual-rule-model-v5::no_network,DEC-20240731-dual-rule-model-v5,no_network,ok,1,,7,4,4,0,1.0,,0,,0,,0,0,1,1.0,777
+lmstudio_gptoss20b,openai/gpt-oss-20b,DEC-20240731-dual-rule-model-v5::no_reliability,DEC-20240731-dual-rule-model-v5,no_reliability,ok,1,,17,7,7,0,1.0,,0,,0,,0,1,1,,1523
+lmstudio_gptoss20b,openai/gpt-oss-20b,DEC-20240731-dual-rule-model-v5::free_form,DEC-20240731-dual-rule-model-v5,free_form,ok,1,,0,0,0,0,,,0,,0,,0,0,1,,289

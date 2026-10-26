@@ -1,0 +1,5 @@
+provider_name,model,condition,json_valid,citation_correctness,n_invented_evidence_ids,forbidden_causal_count,investment_advice_count,uncertainty_compliance,role_separation_score,n_outputs
+lmstudio_gemma,google/gemma-4-e4b,free_form,1.0,,0.0,0.0,1.0,1.0,,2
+lmstudio_gemma,google/gemma-4-e4b,full,0.0,1.0,0.0,0.0,0.0,1.0,1.0,2
+lmstudio_gemma,google/gemma-4-e4b,no_network,1.0,1.0,0.0,0.0,1.0,1.0,1.0,2
+lmstudio_gemma,google/gemma-4-e4b,no_reliability,1.0,1.0,0.0,0.0,1.0,1.0,,2

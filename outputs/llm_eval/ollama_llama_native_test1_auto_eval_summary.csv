@@ -1,0 +1,2 @@
+provider_name,model,condition,json_valid,n_invented_evidence_ids,forbidden_causal_count,investment_advice_count,uncertainty_compliance,n_outputs
+ollama_local_llama,llama3:latest,free_form,1.0,0.0,0.0,1.0,1.0,1

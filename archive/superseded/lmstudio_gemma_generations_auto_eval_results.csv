@@ -1,0 +1,9 @@
+provider_name,model,prompt_id,decision_id,condition,status,json_valid,json_error,n_allowed_evidence_ids,n_cited_evidence_ids,n_valid_cited_evidence_ids,n_invented_evidence_ids,citation_correctness,invented_evidence_ids,forbidden_causal_count,forbidden_causal_hits,investment_advice_count,investment_advice_hits,requires_uncertainty,uncertainty_present,uncertainty_compliance,role_separation_score,response_chars
+lmstudio_gemma,google/gemma-4-e4b,DEC-20110131-dual-rule-model-v5::full,DEC-20110131-dual-rule-model-v5,full,ok,0,JSONDecodeError('Unterminated string starting at: line 1 column 1999 (char 1998)'),18,12,12,0,1.0,,0,,0,,1,1,1,1.0,2027
+lmstudio_gemma,google/gemma-4-e4b,DEC-20110131-dual-rule-model-v5::no_network,DEC-20110131-dual-rule-model-v5,no_network,ok,1,,7,6,6,0,1.0,,0,,1,\binvestment advice\b,1,1,1,1.0,2001
+lmstudio_gemma,google/gemma-4-e4b,DEC-20110131-dual-rule-model-v5::no_reliability,DEC-20110131-dual-rule-model-v5,no_reliability,ok,1,,17,12,12,0,1.0,,0,,1,\binvestment advice\b,0,1,1,,2527
+lmstudio_gemma,google/gemma-4-e4b,DEC-20110131-dual-rule-model-v5::free_form,DEC-20110131-dual-rule-model-v5,free_form,ok,1,,0,0,0,0,,,0,,1,\binvestment advice\b,0,0,1,,469
+lmstudio_gemma,google/gemma-4-e4b,DEC-20110429-dual-rule-model-v5::full,DEC-20110429-dual-rule-model-v5,full,ok,1,,18,13,13,0,1.0,,0,,1,\binvestment advice\b,1,1,1,0.0,2239
+lmstudio_gemma,google/gemma-4-e4b,DEC-20110429-dual-rule-model-v5::no_network,DEC-20110429-dual-rule-model-v5,no_network,ok,1,,7,6,6,0,1.0,,0,,1,\binvestment advice\b,1,1,1,1.0,2196
+lmstudio_gemma,google/gemma-4-e4b,DEC-20110429-dual-rule-model-v5::no_reliability,DEC-20110429-dual-rule-model-v5,no_reliability,ok,1,,17,12,12,0,1.0,,0,,1,\binvestment advice\b,0,1,1,,2211
+lmstudio_gemma,google/gemma-4-e4b,DEC-20110429-dual-rule-model-v5::free_form,DEC-20110429-dual-rule-model-v5,free_form,ok,1,,0,0,0,0,,,0,,1,\binvestment advice\b,0,1,1,,461

@@ -1,0 +1,64 @@
+ticker,company_name,sector
+AAPL,Apple Inc.,Information Technology
+MSFT,Microsoft Corporation,Information Technology
+NVDA,NVIDIA Corporation,Information Technology
+AMZN,Amazon.com Inc.,Consumer Discretionary
+GOOGL,Alphabet Inc. Class A,Communication Services
+GOOG,Alphabet Inc. Class C,Communication Services
+META,Meta Platforms Inc.,Communication Services
+TSLA,Tesla Inc.,Consumer Discretionary
+BRK-B,Berkshire Hathaway Inc.,Financials
+JPM,JPMorgan Chase & Co.,Financials
+V,Visa Inc.,Financials
+MA,Mastercard Incorporated,Financials
+UNH,UnitedHealth Group Incorporated,Health Care
+JNJ,Johnson & Johnson,Health Care
+LLY,Eli Lilly and Company,Health Care
+MRK,Merck & Co. Inc.,Health Care
+ABBV,AbbVie Inc.,Health Care
+PFE,Pfizer Inc.,Health Care
+XOM,Exxon Mobil Corporation,Energy
+CVX,Chevron Corporation,Energy
+COP,ConocoPhillips,Energy
+WMT,Walmart Inc.,Consumer Staples
+COST,Costco Wholesale Corporation,Consumer Staples
+PG,Procter & Gamble Company,Consumer Staples
+KO,Coca-Cola Company,Consumer Staples
+PEP,PepsiCo Inc.,Consumer Staples
+HD,Home Depot Inc.,Consumer Discretionary
+MCD,McDonald's Corporation,Consumer Discretionary
+NKE,Nike Inc.,Consumer Discretionary
+DIS,Walt Disney Company,Communication Services
+NFLX,Netflix Inc.,Communication Services
+BAC,Bank of America Corporation,Financials
+WFC,Wells Fargo & Company,Financials
+GS,Goldman Sachs Group Inc.,Financials
+MS,Morgan Stanley,Financials
+C,Citigroup Inc.,Financials
+BLK,BlackRock Inc.,Financials
+AXP,American Express Company,Financials
+ORCL,Oracle Corporation,Information Technology
+CRM,Salesforce Inc.,Information Technology
+ADBE,Adobe Inc.,Information Technology
+CSCO,Cisco Systems Inc.,Information Technology
+INTC,Intel Corporation,Information Technology
+AMD,Advanced Micro Devices Inc.,Information Technology
+QCOM,QUALCOMM Incorporated,Information Technology
+TXN,Texas Instruments Incorporated,Information Technology
+AVGO,Broadcom Inc.,Information Technology
+IBM,International Business Machines Corporation,Information Technology
+GE,GE Aerospace,Industrials
+CAT,Caterpillar Inc.,Industrials
+BA,Boeing Company,Industrials
+HON,Honeywell International Inc.,Industrials
+UNP,Union Pacific Corporation,Industrials
+UPS,United Parcel Service Inc.,Industrials
+RTX,RTX Corporation,Industrials
+LMT,Lockheed Martin Corporation,Industrials
+NEE,NextEra Energy Inc.,Utilities
+DUK,Duke Energy Corporation,Utilities
+SO,Southern Company,Utilities
+AMT,American Tower Corporation,Real Estate
+PLD,Prologis Inc.,Real Estate
+LIN,Linde plc,Materials
+APD,Air Products and Chemicals Inc.,Materials

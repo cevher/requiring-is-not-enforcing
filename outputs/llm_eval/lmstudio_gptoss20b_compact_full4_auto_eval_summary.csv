@@ -1,0 +1,2 @@
+provider_name,model,condition,json_valid,citation_correctness,n_invented_evidence_ids,forbidden_causal_count,investment_advice_count,uncertainty_compliance,role_separation_score,n_outputs
+lmstudio_gptoss20b,BURAYA_LMSTUDIO_MODEL_ID,full,1.0,1.0,0.0,0.0,1.0,1.0,0.75,4

@@ -1,0 +1,6 @@
+label,n,positive_count,positive_share
+current_external_stress,249,62,0.24899598393574296
+next_20d_external_stress,249,99,0.39759036144578314
+next_60d_external_stress,249,138,0.5542168674698795
+next_20d_market_return_stress,249,167,0.6706827309236948
+next_60d_market_return_stress,249,232,0.9317269076305221

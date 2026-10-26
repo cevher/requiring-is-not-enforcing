@@ -1,0 +1,45 @@
+{
+  "providers": [
+    {
+      "provider_name": "lmstudio_qwen",
+      "adapter": "openai_compatible",
+      "base_url": "http://localhost:1234/v1",
+      "model": "REPLACE_WITH_LMSTUDIO_QWEN_MODEL_ID",
+      "temperature": 0.1,
+      "max_tokens": 1400,
+      "timeout": 240,
+      "response_format_json": false
+    },
+    {
+      "provider_name": "lmstudio_gemma",
+      "adapter": "openai_compatible",
+      "base_url": "http://localhost:1234/v1",
+      "model": "google/gemma-4-e4b",
+      "temperature": 0.1,
+      "max_tokens": 1200,
+      "timeout": 240,
+      "response_format_json": false
+    },
+    {
+      "provider_name": "ollama_local_llama",
+      "adapter": "openai_compatible",
+      "base_url": "http://localhost:11434/v1",
+      "model": "llama3.1",
+      "temperature": 0.1,
+      "max_tokens": 1200,
+      "timeout": 240,
+      "response_format_json": false
+    },
+    {
+      "provider_name": "ollama_cloud_gptoss20b",
+      "adapter": "ollama_native",
+      "base_url": "https://ollama.com/api",
+      "model": "gpt-oss:20b-cloud",
+      "api_key_env": "OLLAMA_API_KEY",
+      "temperature": 0.1,
+      "max_tokens": 1200,
+      "timeout": 300,
+      "format_json": false
+    }
+  ]
+}

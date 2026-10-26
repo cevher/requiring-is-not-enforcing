@@ -1,0 +1,7 @@
+source_type,evidence_role,n_records,n_decisions,mean_records_per_decision
+dual_risk_score,risk_score,144,144,18.0
+financial_network_summary,relational_context,432,144,18.0
+historical_oos_reliability,reliability_context,144,144,18.0
+macro_financial_stress,risk_score_input,720,144,18.0
+network_centrality,firm_level_relational_attribution,720,144,18.0
+sector_network_centrality,sector_level_relational_attribution,432,144,18.0

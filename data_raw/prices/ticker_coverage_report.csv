@@ -1,0 +1,64 @@
+ticker,first_valid_date,last_valid_date,n_return_obs,coverage_share_over_global_index,company_name,sector
+AAPL,2005-01-04,2025-12-30,5281,1.0,Apple Inc.,Information Technology
+ABBV,2013-01-03,2025-12-30,3268,0.6188221927665215,AbbVie Inc.,Health Care
+ADBE,2005-01-04,2025-12-30,5281,1.0,Adobe Inc.,Information Technology
+AMD,2005-01-04,2025-12-30,5281,1.0,Advanced Micro Devices Inc.,Information Technology
+AMT,2005-01-04,2025-12-30,5281,1.0,American Tower Corporation,Real Estate
+AMZN,2005-01-04,2025-12-30,5281,1.0,Amazon.com Inc.,Consumer Discretionary
+APD,2005-01-04,2025-12-30,5281,1.0,Air Products and Chemicals Inc.,Materials
+AVGO,2009-08-07,2025-12-30,4125,0.7811020640030297,Broadcom Inc.,Information Technology
+AXP,2005-01-04,2025-12-30,5281,1.0,American Express Company,Financials
+BA,2005-01-04,2025-12-30,5281,1.0,Boeing Company,Industrials
+BAC,2005-01-04,2025-12-30,5281,1.0,Bank of America Corporation,Financials
+BLK,2005-01-04,2025-12-30,5281,1.0,BlackRock Inc.,Financials
+BRK-B,2005-01-04,2025-12-30,5281,1.0,Berkshire Hathaway Inc.,Financials
+C,2005-01-04,2025-12-30,5281,1.0,Citigroup Inc.,Financials
+CAT,2005-01-04,2025-12-30,5281,1.0,Caterpillar Inc.,Industrials
+COP,2005-01-04,2025-12-30,5281,1.0,ConocoPhillips,Energy
+COST,2005-01-04,2025-12-30,5281,1.0,Costco Wholesale Corporation,Consumer Staples
+CRM,2005-01-04,2025-12-30,5281,1.0,Salesforce Inc.,Information Technology
+CSCO,2005-01-04,2025-12-30,5281,1.0,Cisco Systems Inc.,Information Technology
+CVX,2005-01-04,2025-12-30,5281,1.0,Chevron Corporation,Energy
+DIS,2005-01-04,2025-12-30,5281,1.0,Walt Disney Company,Communication Services
+DUK,2005-01-04,2025-12-30,5281,1.0,Duke Energy Corporation,Utilities
+GE,2005-01-04,2025-12-30,5281,1.0,GE Aerospace,Industrials
+GOOG,2005-01-04,2025-12-30,5281,1.0,Alphabet Inc. Class C,Communication Services
+GOOGL,2005-01-04,2025-12-30,5281,1.0,Alphabet Inc. Class A,Communication Services
+GS,2005-01-04,2025-12-30,5281,1.0,Goldman Sachs Group Inc.,Financials
+HD,2005-01-04,2025-12-30,5281,1.0,Home Depot Inc.,Consumer Discretionary
+HON,2005-01-04,2025-12-30,5281,1.0,Honeywell International Inc.,Industrials
+IBM,2005-01-04,2025-12-30,5281,1.0,International Business Machines Corporation,Information Technology
+INTC,2005-01-04,2025-12-30,5281,1.0,Intel Corporation,Information Technology
+JNJ,2005-01-04,2025-12-30,5281,1.0,Johnson & Johnson,Health Care
+JPM,2005-01-04,2025-12-30,5281,1.0,JPMorgan Chase & Co.,Financials
+KO,2005-01-04,2025-12-30,5281,1.0,Coca-Cola Company,Consumer Staples
+LIN,2005-01-04,2025-12-30,5281,1.0,Linde plc,Materials
+LLY,2005-01-04,2025-12-30,5281,1.0,Eli Lilly and Company,Health Care
+LMT,2005-01-04,2025-12-30,5281,1.0,Lockheed Martin Corporation,Industrials
+MA,2006-05-26,2025-12-30,4930,0.9335353152811967,Mastercard Incorporated,Financials
+MCD,2005-01-04,2025-12-30,5281,1.0,McDonald's Corporation,Consumer Discretionary
+META,2012-05-21,2025-12-30,3423,0.6481726945654233,Meta Platforms Inc.,Communication Services
+MRK,2005-01-04,2025-12-30,5281,1.0,Merck & Co. Inc.,Health Care
+MS,2005-01-04,2025-12-30,5281,1.0,Morgan Stanley,Financials
+MSFT,2005-01-04,2025-12-30,5281,1.0,Microsoft Corporation,Information Technology
+NEE,2005-01-04,2025-12-30,5281,1.0,NextEra Energy Inc.,Utilities
+NFLX,2005-01-04,2025-12-30,5281,1.0,Netflix Inc.,Communication Services
+NKE,2005-01-04,2025-12-30,5281,1.0,Nike Inc.,Consumer Discretionary
+NVDA,2005-01-04,2025-12-30,5281,1.0,NVIDIA Corporation,Information Technology
+ORCL,2005-01-04,2025-12-30,5281,1.0,Oracle Corporation,Information Technology
+PEP,2005-01-04,2025-12-30,5281,1.0,PepsiCo Inc.,Consumer Staples
+PFE,2005-01-04,2025-12-30,5281,1.0,Pfizer Inc.,Health Care
+PG,2005-01-04,2025-12-30,5281,1.0,Procter & Gamble Company,Consumer Staples
+PLD,2005-01-04,2025-12-30,5281,1.0,Prologis Inc.,Real Estate
+QCOM,2005-01-04,2025-12-30,5281,1.0,QUALCOMM Incorporated,Information Technology
+RTX,2005-01-04,2025-12-30,5281,1.0,RTX Corporation,Industrials
+SO,2005-01-04,2025-12-30,5281,1.0,Southern Company,Utilities
+TSLA,2010-06-30,2025-12-30,3900,0.7384964968755917,Tesla Inc.,Consumer Discretionary
+TXN,2005-01-04,2025-12-30,5281,1.0,Texas Instruments Incorporated,Information Technology
+UNH,2005-01-04,2025-12-30,5281,1.0,UnitedHealth Group Incorporated,Health Care
+UNP,2005-01-04,2025-12-30,5281,1.0,Union Pacific Corporation,Industrials
+UPS,2005-01-04,2025-12-30,5281,1.0,United Parcel Service Inc.,Industrials
+V,2008-03-20,2025-12-30,4474,0.8471880325695891,Visa Inc.,Financials
+WFC,2005-01-04,2025-12-30,5281,1.0,Wells Fargo & Company,Financials
+WMT,2005-01-04,2025-12-30,5281,1.0,Walmart Inc.,Consumer Staples
+XOM,2005-01-04,2025-12-30,5281,1.0,Exxon Mobil Corporation,Energy

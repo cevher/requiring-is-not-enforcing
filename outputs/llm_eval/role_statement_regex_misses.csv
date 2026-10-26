@@ -1,0 +1,9 @@
+S_CTX_r1,S_NOT_r1,prompt_id,decision_id,condition,model,block,source_file,S_CTX_r2,S_NOT_r2,regex_S_NOT,S_NOT_cons,S_CTX_cons
+1,1,DEC-20151231-dual-rule-model-v5::full_required_role,DEC-20151231-dual-rule-model-v5,full_required_role,openai/gpt-oss-20b,G-RR,gptoss20b_required_role.jsonl,1,1,0,1,1.0
+1,1,DEC-20230131-dual-rule-model-v5::full_required_role,DEC-20230131-dual-rule-model-v5,full_required_role,openai/gpt-oss-20b,G-RR,gptoss20b_required_role.jsonl,1,1,0,1,1.0
+1,1,DEC-20110531-dual-rule-model-v5::full,DEC-20110531-dual-rule-model-v5,full,llama3:8b-instruct-q4_0,L-OCT-FULL,ollama_llama_full_rerun_q4_clean.jsonl,1,1,0,1,1.0
+1,1,DEC-20240731-dual-rule-model-v5::full_required_role,DEC-20240731-dual-rule-model-v5,full_required_role,openai/gpt-oss-20b,G-RR,gptoss20b_required_role.jsonl,1,1,0,1,1.0
+1,1,DEC-20110131-dual-rule-model-v5::full_required_role,DEC-20110131-dual-rule-model-v5,full_required_role,openai/gpt-oss-20b,G-RR,gptoss20b_required_role.jsonl,1,1,0,1,1.0
+1,1,DEC-20210430-dual-rule-model-v5::full_required_role,DEC-20210430-dual-rule-model-v5,full_required_role,openai/gpt-oss-20b,G-RR,gptoss20b_required_role.jsonl,1,1,0,1,1.0
+1,1,DEC-20230331-dual-rule-model-v5::full_required_role,DEC-20230331-dual-rule-model-v5,full_required_role,openai/gpt-oss-20b,G-RR,gptoss20b_required_role.jsonl,1,1,0,1,1.0
+1,1,DEC-20120430-dual-rule-model-v5::full_required_role,DEC-20120430-dual-rule-model-v5,full_required_role,openai/gpt-oss-20b,G-RR,gptoss20b_required_role.jsonl,1,1,0,1,1.0

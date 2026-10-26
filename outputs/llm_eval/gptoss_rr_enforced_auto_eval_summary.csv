@@ -1,0 +1,2 @@
+provider_name,model,condition,strict_json_only,json_recoverable,extra_text_ratio,harmony_leak,has_network_evidence,citation_correctness,n_invented_evidence_ids,causal_overclaim_genuine,causal_echoed_prohibition,investment_advice_count,requires_uncertainty_truth,uncertainty_compliance,role_separation_strict_published,role_separation_strict_uniform,role_field_present,role_separation_strict_field,n_outputs
+lmstudio_gptoss20b_required_role_enforced,openai/gpt-oss-20b,full_required_role,1.0,1.0,0.0,0.0,1.0,1.0,0.0,0.0,0.0,0.0,0.6,1.0,,1.0,1.0,1.0,10

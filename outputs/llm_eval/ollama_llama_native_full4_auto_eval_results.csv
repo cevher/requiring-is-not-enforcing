@@ -1,0 +1,5 @@
+provider_name,model,prompt_id,decision_id,condition,status,json_valid,json_error,n_allowed_evidence_ids,n_cited_evidence_ids,n_valid_cited_evidence_ids,n_invented_evidence_ids,citation_correctness,invented_evidence_ids,forbidden_causal_count,forbidden_causal_hits,investment_advice_count,investment_advice_hits,requires_uncertainty,uncertainty_present,uncertainty_compliance,role_separation_score,response_chars
+ollama_local_llama,llama3:latest,DEC-20110131-dual-rule-model-v5::full,DEC-20110131-dual-rule-model-v5,full,ok,1,,18,8,8,0,1.0,,0,,1,\binvestment advice\b,1,1,1,1,2133
+ollama_local_llama,llama3:latest,DEC-20110429-dual-rule-model-v5::full,DEC-20110429-dual-rule-model-v5,full,ok,1,,18,9,9,0,1.0,,0,,1,\binvestment advice\b,1,1,1,0,1688
+ollama_local_llama,llama3:latest,DEC-20110531-dual-rule-model-v5::full,DEC-20110531-dual-rule-model-v5,full,ok,1,,18,8,8,0,1.0,,0,,1,\binvestment advice\b,1,1,1,1,2045
+ollama_local_llama,llama3:latest,DEC-20120430-dual-rule-model-v5::full,DEC-20120430-dual-rule-model-v5,full,ok,1,,18,9,9,0,1.0,,0,,1,\binvestment advice\b,1,1,1,0,1600

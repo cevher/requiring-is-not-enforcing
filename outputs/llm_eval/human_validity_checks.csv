@@ -1,0 +1,4 @@
+annotator,role_sep_rating_vs_objective_r,role_sep_mean_when_objective_0,role_sep_mean_when_objective_1,faithfulness_with_invented_ids,faithfulness_without_invented_ids,faithfulness_penalises_invented_ids
+rater1,0.743,3.4,5.0,2.25,3.06,True
+rater2,-0.132,4.4,4.1,4.0,3.44,False
+judge,0.333,4.6,5.0,5.0,4.44,False

@@ -1,0 +1,9 @@
+item_id,prompt_id,decision_id,condition
+CAL-001,DEC-20110131-dual-rule-model-v5::full,DEC-20110131-dual-rule-model-v5,full
+CAL-002,DEC-20110429-dual-rule-model-v5::no_network,DEC-20110429-dual-rule-model-v5,no_network
+CAL-003,DEC-20110131-dual-rule-model-v5::no_reliability,DEC-20110131-dual-rule-model-v5,no_reliability
+CAL-004,DEC-20110429-dual-rule-model-v5::free_form,DEC-20110429-dual-rule-model-v5,free_form
+CAL-005,DEC-20110131-dual-rule-model-v5::no_network,DEC-20110131-dual-rule-model-v5,no_network
+CAL-006,DEC-20110131-dual-rule-model-v5::free_form,DEC-20110131-dual-rule-model-v5,free_form
+CAL-007,DEC-20110429-dual-rule-model-v5::no_reliability,DEC-20110429-dual-rule-model-v5,no_reliability
+CAL-008,DEC-20110429-dual-rule-model-v5::full,DEC-20110429-dual-rule-model-v5,full

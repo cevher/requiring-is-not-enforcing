@@ -1,0 +1,9 @@
+,0
+vix_threshold,23.618000000000002
+return_downside_threshold,-0.011543223842807005
+total_days,5487.0
+external_stress_days,1277.0
+external_stress_share,0.2327319117915072
+legacy_high_stress_days,1343.0
+legacy_high_stress_share,0.2447603426280299
+mean_active_tickers_for_market_return,61.57116821578276

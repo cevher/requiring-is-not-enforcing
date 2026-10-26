@@ -1,0 +1,14 @@
+pip
+setuptools
+wheel
+pandas
+numpy
+scipy
+yfinance
+pandas-datareader
+requests
+networkx
+matplotlib
+scikit-learn
+openpyxl
+pyarrow

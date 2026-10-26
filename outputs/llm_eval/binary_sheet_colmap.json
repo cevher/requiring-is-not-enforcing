@@ -1,0 +1,10 @@
+{
+ "Sıra": "item_id",
+ "OKUYACAĞINIZ METİN": "uretilen_not",
+ "BAKILACAK: izin verilen kanıt kayıtları": "izin_verilen_kanit_kayitlari",
+ "S1a. Metindeki ilk 3 farklı kanıt ID'sinden kaçını kontrol ettiniz?  (0-3)": "q1_n_ids_checked",
+ "S1b. Bu ID'lerden kaçı kanıt kayıtları sütununda AYNEN var?  (0-3)": "q1_n_ids_found",
+ "S3. Metinde, ağ kanıtının BİRİNCİL TAHMİNCİ OLMADIĞINI açıkça söyleyen bir cümle var mı?  (metin ağ / yoğunluk / merkezîlik / co-movement kelimelerinden hiçbirini içermiyorsa YOK)": "q3_role_statement",
+ "S6. Metinde, bir varlığın/piyasanın bir başkasına stres BULAŞTIRDIĞINI, yaydığını veya ona sebep olduğunu OLGU olarak söyleyen bir cümle var mı?  Yalnızca E veya H.  («destekliyor», «gösteriyor», «işaret ediyor», «vurguluyor» SAYILMAZ)": "q6_causal_assertion",
+ "Tereddüt notunuz (isteğe bağlı)": "notes"
+}

@@ -1,0 +1,4 @@
+model,metric,baseline,comparison,baseline_k,baseline_n,comparison_k,comparison_n,odds_ratio,p_value,significance
+llama3:8b-instruct-q4_0,role_separation_strict_uniform,full,full_required_role,0,10,0,10,,1.0,ns
+llama3:8b-instruct-q4_0,uncertainty_compliance,full,full_required_role,9,10,10,10,0.0,1.0,ns
+llama3:8b-instruct-q4_0,json_recoverable,full,full_required_role,9,10,10,10,0.0,1.0,ns

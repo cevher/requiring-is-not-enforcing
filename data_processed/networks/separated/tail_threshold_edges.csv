@@ -1,0 +1,1376 @@
+date,source,target,weight,source_sector,target_sector,network_name
+2005-06-30,GOOG,GOOGL,0.1,Communication Services,Communication Services,tail_threshold
+2005-07-29,APD,LIN,0.08333333333333333,Materials,Materials,tail_threshold
+2005-07-29,GOOG,GOOGL,0.1,Communication Services,Communication Services,tail_threshold
+2005-08-31,GOOG,GOOGL,0.1,Communication Services,Communication Services,tail_threshold
+2005-09-30,GOOG,GOOGL,0.1,Communication Services,Communication Services,tail_threshold
+2005-10-31,GOOG,GOOGL,0.1,Communication Services,Communication Services,tail_threshold
+2005-11-30,GOOG,GOOGL,0.1,Communication Services,Communication Services,tail_threshold
+2005-12-30,GOOG,GOOGL,0.1,Communication Services,Communication Services,tail_threshold
+2006-01-31,GOOG,GOOGL,0.1,Communication Services,Communication Services,tail_threshold
+2006-02-28,GOOG,GOOGL,0.1,Communication Services,Communication Services,tail_threshold
+2006-03-31,GOOG,GOOGL,0.1,Communication Services,Communication Services,tail_threshold
+2006-04-28,GOOG,GOOGL,0.1,Communication Services,Communication Services,tail_threshold
+2006-05-31,GOOG,GOOGL,0.1,Communication Services,Communication Services,tail_threshold
+2006-06-30,COST,WMT,0.08333333333333333,Consumer Staples,Consumer Staples,tail_threshold
+2006-06-30,GOOG,GOOGL,0.1,Communication Services,Communication Services,tail_threshold
+2006-07-31,GOOG,GOOGL,0.1,Communication Services,Communication Services,tail_threshold
+2006-08-31,CVX,XOM,0.08333333333333333,Energy,Energy,tail_threshold
+2006-08-31,GOOG,GOOGL,0.1,Communication Services,Communication Services,tail_threshold
+2006-09-29,BAC,JPM,0.08333333333333333,Financials,Financials,tail_threshold
+2006-09-29,GOOG,GOOGL,0.1,Communication Services,Communication Services,tail_threshold
+2006-10-31,C,JPM,0.08333333333333333,Financials,Financials,tail_threshold
+2006-10-31,GOOG,GOOGL,0.1,Communication Services,Communication Services,tail_threshold
+2006-11-30,GOOG,GOOGL,0.1,Communication Services,Communication Services,tail_threshold
+2006-12-29,GOOG,GOOGL,0.1,Communication Services,Communication Services,tail_threshold
+2007-01-31,GOOG,GOOGL,0.1,Communication Services,Communication Services,tail_threshold
+2007-02-28,GOOG,GOOGL,0.1,Communication Services,Communication Services,tail_threshold
+2007-03-30,GOOG,GOOGL,0.1,Communication Services,Communication Services,tail_threshold
+2007-04-30,GOOG,GOOGL,0.1,Communication Services,Communication Services,tail_threshold
+2007-05-31,GOOG,GOOGL,0.1,Communication Services,Communication Services,tail_threshold
+2007-06-29,GOOG,GOOGL,0.1,Communication Services,Communication Services,tail_threshold
+2007-07-31,GOOG,GOOGL,0.1,Communication Services,Communication Services,tail_threshold
+2007-07-31,LLY,PFE,0.08333333333333333,Health Care,Health Care,tail_threshold
+2007-08-31,CVX,XOM,0.08333333333333333,Energy,Energy,tail_threshold
+2007-08-31,GOOG,GOOGL,0.1,Communication Services,Communication Services,tail_threshold
+2007-08-31,JPM,MRK,0.08333333333333333,Financials,Health Care,tail_threshold
+2007-08-31,JPM,WFC,0.08333333333333333,Financials,Financials,tail_threshold
+2007-09-28,CVX,XOM,0.08333333333333333,Energy,Energy,tail_threshold
+2007-09-28,GOOG,GOOGL,0.1,Communication Services,Communication Services,tail_threshold
+2007-10-31,CVX,XOM,0.08333333333333333,Energy,Energy,tail_threshold
+2007-10-31,GOOG,GOOGL,0.1,Communication Services,Communication Services,tail_threshold
+2007-10-31,MSFT,XOM,0.08333333333333333,Information Technology,Energy,tail_threshold
+2007-11-30,GOOG,GOOGL,0.1,Communication Services,Communication Services,tail_threshold
+2007-12-31,CVX,XOM,0.08333333333333333,Energy,Energy,tail_threshold
+2007-12-31,GOOG,GOOGL,0.1,Communication Services,Communication Services,tail_threshold
+2007-12-31,GS,MS,0.08333333333333333,Financials,Financials,tail_threshold
+2008-01-31,GOOG,GOOGL,0.1,Communication Services,Communication Services,tail_threshold
+2008-02-29,BAC,C,0.08333333333333333,Financials,Financials,tail_threshold
+2008-02-29,BAC,JPM,0.08333333333333333,Financials,Financials,tail_threshold
+2008-02-29,BAC,WFC,0.08333333333333333,Financials,Financials,tail_threshold
+2008-02-29,GOOG,GOOGL,0.1,Communication Services,Communication Services,tail_threshold
+2008-03-31,GOOG,GOOGL,0.1,Communication Services,Communication Services,tail_threshold
+2008-04-30,DUK,SO,0.08333333333333333,Utilities,Utilities,tail_threshold
+2008-04-30,GOOG,GOOGL,0.1,Communication Services,Communication Services,tail_threshold
+2008-04-30,NEE,SO,0.08333333333333333,Utilities,Utilities,tail_threshold
+2008-05-30,DUK,SO,0.08333333333333333,Utilities,Utilities,tail_threshold
+2008-05-30,GOOG,GOOGL,0.1,Communication Services,Communication Services,tail_threshold
+2008-05-30,NEE,SO,0.08333333333333333,Utilities,Utilities,tail_threshold
+2008-06-30,GOOG,GOOGL,0.1,Communication Services,Communication Services,tail_threshold
+2008-07-31,DUK,SO,0.08333333333333333,Utilities,Utilities,tail_threshold
+2008-07-31,GOOG,GOOGL,0.1,Communication Services,Communication Services,tail_threshold
+2008-08-29,APD,LIN,0.08333333333333333,Materials,Materials,tail_threshold
+2008-08-29,GOOG,GOOGL,0.1,Communication Services,Communication Services,tail_threshold
+2008-09-30,CSCO,IBM,0.08333333333333333,Information Technology,Information Technology,tail_threshold
+2008-09-30,CSCO,INTC,0.08333333333333333,Information Technology,Information Technology,tail_threshold
+2008-09-30,GOOG,GOOGL,0.1,Communication Services,Communication Services,tail_threshold
+2008-09-30,IBM,INTC,0.08333333333333333,Information Technology,Information Technology,tail_threshold
+2008-10-31,GOOG,GOOGL,0.1,Communication Services,Communication Services,tail_threshold
+2008-11-28,AMZN,QCOM,0.08333333333333333,Consumer Discretionary,Information Technology,tail_threshold
+2008-11-28,COP,XOM,0.08333333333333333,Energy,Energy,tail_threshold
+2008-11-28,CVX,XOM,0.08333333333333333,Energy,Energy,tail_threshold
+2008-11-28,GE,RTX,0.08333333333333333,Industrials,Industrials,tail_threshold
+2008-11-28,GOOG,GOOGL,0.1,Communication Services,Communication Services,tail_threshold
+2008-11-28,PFE,RTX,0.08333333333333333,Health Care,Industrials,tail_threshold
+2008-12-31,BAC,WFC,0.08333333333333333,Financials,Financials,tail_threshold
+2008-12-31,CVX,GE,0.08333333333333333,Energy,Industrials,tail_threshold
+2008-12-31,CVX,XOM,0.09166666666666666,Energy,Energy,tail_threshold
+2008-12-31,DIS,RTX,0.08333333333333333,Communication Services,Industrials,tail_threshold
+2008-12-31,GE,RTX,0.08333333333333333,Industrials,Industrials,tail_threshold
+2008-12-31,GE,XOM,0.08333333333333333,Industrials,Energy,tail_threshold
+2008-12-31,GOOG,GOOGL,0.1,Communication Services,Communication Services,tail_threshold
+2008-12-31,JNJ,RTX,0.08333333333333333,Health Care,Industrials,tail_threshold
+2008-12-31,MA,V,0.08333333333333333,Financials,Financials,tail_threshold
+2008-12-31,PFE,RTX,0.08333333333333333,Health Care,Industrials,tail_threshold
+2009-01-30,COP,CVX,0.08333333333333333,Energy,Energy,tail_threshold
+2009-01-30,CVX,XOM,0.09166666666666666,Energy,Energy,tail_threshold
+2009-01-30,DIS,RTX,0.08333333333333333,Communication Services,Industrials,tail_threshold
+2009-01-30,GOOG,GOOGL,0.1,Communication Services,Communication Services,tail_threshold
+2009-01-30,GS,MS,0.08333333333333333,Financials,Financials,tail_threshold
+2009-01-30,JNJ,RTX,0.08333333333333333,Health Care,Industrials,tail_threshold
+2009-01-30,MA,V,0.08333333333333333,Financials,Financials,tail_threshold
+2009-01-30,PFE,RTX,0.08333333333333333,Health Care,Industrials,tail_threshold
+2009-01-30,RTX,V,0.08333333333333333,Industrials,Financials,tail_threshold
+2009-02-27,CVX,XOM,0.09166666666666666,Energy,Energy,tail_threshold
+2009-02-27,GOOG,GOOGL,0.1,Communication Services,Communication Services,tail_threshold
+2009-02-27,MA,V,0.08333333333333333,Financials,Financials,tail_threshold
+2009-02-27,PFE,RTX,0.08333333333333333,Health Care,Industrials,tail_threshold
+2009-02-27,RTX,V,0.08333333333333333,Industrials,Financials,tail_threshold
+2009-03-31,GOOG,GOOGL,0.1,Communication Services,Communication Services,tail_threshold
+2009-04-30,GOOG,GOOGL,0.1,Communication Services,Communication Services,tail_threshold
+2009-04-30,JNJ,LLY,0.08333333333333333,Health Care,Health Care,tail_threshold
+2009-05-29,COP,HON,0.08333333333333333,Energy,Industrials,tail_threshold
+2009-05-29,GOOG,GOOGL,0.1,Communication Services,Communication Services,tail_threshold
+2009-06-30,AXP,JPM,0.08333333333333333,Financials,Financials,tail_threshold
+2009-06-30,GOOG,GOOGL,0.1,Communication Services,Communication Services,tail_threshold
+2009-07-31,APD,RTX,0.08333333333333333,Materials,Industrials,tail_threshold
+2009-07-31,AXP,JPM,0.08333333333333333,Financials,Financials,tail_threshold
+2009-07-31,GOOG,GOOGL,0.1,Communication Services,Communication Services,tail_threshold
+2009-07-31,JPM,WFC,0.08333333333333333,Financials,Financials,tail_threshold
+2009-08-31,APD,CAT,0.08333333333333333,Materials,Industrials,tail_threshold
+2009-08-31,AXP,JPM,0.08333333333333333,Financials,Financials,tail_threshold
+2009-08-31,GOOG,GOOGL,0.1,Communication Services,Communication Services,tail_threshold
+2009-08-31,HON,UPS,0.08333333333333333,Industrials,Industrials,tail_threshold
+2009-08-31,JPM,WFC,0.08333333333333333,Financials,Financials,tail_threshold
+2009-09-30,APD,LIN,0.08333333333333333,Materials,Materials,tail_threshold
+2009-09-30,AXP,JPM,0.08333333333333333,Financials,Financials,tail_threshold
+2009-09-30,AXP,WFC,0.08333333333333333,Financials,Financials,tail_threshold
+2009-09-30,GOOG,GOOGL,0.1,Communication Services,Communication Services,tail_threshold
+2009-09-30,HON,UPS,0.08333333333333333,Industrials,Industrials,tail_threshold
+2009-09-30,UNP,UPS,0.08333333333333333,Industrials,Industrials,tail_threshold
+2009-10-30,APD,LIN,0.08333333333333333,Materials,Materials,tail_threshold
+2009-10-30,APD,UPS,0.08333333333333333,Materials,Industrials,tail_threshold
+2009-10-30,CAT,HON,0.08333333333333333,Industrials,Industrials,tail_threshold
+2009-10-30,DIS,XOM,0.08333333333333333,Communication Services,Energy,tail_threshold
+2009-10-30,GOOG,GOOGL,0.1,Communication Services,Communication Services,tail_threshold
+2009-11-30,ADBE,ORCL,0.08333333333333333,Information Technology,Information Technology,tail_threshold
+2009-11-30,APD,LIN,0.08333333333333333,Materials,Materials,tail_threshold
+2009-11-30,CAT,XOM,0.08333333333333333,Industrials,Energy,tail_threshold
+2009-11-30,CVX,MS,0.08333333333333333,Energy,Financials,tail_threshold
+2009-11-30,GOOG,GOOGL,0.1,Communication Services,Communication Services,tail_threshold
+2009-11-30,MS,PLD,0.08333333333333333,Financials,Real Estate,tail_threshold
+2009-12-31,GOOG,GOOGL,0.1,Communication Services,Communication Services,tail_threshold
+2010-01-29,GOOG,GOOGL,0.1,Communication Services,Communication Services,tail_threshold
+2010-01-29,GS,MSFT,0.08333333333333333,Financials,Information Technology,tail_threshold
+2010-02-26,GOOG,GOOGL,0.1,Communication Services,Communication Services,tail_threshold
+2010-03-31,GOOG,GOOGL,0.1,Communication Services,Communication Services,tail_threshold
+2010-03-31,GS,HON,0.08333333333333333,Financials,Industrials,tail_threshold
+2010-04-30,GOOG,GOOGL,0.1,Communication Services,Communication Services,tail_threshold
+2010-04-30,GS,MS,0.08333333333333333,Financials,Financials,tail_threshold
+2010-05-28,APD,DIS,0.08333333333333333,Materials,Communication Services,tail_threshold
+2010-05-28,GOOG,GOOGL,0.1,Communication Services,Communication Services,tail_threshold
+2010-05-28,JPM,MS,0.09166666666666666,Financials,Financials,tail_threshold
+2010-06-30,AMD,NVDA,0.08333333333333333,Information Technology,Information Technology,tail_threshold
+2010-06-30,CAT,HON,0.08333333333333333,Industrials,Industrials,tail_threshold
+2010-06-30,CVX,DUK,0.08333333333333333,Energy,Utilities,tail_threshold
+2010-06-30,CVX,UPS,0.08333333333333333,Energy,Industrials,tail_threshold
+2010-06-30,DUK,RTX,0.08333333333333333,Utilities,Industrials,tail_threshold
+2010-06-30,DUK,UPS,0.08333333333333333,Utilities,Industrials,tail_threshold
+2010-06-30,GE,HON,0.08333333333333333,Industrials,Industrials,tail_threshold
+2010-06-30,GOOG,GOOGL,0.1,Communication Services,Communication Services,tail_threshold
+2010-06-30,HON,UPS,0.08333333333333333,Industrials,Industrials,tail_threshold
+2010-06-30,JPM,MS,0.1,Financials,Financials,tail_threshold
+2010-06-30,MCD,NKE,0.08333333333333333,Consumer Discretionary,Consumer Discretionary,tail_threshold
+2010-06-30,RTX,UPS,0.08333333333333333,Industrials,Industrials,tail_threshold
+2010-07-30,AXP,NKE,0.08333333333333333,Financials,Consumer Discretionary,tail_threshold
+2010-07-30,BA,CAT,0.08333333333333333,Industrials,Industrials,tail_threshold
+2010-07-30,BA,UNP,0.08333333333333333,Industrials,Industrials,tail_threshold
+2010-07-30,BA,WFC,0.08333333333333333,Industrials,Financials,tail_threshold
+2010-07-30,BAC,JPM,0.08333333333333333,Financials,Financials,tail_threshold
+2010-07-30,BAC,WFC,0.08333333333333333,Financials,Financials,tail_threshold
+2010-07-30,CAT,CRM,0.08333333333333333,Industrials,Information Technology,tail_threshold
+2010-07-30,CAT,RTX,0.08333333333333333,Industrials,Industrials,tail_threshold
+2010-07-30,CAT,UNP,0.08333333333333333,Industrials,Industrials,tail_threshold
+2010-07-30,DIS,XOM,0.08333333333333333,Communication Services,Energy,tail_threshold
+2010-07-30,DUK,RTX,0.08333333333333333,Utilities,Industrials,tail_threshold
+2010-07-30,GE,JPM,0.08333333333333333,Industrials,Financials,tail_threshold
+2010-07-30,GE,MS,0.08333333333333333,Industrials,Financials,tail_threshold
+2010-07-30,GOOG,GOOGL,0.1,Communication Services,Communication Services,tail_threshold
+2010-07-30,HON,UPS,0.08333333333333333,Industrials,Industrials,tail_threshold
+2010-07-30,JPM,MS,0.09166666666666666,Financials,Financials,tail_threshold
+2010-07-30,MCD,NKE,0.08333333333333333,Consumer Discretionary,Consumer Discretionary,tail_threshold
+2010-07-30,RTX,UPS,0.08333333333333333,Industrials,Industrials,tail_threshold
+2010-08-31,BAC,JPM,0.08333333333333333,Financials,Financials,tail_threshold
+2010-08-31,CAT,HON,0.08333333333333333,Industrials,Industrials,tail_threshold
+2010-08-31,CAT,UNP,0.08333333333333333,Industrials,Industrials,tail_threshold
+2010-08-31,CAT,UPS,0.08333333333333333,Industrials,Industrials,tail_threshold
+2010-08-31,CVX,UPS,0.08333333333333333,Energy,Industrials,tail_threshold
+2010-08-31,CVX,XOM,0.08333333333333333,Energy,Energy,tail_threshold
+2010-08-31,GE,HON,0.09166666666666666,Industrials,Industrials,tail_threshold
+2010-08-31,GOOG,GOOGL,0.1,Communication Services,Communication Services,tail_threshold
+2010-08-31,HON,RTX,0.08333333333333333,Industrials,Industrials,tail_threshold
+2010-08-31,HON,UPS,0.08333333333333333,Industrials,Industrials,tail_threshold
+2010-08-31,JPM,MS,0.09166666666666666,Financials,Financials,tail_threshold
+2010-08-31,UNP,XOM,0.08333333333333333,Industrials,Energy,tail_threshold
+2010-09-30,AMT,LMT,0.08333333333333333,Real Estate,Industrials,tail_threshold
+2010-09-30,BAC,JPM,0.08333333333333333,Financials,Financials,tail_threshold
+2010-09-30,CAT,HON,0.08333333333333333,Industrials,Industrials,tail_threshold
+2010-09-30,CAT,UNP,0.08333333333333333,Industrials,Industrials,tail_threshold
+2010-09-30,CAT,UPS,0.08333333333333333,Industrials,Industrials,tail_threshold
+2010-09-30,CVX,UPS,0.08333333333333333,Energy,Industrials,tail_threshold
+2010-09-30,CVX,XOM,0.08333333333333333,Energy,Energy,tail_threshold
+2010-09-30,GE,HON,0.09166666666666666,Industrials,Industrials,tail_threshold
+2010-09-30,GOOG,GOOGL,0.1,Communication Services,Communication Services,tail_threshold
+2010-09-30,HON,RTX,0.08333333333333333,Industrials,Industrials,tail_threshold
+2010-09-30,HON,UPS,0.08333333333333333,Industrials,Industrials,tail_threshold
+2010-09-30,JPM,MS,0.08333333333333333,Financials,Financials,tail_threshold
+2010-09-30,UNP,XOM,0.08333333333333333,Industrials,Energy,tail_threshold
+2010-10-29,CAT,RTX,0.08333333333333333,Industrials,Industrials,tail_threshold
+2010-10-29,DUK,RTX,0.08333333333333333,Utilities,Industrials,tail_threshold
+2010-10-29,GOOG,GOOGL,0.1,Communication Services,Communication Services,tail_threshold
+2010-10-29,HON,RTX,0.08333333333333333,Industrials,Industrials,tail_threshold
+2010-10-29,NKE,XOM,0.08333333333333333,Consumer Discretionary,Energy,tail_threshold
+2010-11-30,CVX,XOM,0.08333333333333333,Energy,Energy,tail_threshold
+2010-11-30,GOOG,GOOGL,0.1,Communication Services,Communication Services,tail_threshold
+2010-12-31,GOOG,GOOGL,0.1,Communication Services,Communication Services,tail_threshold
+2011-01-31,GOOG,GOOGL,0.1,Communication Services,Communication Services,tail_threshold
+2011-01-31,GOOG,XOM,0.08333333333333333,Communication Services,Energy,tail_threshold
+2011-01-31,GOOGL,XOM,0.08333333333333333,Communication Services,Energy,tail_threshold
+2011-02-28,GOOG,GOOGL,0.1,Communication Services,Communication Services,tail_threshold
+2011-03-31,GOOG,GOOGL,0.1,Communication Services,Communication Services,tail_threshold
+2011-04-29,GOOG,GOOGL,0.1,Communication Services,Communication Services,tail_threshold
+2011-05-31,GOOG,GOOGL,0.1,Communication Services,Communication Services,tail_threshold
+2011-06-30,APD,LIN,0.08333333333333333,Materials,Materials,tail_threshold
+2011-06-30,GOOG,GOOGL,0.1,Communication Services,Communication Services,tail_threshold
+2011-07-29,GOOG,GOOGL,0.1,Communication Services,Communication Services,tail_threshold
+2011-08-31,BAC,C,0.08333333333333333,Financials,Financials,tail_threshold
+2011-08-31,C,PLD,0.08333333333333333,Financials,Real Estate,tail_threshold
+2011-08-31,GOOG,GOOGL,0.1,Communication Services,Communication Services,tail_threshold
+2011-08-31,HON,LIN,0.08333333333333333,Industrials,Materials,tail_threshold
+2011-08-31,JNJ,UPS,0.08333333333333333,Health Care,Industrials,tail_threshold
+2011-08-31,MRK,UNH,0.08333333333333333,Health Care,Health Care,tail_threshold
+2011-08-31,MS,UNP,0.08333333333333333,Financials,Industrials,tail_threshold
+2011-09-30,AVGO,TXN,0.08333333333333333,Information Technology,Information Technology,tail_threshold
+2011-09-30,AXP,DIS,0.08333333333333333,Financials,Communication Services,tail_threshold
+2011-09-30,AXP,GE,0.08333333333333333,Financials,Industrials,tail_threshold
+2011-09-30,AXP,HON,0.08333333333333333,Financials,Industrials,tail_threshold
+2011-09-30,AXP,LIN,0.08333333333333333,Financials,Materials,tail_threshold
+2011-09-30,AXP,RTX,0.08333333333333333,Financials,Industrials,tail_threshold
+2011-09-30,BA,NKE,0.08333333333333333,Industrials,Consumer Discretionary,tail_threshold
+2011-09-30,CAT,HON,0.08333333333333333,Industrials,Industrials,tail_threshold
+2011-09-30,CVX,DIS,0.08333333333333333,Energy,Communication Services,tail_threshold
+2011-09-30,CVX,JNJ,0.08333333333333333,Energy,Health Care,tail_threshold
+2011-09-30,DIS,GE,0.08333333333333333,Communication Services,Industrials,tail_threshold
+2011-09-30,DIS,HON,0.09166666666666666,Communication Services,Industrials,tail_threshold
+2011-09-30,DIS,JNJ,0.08333333333333333,Communication Services,Health Care,tail_threshold
+2011-09-30,DIS,LLY,0.08333333333333333,Communication Services,Health Care,tail_threshold
+2011-09-30,DIS,RTX,0.08333333333333333,Communication Services,Industrials,tail_threshold
+2011-09-30,GE,HON,0.08333333333333333,Industrials,Industrials,tail_threshold
+2011-09-30,GE,NKE,0.08333333333333333,Industrials,Consumer Discretionary,tail_threshold
+2011-09-30,GE,RTX,0.08333333333333333,Industrials,Industrials,tail_threshold
+2011-09-30,GE,UNP,0.08333333333333333,Industrials,Industrials,tail_threshold
+2011-09-30,GE,WFC,0.08333333333333333,Industrials,Financials,tail_threshold
+2011-09-30,GOOG,GOOGL,0.1,Communication Services,Communication Services,tail_threshold
+2011-09-30,HON,JNJ,0.08333333333333333,Industrials,Health Care,tail_threshold
+2011-09-30,HON,LLY,0.09166666666666666,Industrials,Health Care,tail_threshold
+2011-09-30,HON,RTX,0.08333333333333333,Industrials,Industrials,tail_threshold
+2011-09-30,IBM,RTX,0.08333333333333333,Information Technology,Industrials,tail_threshold
+2011-09-30,JNJ,LLY,0.08333333333333333,Health Care,Health Care,tail_threshold
+2011-09-30,LIN,MSFT,0.08333333333333333,Materials,Information Technology,tail_threshold
+2011-09-30,MSFT,QCOM,0.08333333333333333,Information Technology,Information Technology,tail_threshold
+2011-09-30,NKE,UNP,0.08333333333333333,Consumer Discretionary,Industrials,tail_threshold
+2011-09-30,NKE,WFC,0.08333333333333333,Consumer Discretionary,Financials,tail_threshold
+2011-09-30,UNP,WFC,0.08333333333333333,Industrials,Financials,tail_threshold
+2011-10-31,APD,AXP,0.08333333333333333,Materials,Financials,tail_threshold
+2011-10-31,APD,GE,0.08333333333333333,Materials,Industrials,tail_threshold
+2011-10-31,APD,NKE,0.08333333333333333,Materials,Consumer Discretionary,tail_threshold
+2011-10-31,BA,DIS,0.08333333333333333,Industrials,Communication Services,tail_threshold
+2011-10-31,BA,HON,0.08333333333333333,Industrials,Industrials,tail_threshold
+2011-10-31,BAC,C,0.08333333333333333,Financials,Financials,tail_threshold
+2011-10-31,BAC,GS,0.08333333333333333,Financials,Financials,tail_threshold
+2011-10-31,BAC,JPM,0.08333333333333333,Financials,Financials,tail_threshold
+2011-10-31,BLK,JNJ,0.08333333333333333,Financials,Health Care,tail_threshold
+2011-10-31,C,GS,0.08333333333333333,Financials,Financials,tail_threshold
+2011-10-31,C,JPM,0.08333333333333333,Financials,Financials,tail_threshold
+2011-10-31,CAT,HON,0.08333333333333333,Industrials,Industrials,tail_threshold
+2011-10-31,COP,CVX,0.08333333333333333,Energy,Energy,tail_threshold
+2011-10-31,COP,JNJ,0.08333333333333333,Energy,Health Care,tail_threshold
+2011-10-31,CVX,DIS,0.08333333333333333,Energy,Communication Services,tail_threshold
+2011-10-31,CVX,JNJ,0.08333333333333333,Energy,Health Care,tail_threshold
+2011-10-31,CVX,WFC,0.08333333333333333,Energy,Financials,tail_threshold
+2011-10-31,DIS,WFC,0.08333333333333333,Communication Services,Financials,tail_threshold
+2011-10-31,GE,JPM,0.08333333333333333,Industrials,Financials,tail_threshold
+2011-10-31,GE,NKE,0.08333333333333333,Industrials,Consumer Discretionary,tail_threshold
+2011-10-31,GOOG,GOOGL,0.1,Communication Services,Communication Services,tail_threshold
+2011-10-31,GS,JPM,0.08333333333333333,Financials,Financials,tail_threshold
+2011-10-31,GS,MS,0.08333333333333333,Financials,Financials,tail_threshold
+2011-10-31,JNJ,MA,0.08333333333333333,Health Care,Financials,tail_threshold
+2011-10-31,JNJ,WFC,0.08333333333333333,Health Care,Financials,tail_threshold
+2011-10-31,KO,MCD,0.08333333333333333,Consumer Staples,Consumer Discretionary,tail_threshold
+2011-10-31,LLY,PFE,0.08333333333333333,Health Care,Health Care,tail_threshold
+2011-10-31,MCD,NEE,0.08333333333333333,Consumer Discretionary,Utilities,tail_threshold
+2011-10-31,NKE,UNP,0.08333333333333333,Consumer Discretionary,Industrials,tail_threshold
+2011-10-31,RTX,UNP,0.08333333333333333,Industrials,Industrials,tail_threshold
+2011-11-30,AAPL,QCOM,0.08333333333333333,Information Technology,Information Technology,tail_threshold
+2011-11-30,AMT,LLY,0.08333333333333333,Real Estate,Health Care,tail_threshold
+2011-11-30,APD,GE,0.08333333333333333,Materials,Industrials,tail_threshold
+2011-11-30,AXP,COP,0.08333333333333333,Financials,Energy,tail_threshold
+2011-11-30,AXP,GE,0.08333333333333333,Financials,Industrials,tail_threshold
+2011-11-30,AXP,RTX,0.08333333333333333,Financials,Industrials,tail_threshold
+2011-11-30,BA,DIS,0.08333333333333333,Industrials,Communication Services,tail_threshold
+2011-11-30,BAC,GS,0.08333333333333333,Financials,Financials,tail_threshold
+2011-11-30,BLK,WFC,0.08333333333333333,Financials,Financials,tail_threshold
+2011-11-30,BRK-B,WFC,0.08333333333333333,Financials,Financials,tail_threshold
+2011-11-30,C,JPM,0.08333333333333333,Financials,Financials,tail_threshold
+2011-11-30,COP,CVX,0.09166666666666666,Energy,Energy,tail_threshold
+2011-11-30,COP,JNJ,0.08333333333333333,Energy,Health Care,tail_threshold
+2011-11-30,COP,LIN,0.08333333333333333,Energy,Materials,tail_threshold
+2011-11-30,COP,XOM,0.08333333333333333,Energy,Energy,tail_threshold
+2011-11-30,CVX,JNJ,0.08333333333333333,Energy,Health Care,tail_threshold
+2011-11-30,CVX,XOM,0.08333333333333333,Energy,Energy,tail_threshold
+2011-11-30,GE,NKE,0.08333333333333333,Industrials,Consumer Discretionary,tail_threshold
+2011-11-30,GOOG,GOOGL,0.1,Communication Services,Communication Services,tail_threshold
+2011-11-30,GS,JPM,0.08333333333333333,Financials,Financials,tail_threshold
+2011-11-30,NKE,UNP,0.08333333333333333,Consumer Discretionary,Industrials,tail_threshold
+2011-12-30,AAPL,QCOM,0.09166666666666666,Information Technology,Information Technology,tail_threshold
+2011-12-30,APD,GE,0.08333333333333333,Materials,Industrials,tail_threshold
+2011-12-30,APD,NKE,0.08333333333333333,Materials,Consumer Discretionary,tail_threshold
+2011-12-30,AXP,COP,0.08333333333333333,Financials,Energy,tail_threshold
+2011-12-30,AXP,GE,0.08333333333333333,Financials,Industrials,tail_threshold
+2011-12-30,AXP,NKE,0.08333333333333333,Financials,Consumer Discretionary,tail_threshold
+2011-12-30,AXP,RTX,0.08333333333333333,Financials,Industrials,tail_threshold
+2011-12-30,BLK,WFC,0.08333333333333333,Financials,Financials,tail_threshold
+2011-12-30,BRK-B,WFC,0.08333333333333333,Financials,Financials,tail_threshold
+2011-12-30,COP,CVX,0.09166666666666666,Energy,Energy,tail_threshold
+2011-12-30,COP,JNJ,0.08333333333333333,Energy,Health Care,tail_threshold
+2011-12-30,COP,LIN,0.08333333333333333,Energy,Materials,tail_threshold
+2011-12-30,COP,XOM,0.08333333333333333,Energy,Energy,tail_threshold
+2011-12-30,CVX,JNJ,0.08333333333333333,Energy,Health Care,tail_threshold
+2011-12-30,CVX,XOM,0.08333333333333333,Energy,Energy,tail_threshold
+2011-12-30,GE,NKE,0.09166666666666666,Industrials,Consumer Discretionary,tail_threshold
+2011-12-30,GOOG,GOOGL,0.1,Communication Services,Communication Services,tail_threshold
+2011-12-30,GS,JPM,0.08333333333333333,Financials,Financials,tail_threshold
+2011-12-30,KO,MCD,0.08333333333333333,Consumer Staples,Consumer Discretionary,tail_threshold
+2011-12-30,LLY,PFE,0.08333333333333333,Health Care,Health Care,tail_threshold
+2011-12-30,MCD,WMT,0.08333333333333333,Consumer Discretionary,Consumer Staples,tail_threshold
+2011-12-30,NKE,UNP,0.08333333333333333,Consumer Discretionary,Industrials,tail_threshold
+2012-01-31,APD,AXP,0.08333333333333333,Materials,Financials,tail_threshold
+2012-01-31,BA,COP,0.08333333333333333,Industrials,Energy,tail_threshold
+2012-01-31,BA,HON,0.08333333333333333,Industrials,Industrials,tail_threshold
+2012-01-31,BLK,WFC,0.08333333333333333,Financials,Financials,tail_threshold
+2012-01-31,CVX,XOM,0.08333333333333333,Energy,Energy,tail_threshold
+2012-01-31,DIS,HON,0.08333333333333333,Communication Services,Industrials,tail_threshold
+2012-01-31,GE,PLD,0.08333333333333333,Industrials,Real Estate,tail_threshold
+2012-01-31,GOOG,GOOGL,0.1,Communication Services,Communication Services,tail_threshold
+2012-01-31,GS,JPM,0.08333333333333333,Financials,Financials,tail_threshold
+2012-01-31,GS,MS,0.08333333333333333,Financials,Financials,tail_threshold
+2012-01-31,HON,MRK,0.08333333333333333,Industrials,Health Care,tail_threshold
+2012-01-31,HON,PFE,0.08333333333333333,Industrials,Health Care,tail_threshold
+2012-01-31,KO,PLD,0.09166666666666666,Consumer Staples,Real Estate,tail_threshold
+2012-01-31,PLD,UNP,0.08333333333333333,Real Estate,Industrials,tail_threshold
+2012-02-29,AXP,GS,0.08333333333333333,Financials,Financials,tail_threshold
+2012-02-29,AXP,MS,0.08333333333333333,Financials,Financials,tail_threshold
+2012-02-29,BA,HON,0.09166666666666666,Industrials,Industrials,tail_threshold
+2012-02-29,BA,UPS,0.08333333333333333,Industrials,Industrials,tail_threshold
+2012-02-29,BAC,C,0.08333333333333333,Financials,Financials,tail_threshold
+2012-02-29,COP,DIS,0.08333333333333333,Energy,Communication Services,tail_threshold
+2012-02-29,DIS,GE,0.08333333333333333,Communication Services,Industrials,tail_threshold
+2012-02-29,DIS,MRK,0.08333333333333333,Communication Services,Health Care,tail_threshold
+2012-02-29,DIS,UPS,0.08333333333333333,Communication Services,Industrials,tail_threshold
+2012-02-29,GE,HON,0.08333333333333333,Industrials,Industrials,tail_threshold
+2012-02-29,GE,RTX,0.08333333333333333,Industrials,Industrials,tail_threshold
+2012-02-29,GE,XOM,0.08333333333333333,Industrials,Energy,tail_threshold
+2012-02-29,GOOG,GOOGL,0.1,Communication Services,Communication Services,tail_threshold
+2012-02-29,GS,MS,0.08333333333333333,Financials,Financials,tail_threshold
+2012-02-29,GS,UPS,0.08333333333333333,Financials,Industrials,tail_threshold
+2012-02-29,HON,PFE,0.08333333333333333,Industrials,Health Care,tail_threshold
+2012-02-29,HON,QCOM,0.08333333333333333,Industrials,Information Technology,tail_threshold
+2012-02-29,HON,UNP,0.08333333333333333,Industrials,Industrials,tail_threshold
+2012-02-29,MRK,PFE,0.08333333333333333,Health Care,Health Care,tail_threshold
+2012-02-29,PFE,QCOM,0.08333333333333333,Health Care,Information Technology,tail_threshold
+2012-03-30,BA,HON,0.08333333333333333,Industrials,Industrials,tail_threshold
+2012-03-30,BAC,BRK-B,0.08333333333333333,Financials,Financials,tail_threshold
+2012-03-30,BAC,C,0.08333333333333333,Financials,Financials,tail_threshold
+2012-03-30,BAC,JPM,0.08333333333333333,Financials,Financials,tail_threshold
+2012-03-30,BAC,MS,0.09166666666666666,Financials,Financials,tail_threshold
+2012-03-30,C,JPM,0.08333333333333333,Financials,Financials,tail_threshold
+2012-03-30,C,MS,0.09166666666666666,Financials,Financials,tail_threshold
+2012-03-30,DIS,HON,0.08333333333333333,Communication Services,Industrials,tail_threshold
+2012-03-30,DIS,MS,0.08333333333333333,Communication Services,Financials,tail_threshold
+2012-03-30,DIS,UPS,0.08333333333333333,Communication Services,Industrials,tail_threshold
+2012-03-30,GE,RTX,0.08333333333333333,Industrials,Industrials,tail_threshold
+2012-03-30,GOOG,GOOGL,0.1,Communication Services,Communication Services,tail_threshold
+2012-03-30,HON,MS,0.08333333333333333,Industrials,Financials,tail_threshold
+2012-03-30,JPM,MS,0.08333333333333333,Financials,Financials,tail_threshold
+2012-03-30,RTX,UNP,0.08333333333333333,Industrials,Industrials,tail_threshold
+2012-04-30,BRK-B,JNJ,0.08333333333333333,Financials,Health Care,tail_threshold
+2012-04-30,GE,MS,0.08333333333333333,Industrials,Financials,tail_threshold
+2012-04-30,GE,RTX,0.08333333333333333,Industrials,Industrials,tail_threshold
+2012-04-30,GOOG,GOOGL,0.1,Communication Services,Communication Services,tail_threshold
+2012-04-30,MS,RTX,0.08333333333333333,Financials,Industrials,tail_threshold
+2012-05-31,C,GS,0.08333333333333333,Financials,Financials,tail_threshold
+2012-05-31,C,MS,0.08333333333333333,Financials,Financials,tail_threshold
+2012-05-31,GOOG,GOOGL,0.1,Communication Services,Communication Services,tail_threshold
+2012-06-29,C,GS,0.08333333333333333,Financials,Financials,tail_threshold
+2012-06-29,GOOG,GOOGL,0.1,Communication Services,Communication Services,tail_threshold
+2012-07-31,C,GS,0.08333333333333333,Financials,Financials,tail_threshold
+2012-07-31,GOOG,GOOGL,0.1,Communication Services,Communication Services,tail_threshold
+2012-08-31,GOOG,GOOGL,0.1,Communication Services,Communication Services,tail_threshold
+2012-09-28,GOOG,GOOGL,0.1,Communication Services,Communication Services,tail_threshold
+2012-10-31,GOOG,GOOGL,0.1,Communication Services,Communication Services,tail_threshold
+2012-11-30,GOOG,GOOGL,0.1,Communication Services,Communication Services,tail_threshold
+2012-12-31,GOOG,GOOGL,0.1,Communication Services,Communication Services,tail_threshold
+2013-01-31,GOOG,GOOGL,0.1,Communication Services,Communication Services,tail_threshold
+2013-02-28,GOOG,GOOGL,0.1,Communication Services,Communication Services,tail_threshold
+2013-03-28,GOOG,GOOGL,0.1,Communication Services,Communication Services,tail_threshold
+2013-04-30,GOOG,GOOGL,0.1,Communication Services,Communication Services,tail_threshold
+2013-05-31,GOOG,GOOGL,0.1,Communication Services,Communication Services,tail_threshold
+2013-06-28,GOOG,GOOGL,0.1,Communication Services,Communication Services,tail_threshold
+2013-07-31,GOOG,GOOGL,0.1,Communication Services,Communication Services,tail_threshold
+2013-07-31,HON,UNP,0.08333333333333333,Industrials,Industrials,tail_threshold
+2013-08-30,GOOG,GOOGL,0.1,Communication Services,Communication Services,tail_threshold
+2013-09-30,BA,LMT,0.08333333333333333,Industrials,Industrials,tail_threshold
+2013-09-30,BAC,BRK-B,0.08333333333333333,Financials,Financials,tail_threshold
+2013-09-30,GOOG,GOOGL,0.1,Communication Services,Communication Services,tail_threshold
+2013-10-31,GOOG,GOOGL,0.1,Communication Services,Communication Services,tail_threshold
+2013-11-29,GOOG,GOOGL,0.1,Communication Services,Communication Services,tail_threshold
+2013-12-31,GOOG,GOOGL,0.1,Communication Services,Communication Services,tail_threshold
+2014-01-31,BAC,C,0.08333333333333333,Financials,Financials,tail_threshold
+2014-01-31,GOOG,GOOGL,0.1,Communication Services,Communication Services,tail_threshold
+2014-02-28,BAC,C,0.08333333333333333,Financials,Financials,tail_threshold
+2014-02-28,GOOG,GOOGL,0.1,Communication Services,Communication Services,tail_threshold
+2014-03-31,GOOG,GOOGL,0.1,Communication Services,Communication Services,tail_threshold
+2014-04-30,GOOG,GOOGL,0.09166666666666666,Communication Services,Communication Services,tail_threshold
+2014-05-30,AXP,BLK,0.08333333333333333,Financials,Financials,tail_threshold
+2014-05-30,GOOG,GOOGL,0.09166666666666666,Communication Services,Communication Services,tail_threshold
+2014-06-30,GOOG,GOOGL,0.1,Communication Services,Communication Services,tail_threshold
+2014-07-31,GOOG,GOOGL,0.1,Communication Services,Communication Services,tail_threshold
+2014-08-29,ADBE,AMZN,0.08333333333333333,Information Technology,Consumer Discretionary,tail_threshold
+2014-08-29,ADBE,META,0.08333333333333333,Information Technology,Communication Services,tail_threshold
+2014-08-29,AMZN,META,0.08333333333333333,Consumer Discretionary,Communication Services,tail_threshold
+2014-08-29,GOOG,GOOGL,0.1,Communication Services,Communication Services,tail_threshold
+2014-09-30,GOOG,GOOGL,0.09166666666666666,Communication Services,Communication Services,tail_threshold
+2014-09-30,GS,JPM,0.08333333333333333,Financials,Financials,tail_threshold
+2014-10-31,BAC,JPM,0.08333333333333333,Financials,Financials,tail_threshold
+2014-10-31,GOOG,GOOGL,0.09166666666666666,Communication Services,Communication Services,tail_threshold
+2014-10-31,GS,MS,0.08333333333333333,Financials,Financials,tail_threshold
+2014-10-31,HON,UPS,0.08333333333333333,Industrials,Industrials,tail_threshold
+2014-11-28,BAC,JPM,0.08333333333333333,Financials,Financials,tail_threshold
+2014-11-28,GOOG,GOOGL,0.08333333333333333,Communication Services,Communication Services,tail_threshold
+2014-11-28,GS,MS,0.09166666666666666,Financials,Financials,tail_threshold
+2014-12-31,APD,LIN,0.08333333333333333,Materials,Materials,tail_threshold
+2014-12-31,GOOG,GOOGL,0.09166666666666666,Communication Services,Communication Services,tail_threshold
+2014-12-31,GS,MS,0.08333333333333333,Financials,Financials,tail_threshold
+2014-12-31,HON,UNP,0.08333333333333333,Industrials,Industrials,tail_threshold
+2015-01-30,APD,LIN,0.08333333333333333,Materials,Materials,tail_threshold
+2015-01-30,BAC,JPM,0.08333333333333333,Financials,Financials,tail_threshold
+2015-01-30,C,JPM,0.08333333333333333,Financials,Financials,tail_threshold
+2015-01-30,CVX,XOM,0.08333333333333333,Energy,Energy,tail_threshold
+2015-01-30,GOOG,GOOGL,0.1,Communication Services,Communication Services,tail_threshold
+2015-02-27,APD,LIN,0.08333333333333333,Materials,Materials,tail_threshold
+2015-02-27,C,JPM,0.08333333333333333,Financials,Financials,tail_threshold
+2015-02-27,GOOG,GOOGL,0.1,Communication Services,Communication Services,tail_threshold
+2015-03-31,GOOG,GOOGL,0.1,Communication Services,Communication Services,tail_threshold
+2015-04-30,C,JPM,0.08333333333333333,Financials,Financials,tail_threshold
+2015-04-30,CVX,XOM,0.08333333333333333,Energy,Energy,tail_threshold
+2015-04-30,GOOG,GOOGL,0.09166666666666666,Communication Services,Communication Services,tail_threshold
+2015-05-29,C,JPM,0.08333333333333333,Financials,Financials,tail_threshold
+2015-05-29,GOOG,GOOGL,0.1,Communication Services,Communication Services,tail_threshold
+2015-06-30,C,JPM,0.08333333333333333,Financials,Financials,tail_threshold
+2015-06-30,DIS,GS,0.08333333333333333,Communication Services,Financials,tail_threshold
+2015-06-30,NKE,V,0.08333333333333333,Consumer Discretionary,Financials,tail_threshold
+2015-07-31,GOOG,GOOGL,0.08333333333333333,Communication Services,Communication Services,tail_threshold
+2015-08-31,GOOG,GOOGL,0.1,Communication Services,Communication Services,tail_threshold
+2015-08-31,GS,MS,0.08333333333333333,Financials,Financials,tail_threshold
+2015-08-31,MS,WFC,0.08333333333333333,Financials,Financials,tail_threshold
+2015-09-30,AMZN,GOOGL,0.08333333333333333,Consumer Discretionary,Communication Services,tail_threshold
+2015-09-30,APD,BAC,0.08333333333333333,Materials,Financials,tail_threshold
+2015-09-30,APD,C,0.08333333333333333,Materials,Financials,tail_threshold
+2015-09-30,APD,GS,0.08333333333333333,Materials,Financials,tail_threshold
+2015-09-30,APD,HON,0.08333333333333333,Materials,Industrials,tail_threshold
+2015-09-30,APD,LIN,0.08333333333333333,Materials,Materials,tail_threshold
+2015-09-30,APD,MS,0.08333333333333333,Materials,Financials,tail_threshold
+2015-09-30,APD,WFC,0.08333333333333333,Materials,Financials,tail_threshold
+2015-09-30,BAC,C,0.08333333333333333,Financials,Financials,tail_threshold
+2015-09-30,BAC,JPM,0.09166666666666666,Financials,Financials,tail_threshold
+2015-09-30,BAC,MS,0.08333333333333333,Financials,Financials,tail_threshold
+2015-09-30,BAC,WFC,0.08333333333333333,Financials,Financials,tail_threshold
+2015-09-30,C,GE,0.08333333333333333,Financials,Industrials,tail_threshold
+2015-09-30,C,GS,0.08333333333333333,Financials,Financials,tail_threshold
+2015-09-30,C,HON,0.08333333333333333,Financials,Industrials,tail_threshold
+2015-09-30,C,MS,0.08333333333333333,Financials,Financials,tail_threshold
+2015-09-30,GOOG,GOOGL,0.08333333333333333,Communication Services,Communication Services,tail_threshold
+2015-09-30,GS,HON,0.09166666666666666,Financials,Industrials,tail_threshold
+2015-09-30,GS,MS,0.09166666666666666,Financials,Financials,tail_threshold
+2015-09-30,GS,WFC,0.08333333333333333,Financials,Financials,tail_threshold
+2015-09-30,HON,JPM,0.08333333333333333,Industrials,Financials,tail_threshold
+2015-09-30,HON,MS,0.09166666666666666,Industrials,Financials,tail_threshold
+2015-09-30,HON,WFC,0.08333333333333333,Industrials,Financials,tail_threshold
+2015-09-30,JPM,MS,0.08333333333333333,Financials,Financials,tail_threshold
+2015-09-30,JPM,WFC,0.08333333333333333,Financials,Financials,tail_threshold
+2015-09-30,MS,WFC,0.09166666666666666,Financials,Financials,tail_threshold
+2015-10-30,APD,C,0.08333333333333333,Materials,Financials,tail_threshold
+2015-10-30,APD,GS,0.08333333333333333,Materials,Financials,tail_threshold
+2015-10-30,APD,HON,0.08333333333333333,Materials,Industrials,tail_threshold
+2015-10-30,BAC,C,0.08333333333333333,Financials,Financials,tail_threshold
+2015-10-30,BAC,GS,0.08333333333333333,Financials,Financials,tail_threshold
+2015-10-30,BAC,JPM,0.08333333333333333,Financials,Financials,tail_threshold
+2015-10-30,BAC,WFC,0.08333333333333333,Financials,Financials,tail_threshold
+2015-10-30,BLK,GS,0.08333333333333333,Financials,Financials,tail_threshold
+2015-10-30,BLK,HON,0.08333333333333333,Financials,Industrials,tail_threshold
+2015-10-30,BRK-B,HD,0.08333333333333333,Financials,Consumer Discretionary,tail_threshold
+2015-10-30,C,GS,0.08333333333333333,Financials,Financials,tail_threshold
+2015-10-30,GOOG,GOOGL,0.09166666666666666,Communication Services,Communication Services,tail_threshold
+2015-10-30,GS,HON,0.09166666666666666,Financials,Industrials,tail_threshold
+2015-10-30,GS,MS,0.09166666666666666,Financials,Financials,tail_threshold
+2015-10-30,HON,MS,0.08333333333333333,Industrials,Financials,tail_threshold
+2015-11-30,AMZN,GOOGL,0.08333333333333333,Consumer Discretionary,Communication Services,tail_threshold
+2015-11-30,APD,C,0.08333333333333333,Materials,Financials,tail_threshold
+2015-11-30,APD,HON,0.08333333333333333,Materials,Industrials,tail_threshold
+2015-11-30,BAC,C,0.08333333333333333,Financials,Financials,tail_threshold
+2015-11-30,BAC,GS,0.09166666666666666,Financials,Financials,tail_threshold
+2015-11-30,BAC,JPM,0.09166666666666666,Financials,Financials,tail_threshold
+2015-11-30,C,GS,0.08333333333333333,Financials,Financials,tail_threshold
+2015-11-30,C,JPM,0.08333333333333333,Financials,Financials,tail_threshold
+2015-11-30,C,UPS,0.08333333333333333,Financials,Industrials,tail_threshold
+2015-11-30,GOOG,GOOGL,0.09166666666666666,Communication Services,Communication Services,tail_threshold
+2015-11-30,GS,HON,0.08333333333333333,Financials,Industrials,tail_threshold
+2015-11-30,GS,JPM,0.08333333333333333,Financials,Financials,tail_threshold
+2015-11-30,GS,MS,0.08333333333333333,Financials,Financials,tail_threshold
+2015-12-31,BAC,C,0.08333333333333333,Financials,Financials,tail_threshold
+2015-12-31,BAC,JPM,0.08333333333333333,Financials,Financials,tail_threshold
+2015-12-31,C,JPM,0.08333333333333333,Financials,Financials,tail_threshold
+2015-12-31,CSCO,ORCL,0.08333333333333333,Information Technology,Information Technology,tail_threshold
+2015-12-31,GOOG,GOOGL,0.09166666666666666,Communication Services,Communication Services,tail_threshold
+2015-12-31,HON,MS,0.08333333333333333,Industrials,Financials,tail_threshold
+2016-01-29,BA,JPM,0.08333333333333333,Industrials,Financials,tail_threshold
+2016-01-29,BAC,C,0.08333333333333333,Financials,Financials,tail_threshold
+2016-01-29,BLK,C,0.08333333333333333,Financials,Financials,tail_threshold
+2016-01-29,BLK,GS,0.08333333333333333,Financials,Financials,tail_threshold
+2016-01-29,GOOG,GOOGL,0.08333333333333333,Communication Services,Communication Services,tail_threshold
+2016-01-29,JPM,LMT,0.08333333333333333,Financials,Industrials,tail_threshold
+2016-02-29,BAC,C,0.08333333333333333,Financials,Financials,tail_threshold
+2016-02-29,GOOG,GOOGL,0.08333333333333333,Communication Services,Communication Services,tail_threshold
+2016-03-31,BAC,C,0.09166666666666666,Financials,Financials,tail_threshold
+2016-03-31,BAC,GS,0.08333333333333333,Financials,Financials,tail_threshold
+2016-03-31,BAC,MS,0.08333333333333333,Financials,Financials,tail_threshold
+2016-03-31,BAC,WFC,0.08333333333333333,Financials,Financials,tail_threshold
+2016-03-31,C,WFC,0.08333333333333333,Financials,Financials,tail_threshold
+2016-03-31,CSCO,ORCL,0.08333333333333333,Information Technology,Information Technology,tail_threshold
+2016-03-31,GOOG,GOOGL,0.09166666666666666,Communication Services,Communication Services,tail_threshold
+2016-04-29,BAC,C,0.09166666666666666,Financials,Financials,tail_threshold
+2016-04-29,BAC,GS,0.08333333333333333,Financials,Financials,tail_threshold
+2016-04-29,BAC,MS,0.08333333333333333,Financials,Financials,tail_threshold
+2016-04-29,C,GS,0.08333333333333333,Financials,Financials,tail_threshold
+2016-04-29,C,MS,0.08333333333333333,Financials,Financials,tail_threshold
+2016-04-29,C,WFC,0.08333333333333333,Financials,Financials,tail_threshold
+2016-04-29,GOOG,GOOGL,0.09166666666666666,Communication Services,Communication Services,tail_threshold
+2016-04-29,GS,WFC,0.08333333333333333,Financials,Financials,tail_threshold
+2016-05-31,BAC,C,0.09166666666666666,Financials,Financials,tail_threshold
+2016-05-31,C,GS,0.08333333333333333,Financials,Financials,tail_threshold
+2016-05-31,C,MS,0.08333333333333333,Financials,Financials,tail_threshold
+2016-05-31,C,WFC,0.08333333333333333,Financials,Financials,tail_threshold
+2016-05-31,DUK,NEE,0.08333333333333333,Utilities,Utilities,tail_threshold
+2016-05-31,GOOG,GOOGL,0.09166666666666666,Communication Services,Communication Services,tail_threshold
+2016-05-31,GS,WFC,0.08333333333333333,Financials,Financials,tail_threshold
+2016-05-31,JNJ,ORCL,0.08333333333333333,Health Care,Information Technology,tail_threshold
+2016-06-30,BAC,C,0.09166666666666666,Financials,Financials,tail_threshold
+2016-06-30,BAC,GS,0.08333333333333333,Financials,Financials,tail_threshold
+2016-06-30,BAC,JPM,0.08333333333333333,Financials,Financials,tail_threshold
+2016-06-30,BAC,MS,0.09166666666666666,Financials,Financials,tail_threshold
+2016-06-30,BLK,LIN,0.08333333333333333,Financials,Materials,tail_threshold
+2016-06-30,C,GS,0.08333333333333333,Financials,Financials,tail_threshold
+2016-06-30,C,JPM,0.08333333333333333,Financials,Financials,tail_threshold
+2016-06-30,C,MS,0.09166666666666666,Financials,Financials,tail_threshold
+2016-06-30,GOOG,GOOGL,0.09166666666666666,Communication Services,Communication Services,tail_threshold
+2016-06-30,GS,MS,0.08333333333333333,Financials,Financials,tail_threshold
+2016-06-30,INTC,TXN,0.08333333333333333,Information Technology,Information Technology,tail_threshold
+2016-06-30,JPM,MS,0.08333333333333333,Financials,Financials,tail_threshold
+2016-06-30,JPM,WFC,0.08333333333333333,Financials,Financials,tail_threshold
+2016-07-29,BAC,C,0.09166666666666666,Financials,Financials,tail_threshold
+2016-07-29,BAC,GS,0.08333333333333333,Financials,Financials,tail_threshold
+2016-07-29,BAC,JPM,0.09166666666666666,Financials,Financials,tail_threshold
+2016-07-29,C,JPM,0.08333333333333333,Financials,Financials,tail_threshold
+2016-07-29,CAT,COP,0.08333333333333333,Industrials,Energy,tail_threshold
+2016-07-29,GOOG,GOOGL,0.09166666666666666,Communication Services,Communication Services,tail_threshold
+2016-08-31,C,GS,0.08333333333333333,Financials,Financials,tail_threshold
+2016-08-31,DUK,NEE,0.09166666666666666,Utilities,Utilities,tail_threshold
+2016-08-31,GOOG,GOOGL,0.09166666666666666,Communication Services,Communication Services,tail_threshold
+2016-08-31,GS,JPM,0.08333333333333333,Financials,Financials,tail_threshold
+2016-08-31,JPM,MS,0.08333333333333333,Financials,Financials,tail_threshold
+2016-09-30,C,GS,0.08333333333333333,Financials,Financials,tail_threshold
+2016-09-30,C,JPM,0.08333333333333333,Financials,Financials,tail_threshold
+2016-09-30,C,MS,0.08333333333333333,Financials,Financials,tail_threshold
+2016-09-30,DUK,NEE,0.08333333333333333,Utilities,Utilities,tail_threshold
+2016-09-30,GOOG,GOOGL,0.09166666666666666,Communication Services,Communication Services,tail_threshold
+2016-10-31,BLK,GS,0.08333333333333333,Financials,Financials,tail_threshold
+2016-10-31,C,GS,0.08333333333333333,Financials,Financials,tail_threshold
+2016-10-31,C,JPM,0.08333333333333333,Financials,Financials,tail_threshold
+2016-10-31,C,MS,0.08333333333333333,Financials,Financials,tail_threshold
+2016-10-31,DUK,NEE,0.08333333333333333,Utilities,Utilities,tail_threshold
+2016-10-31,GOOG,GOOGL,0.08333333333333333,Communication Services,Communication Services,tail_threshold
+2016-10-31,NEE,SO,0.08333333333333333,Utilities,Utilities,tail_threshold
+2016-11-30,BLK,GS,0.08333333333333333,Financials,Financials,tail_threshold
+2016-11-30,BLK,MS,0.08333333333333333,Financials,Financials,tail_threshold
+2016-11-30,DUK,SO,0.08333333333333333,Utilities,Utilities,tail_threshold
+2016-11-30,GOOG,GOOGL,0.09166666666666666,Communication Services,Communication Services,tail_threshold
+2016-11-30,GS,MS,0.08333333333333333,Financials,Financials,tail_threshold
+2016-12-30,GOOG,GOOGL,0.1,Communication Services,Communication Services,tail_threshold
+2017-01-31,GOOG,GOOGL,0.09166666666666666,Communication Services,Communication Services,tail_threshold
+2017-01-31,NEE,SO,0.08333333333333333,Utilities,Utilities,tail_threshold
+2017-02-28,GOOG,GOOGL,0.09166666666666666,Communication Services,Communication Services,tail_threshold
+2017-03-31,GOOG,GOOGL,0.09166666666666666,Communication Services,Communication Services,tail_threshold
+2017-04-28,GOOG,GOOGL,0.09166666666666666,Communication Services,Communication Services,tail_threshold
+2017-05-31,GOOG,GOOGL,0.08333333333333333,Communication Services,Communication Services,tail_threshold
+2017-06-30,GOOG,GOOGL,0.09166666666666666,Communication Services,Communication Services,tail_threshold
+2017-07-31,GOOG,GOOGL,0.1,Communication Services,Communication Services,tail_threshold
+2017-08-31,GOOG,GOOGL,0.1,Communication Services,Communication Services,tail_threshold
+2017-08-31,MA,V,0.08333333333333333,Financials,Financials,tail_threshold
+2017-08-31,MSFT,TXN,0.08333333333333333,Information Technology,Information Technology,tail_threshold
+2017-09-29,AMZN,META,0.08333333333333333,Consumer Discretionary,Communication Services,tail_threshold
+2017-09-29,GOOG,GOOGL,0.09166666666666666,Communication Services,Communication Services,tail_threshold
+2017-09-29,MA,V,0.08333333333333333,Financials,Financials,tail_threshold
+2017-10-31,AMZN,META,0.09166666666666666,Consumer Discretionary,Communication Services,tail_threshold
+2017-10-31,GOOG,GOOGL,0.09166666666666666,Communication Services,Communication Services,tail_threshold
+2017-10-31,MA,V,0.08333333333333333,Financials,Financials,tail_threshold
+2017-11-30,AMZN,META,0.08333333333333333,Consumer Discretionary,Communication Services,tail_threshold
+2017-11-30,GOOG,GOOGL,0.09166666666666666,Communication Services,Communication Services,tail_threshold
+2017-11-30,MA,V,0.08333333333333333,Financials,Financials,tail_threshold
+2017-12-29,GOOG,GOOGL,0.08333333333333333,Communication Services,Communication Services,tail_threshold
+2018-01-31,GOOG,GOOGL,0.08333333333333333,Communication Services,Communication Services,tail_threshold
+2018-01-31,JPM,MS,0.08333333333333333,Financials,Financials,tail_threshold
+2018-02-28,GOOG,GOOGL,0.09166666666666666,Communication Services,Communication Services,tail_threshold
+2018-02-28,MA,V,0.08333333333333333,Financials,Financials,tail_threshold
+2018-03-29,BAC,JPM,0.08333333333333333,Financials,Financials,tail_threshold
+2018-03-29,BAC,MS,0.08333333333333333,Financials,Financials,tail_threshold
+2018-03-29,BLK,HON,0.08333333333333333,Financials,Industrials,tail_threshold
+2018-03-29,BRK-B,GS,0.08333333333333333,Financials,Financials,tail_threshold
+2018-03-29,C,HON,0.08333333333333333,Financials,Industrials,tail_threshold
+2018-03-29,GOOG,GOOGL,0.1,Communication Services,Communication Services,tail_threshold
+2018-03-29,GOOG,MSFT,0.08333333333333333,Communication Services,Information Technology,tail_threshold
+2018-03-29,GOOGL,MSFT,0.08333333333333333,Communication Services,Information Technology,tail_threshold
+2018-03-29,JPM,MS,0.08333333333333333,Financials,Financials,tail_threshold
+2018-03-29,MA,NVDA,0.08333333333333333,Financials,Information Technology,tail_threshold
+2018-03-29,MS,WFC,0.08333333333333333,Financials,Financials,tail_threshold
+2018-04-30,ADBE,AMZN,0.08333333333333333,Information Technology,Consumer Discretionary,tail_threshold
+2018-04-30,ADBE,MA,0.08333333333333333,Information Technology,Financials,tail_threshold
+2018-04-30,ADBE,MSFT,0.08333333333333333,Information Technology,Information Technology,tail_threshold
+2018-04-30,ADBE,V,0.08333333333333333,Information Technology,Financials,tail_threshold
+2018-04-30,BAC,JPM,0.09166666666666666,Financials,Financials,tail_threshold
+2018-04-30,BAC,WFC,0.08333333333333333,Financials,Financials,tail_threshold
+2018-04-30,BRK-B,GOOG,0.08333333333333333,Financials,Communication Services,tail_threshold
+2018-04-30,BRK-B,GOOGL,0.08333333333333333,Financials,Communication Services,tail_threshold
+2018-04-30,BRK-B,GS,0.08333333333333333,Financials,Financials,tail_threshold
+2018-04-30,BRK-B,MSFT,0.08333333333333333,Financials,Information Technology,tail_threshold
+2018-04-30,C,HON,0.08333333333333333,Financials,Industrials,tail_threshold
+2018-04-30,GOOG,GOOGL,0.1,Communication Services,Communication Services,tail_threshold
+2018-04-30,GOOG,META,0.08333333333333333,Communication Services,Communication Services,tail_threshold
+2018-04-30,GOOGL,META,0.08333333333333333,Communication Services,Communication Services,tail_threshold
+2018-04-30,JPM,MS,0.08333333333333333,Financials,Financials,tail_threshold
+2018-04-30,JPM,WFC,0.09166666666666666,Financials,Financials,tail_threshold
+2018-05-31,BAC,JPM,0.08333333333333333,Financials,Financials,tail_threshold
+2018-05-31,BRK-B,GS,0.08333333333333333,Financials,Financials,tail_threshold
+2018-05-31,BRK-B,JPM,0.08333333333333333,Financials,Financials,tail_threshold
+2018-05-31,BRK-B,MS,0.08333333333333333,Financials,Financials,tail_threshold
+2018-05-31,BRK-B,WFC,0.08333333333333333,Financials,Financials,tail_threshold
+2018-05-31,CSCO,MA,0.08333333333333333,Information Technology,Financials,tail_threshold
+2018-05-31,GOOG,GOOGL,0.09166666666666666,Communication Services,Communication Services,tail_threshold
+2018-05-31,GOOG,MSFT,0.08333333333333333,Communication Services,Information Technology,tail_threshold
+2018-05-31,JPM,MA,0.08333333333333333,Financials,Financials,tail_threshold
+2018-05-31,JPM,MS,0.09166666666666666,Financials,Financials,tail_threshold
+2018-05-31,JPM,WFC,0.09166666666666666,Financials,Financials,tail_threshold
+2018-05-31,MA,MS,0.08333333333333333,Financials,Financials,tail_threshold
+2018-05-31,MS,WFC,0.08333333333333333,Financials,Financials,tail_threshold
+2018-06-29,BAC,MS,0.08333333333333333,Financials,Financials,tail_threshold
+2018-06-29,BRK-B,GS,0.08333333333333333,Financials,Financials,tail_threshold
+2018-06-29,BRK-B,JPM,0.08333333333333333,Financials,Financials,tail_threshold
+2018-06-29,BRK-B,MS,0.08333333333333333,Financials,Financials,tail_threshold
+2018-06-29,BRK-B,WFC,0.08333333333333333,Financials,Financials,tail_threshold
+2018-06-29,C,GS,0.08333333333333333,Financials,Financials,tail_threshold
+2018-06-29,C,MS,0.08333333333333333,Financials,Financials,tail_threshold
+2018-06-29,GOOG,GOOGL,0.1,Communication Services,Communication Services,tail_threshold
+2018-06-29,GOOG,META,0.08333333333333333,Communication Services,Communication Services,tail_threshold
+2018-06-29,GOOGL,META,0.08333333333333333,Communication Services,Communication Services,tail_threshold
+2018-06-29,GS,MS,0.08333333333333333,Financials,Financials,tail_threshold
+2018-06-29,JPM,MS,0.08333333333333333,Financials,Financials,tail_threshold
+2018-06-29,JPM,WFC,0.09166666666666666,Financials,Financials,tail_threshold
+2018-06-29,MS,WFC,0.08333333333333333,Financials,Financials,tail_threshold
+2018-07-31,GOOG,GOOGL,0.09166666666666666,Communication Services,Communication Services,tail_threshold
+2018-08-31,BAC,JPM,0.08333333333333333,Financials,Financials,tail_threshold
+2018-08-31,GOOG,GOOGL,0.1,Communication Services,Communication Services,tail_threshold
+2018-08-31,NVDA,QCOM,0.08333333333333333,Information Technology,Information Technology,tail_threshold
+2018-09-28,GOOG,GOOGL,0.09166666666666666,Communication Services,Communication Services,tail_threshold
+2018-10-31,ADBE,CRM,0.09166666666666666,Information Technology,Information Technology,tail_threshold
+2018-10-31,ADBE,MA,0.08333333333333333,Information Technology,Financials,tail_threshold
+2018-10-31,ADBE,MSFT,0.08333333333333333,Information Technology,Information Technology,tail_threshold
+2018-10-31,ADBE,V,0.09166666666666666,Information Technology,Financials,tail_threshold
+2018-10-31,COP,CVX,0.09166666666666666,Energy,Energy,tail_threshold
+2018-10-31,CRM,MA,0.08333333333333333,Information Technology,Financials,tail_threshold
+2018-10-31,CRM,V,0.08333333333333333,Information Technology,Financials,tail_threshold
+2018-10-31,GOOG,GOOGL,0.08333333333333333,Communication Services,Communication Services,tail_threshold
+2018-10-31,MA,V,0.08333333333333333,Financials,Financials,tail_threshold
+2018-10-31,MSFT,V,0.08333333333333333,Information Technology,Financials,tail_threshold
+2018-11-30,ADBE,CRM,0.08333333333333333,Information Technology,Information Technology,tail_threshold
+2018-11-30,ADBE,V,0.08333333333333333,Information Technology,Financials,tail_threshold
+2018-11-30,CRM,V,0.09166666666666666,Information Technology,Financials,tail_threshold
+2018-11-30,GOOG,GOOGL,0.09166666666666666,Communication Services,Communication Services,tail_threshold
+2018-12-31,ADBE,V,0.08333333333333333,Information Technology,Financials,tail_threshold
+2018-12-31,COP,CVX,0.08333333333333333,Energy,Energy,tail_threshold
+2018-12-31,CRM,V,0.08333333333333333,Information Technology,Financials,tail_threshold
+2018-12-31,GOOG,GOOGL,0.1,Communication Services,Communication Services,tail_threshold
+2018-12-31,MRK,PFE,0.08333333333333333,Health Care,Health Care,tail_threshold
+2019-01-31,ADBE,MSFT,0.08333333333333333,Information Technology,Information Technology,tail_threshold
+2019-01-31,ADBE,V,0.08333333333333333,Information Technology,Financials,tail_threshold
+2019-01-31,COP,CVX,0.08333333333333333,Energy,Energy,tail_threshold
+2019-01-31,CRM,V,0.08333333333333333,Information Technology,Financials,tail_threshold
+2019-01-31,GOOG,GOOGL,0.1,Communication Services,Communication Services,tail_threshold
+2019-01-31,GOOG,MA,0.08333333333333333,Communication Services,Financials,tail_threshold
+2019-01-31,GOOGL,MA,0.08333333333333333,Communication Services,Financials,tail_threshold
+2019-01-31,MSFT,V,0.08333333333333333,Information Technology,Financials,tail_threshold
+2019-02-28,ADBE,V,0.08333333333333333,Information Technology,Financials,tail_threshold
+2019-02-28,BAC,C,0.08333333333333333,Financials,Financials,tail_threshold
+2019-02-28,BAC,JPM,0.08333333333333333,Financials,Financials,tail_threshold
+2019-02-28,C,JPM,0.08333333333333333,Financials,Financials,tail_threshold
+2019-02-28,CRM,V,0.08333333333333333,Information Technology,Financials,tail_threshold
+2019-02-28,CSCO,MRK,0.08333333333333333,Information Technology,Health Care,tail_threshold
+2019-02-28,GOOG,GOOGL,0.09166666666666666,Communication Services,Communication Services,tail_threshold
+2019-02-28,GOOG,MA,0.08333333333333333,Communication Services,Financials,tail_threshold
+2019-02-28,GOOGL,MA,0.08333333333333333,Communication Services,Financials,tail_threshold
+2019-02-28,GOOGL,V,0.08333333333333333,Communication Services,Financials,tail_threshold
+2019-03-29,CSCO,MRK,0.08333333333333333,Information Technology,Health Care,tail_threshold
+2019-03-29,GOOG,GOOGL,0.1,Communication Services,Communication Services,tail_threshold
+2019-03-29,GOOG,V,0.08333333333333333,Communication Services,Financials,tail_threshold
+2019-03-29,GOOGL,V,0.08333333333333333,Communication Services,Financials,tail_threshold
+2019-04-30,ADBE,CRM,0.08333333333333333,Information Technology,Information Technology,tail_threshold
+2019-04-30,AMD,GOOG,0.08333333333333333,Information Technology,Communication Services,tail_threshold
+2019-04-30,AXP,HD,0.08333333333333333,Financials,Consumer Discretionary,tail_threshold
+2019-04-30,AXP,HON,0.08333333333333333,Financials,Industrials,tail_threshold
+2019-04-30,AXP,IBM,0.08333333333333333,Financials,Information Technology,tail_threshold
+2019-04-30,AXP,MSFT,0.08333333333333333,Financials,Information Technology,tail_threshold
+2019-04-30,BAC,JPM,0.08333333333333333,Financials,Financials,tail_threshold
+2019-04-30,CSCO,HON,0.08333333333333333,Information Technology,Industrials,tail_threshold
+2019-04-30,GOOG,GOOGL,0.09166666666666666,Communication Services,Communication Services,tail_threshold
+2019-04-30,HD,MSFT,0.08333333333333333,Consumer Discretionary,Information Technology,tail_threshold
+2019-04-30,HD,RTX,0.08333333333333333,Consumer Discretionary,Industrials,tail_threshold
+2019-04-30,HON,MSFT,0.08333333333333333,Industrials,Information Technology,tail_threshold
+2019-04-30,HON,UNP,0.09166666666666666,Industrials,Industrials,tail_threshold
+2019-04-30,IBM,MSFT,0.08333333333333333,Information Technology,Information Technology,tail_threshold
+2019-04-30,MSFT,V,0.08333333333333333,Information Technology,Financials,tail_threshold
+2019-05-31,AAPL,HON,0.08333333333333333,Information Technology,Industrials,tail_threshold
+2019-05-31,ADBE,MA,0.08333333333333333,Information Technology,Financials,tail_threshold
+2019-05-31,AXP,IBM,0.08333333333333333,Financials,Information Technology,tail_threshold
+2019-05-31,GOOG,GOOGL,0.09166666666666666,Communication Services,Communication Services,tail_threshold
+2019-05-31,HON,MA,0.08333333333333333,Industrials,Financials,tail_threshold
+2019-05-31,HON,MSFT,0.08333333333333333,Industrials,Information Technology,tail_threshold
+2019-05-31,MA,MSFT,0.08333333333333333,Financials,Information Technology,tail_threshold
+2019-06-28,BLK,UNP,0.08333333333333333,Financials,Industrials,tail_threshold
+2019-06-28,GOOG,GOOGL,0.09166666666666666,Communication Services,Communication Services,tail_threshold
+2019-06-28,GS,JPM,0.08333333333333333,Financials,Financials,tail_threshold
+2019-06-28,GS,MS,0.08333333333333333,Financials,Financials,tail_threshold
+2019-07-31,GOOG,GOOGL,0.09166666666666666,Communication Services,Communication Services,tail_threshold
+2019-08-30,AMZN,MA,0.08333333333333333,Consumer Discretionary,Financials,tail_threshold
+2019-08-30,AXP,BAC,0.08333333333333333,Financials,Financials,tail_threshold
+2019-08-30,AXP,ORCL,0.08333333333333333,Financials,Information Technology,tail_threshold
+2019-08-30,C,MS,0.09166666666666666,Financials,Financials,tail_threshold
+2019-08-30,GOOG,GOOGL,0.09166666666666666,Communication Services,Communication Services,tail_threshold
+2019-08-30,GS,MS,0.08333333333333333,Financials,Financials,tail_threshold
+2019-08-30,MA,V,0.08333333333333333,Financials,Financials,tail_threshold
+2019-09-30,AMZN,META,0.08333333333333333,Consumer Discretionary,Communication Services,tail_threshold
+2019-09-30,BAC,JPM,0.08333333333333333,Financials,Financials,tail_threshold
+2019-09-30,C,MS,0.08333333333333333,Financials,Financials,tail_threshold
+2019-09-30,GOOG,GOOGL,0.09166666666666666,Communication Services,Communication Services,tail_threshold
+2019-09-30,MA,V,0.09166666666666666,Financials,Financials,tail_threshold
+2019-10-31,AMZN,META,0.08333333333333333,Consumer Discretionary,Communication Services,tail_threshold
+2019-10-31,BAC,BLK,0.08333333333333333,Financials,Financials,tail_threshold
+2019-10-31,C,MS,0.08333333333333333,Financials,Financials,tail_threshold
+2019-10-31,GOOG,GOOGL,0.09166666666666666,Communication Services,Communication Services,tail_threshold
+2019-10-31,GS,MS,0.08333333333333333,Financials,Financials,tail_threshold
+2019-10-31,JPM,MS,0.08333333333333333,Financials,Financials,tail_threshold
+2019-10-31,MA,V,0.09166666666666666,Financials,Financials,tail_threshold
+2019-11-29,BAC,GS,0.08333333333333333,Financials,Financials,tail_threshold
+2019-11-29,BAC,JPM,0.09166666666666666,Financials,Financials,tail_threshold
+2019-11-29,GOOG,GOOGL,0.1,Communication Services,Communication Services,tail_threshold
+2019-11-29,GS,JPM,0.08333333333333333,Financials,Financials,tail_threshold
+2019-11-29,GS,MS,0.08333333333333333,Financials,Financials,tail_threshold
+2019-11-29,JPM,MS,0.08333333333333333,Financials,Financials,tail_threshold
+2019-11-29,MA,V,0.09166666666666666,Financials,Financials,tail_threshold
+2019-12-31,APD,LIN,0.08333333333333333,Materials,Materials,tail_threshold
+2019-12-31,BAC,JPM,0.1,Financials,Financials,tail_threshold
+2019-12-31,BAC,MS,0.09166666666666666,Financials,Financials,tail_threshold
+2019-12-31,GOOG,GOOGL,0.09166666666666666,Communication Services,Communication Services,tail_threshold
+2019-12-31,HON,UNP,0.08333333333333333,Industrials,Industrials,tail_threshold
+2019-12-31,JPM,MS,0.09166666666666666,Financials,Financials,tail_threshold
+2019-12-31,MA,V,0.09166666666666666,Financials,Financials,tail_threshold
+2020-01-31,APD,LIN,0.09166666666666666,Materials,Materials,tail_threshold
+2020-01-31,BAC,JPM,0.08333333333333333,Financials,Financials,tail_threshold
+2020-01-31,CAT,MS,0.08333333333333333,Industrials,Financials,tail_threshold
+2020-01-31,GOOG,GOOGL,0.1,Communication Services,Communication Services,tail_threshold
+2020-01-31,MA,V,0.09166666666666666,Financials,Financials,tail_threshold
+2020-02-28,APD,LIN,0.08333333333333333,Materials,Materials,tail_threshold
+2020-02-28,BAC,LIN,0.08333333333333333,Financials,Materials,tail_threshold
+2020-02-28,GOOG,GOOGL,0.09166666666666666,Communication Services,Communication Services,tail_threshold
+2020-02-28,HON,UNP,0.08333333333333333,Industrials,Industrials,tail_threshold
+2020-02-28,INTC,MS,0.08333333333333333,Information Technology,Financials,tail_threshold
+2020-02-28,LIN,RTX,0.08333333333333333,Materials,Industrials,tail_threshold
+2020-02-28,MA,V,0.09166666666666666,Financials,Financials,tail_threshold
+2020-03-31,AAPL,ADBE,0.08333333333333333,Information Technology,Information Technology,tail_threshold
+2020-03-31,AAPL,AMZN,0.08333333333333333,Information Technology,Consumer Discretionary,tail_threshold
+2020-03-31,AAPL,BAC,0.08333333333333333,Information Technology,Financials,tail_threshold
+2020-03-31,AAPL,BLK,0.08333333333333333,Information Technology,Financials,tail_threshold
+2020-03-31,AAPL,BRK-B,0.08333333333333333,Information Technology,Financials,tail_threshold
+2020-03-31,AAPL,CAT,0.08333333333333333,Information Technology,Industrials,tail_threshold
+2020-03-31,AAPL,COST,0.08333333333333333,Information Technology,Consumer Staples,tail_threshold
+2020-03-31,AAPL,CSCO,0.08333333333333333,Information Technology,Information Technology,tail_threshold
+2020-03-31,AAPL,DIS,0.08333333333333333,Information Technology,Communication Services,tail_threshold
+2020-03-31,AAPL,GOOG,0.08333333333333333,Information Technology,Communication Services,tail_threshold
+2020-03-31,AAPL,GOOGL,0.08333333333333333,Information Technology,Communication Services,tail_threshold
+2020-03-31,AAPL,HON,0.08333333333333333,Information Technology,Industrials,tail_threshold
+2020-03-31,AAPL,IBM,0.08333333333333333,Information Technology,Information Technology,tail_threshold
+2020-03-31,AAPL,META,0.08333333333333333,Information Technology,Communication Services,tail_threshold
+2020-03-31,AAPL,V,0.08333333333333333,Information Technology,Financials,tail_threshold
+2020-03-31,AAPL,XOM,0.08333333333333333,Information Technology,Energy,tail_threshold
+2020-03-31,ADBE,AMZN,0.08333333333333333,Information Technology,Consumer Discretionary,tail_threshold
+2020-03-31,ADBE,AVGO,0.08333333333333333,Information Technology,Information Technology,tail_threshold
+2020-03-31,ADBE,BAC,0.08333333333333333,Information Technology,Financials,tail_threshold
+2020-03-31,ADBE,BLK,0.08333333333333333,Information Technology,Financials,tail_threshold
+2020-03-31,ADBE,BRK-B,0.09166666666666666,Information Technology,Financials,tail_threshold
+2020-03-31,ADBE,DIS,0.08333333333333333,Information Technology,Communication Services,tail_threshold
+2020-03-31,ADBE,GOOG,0.08333333333333333,Information Technology,Communication Services,tail_threshold
+2020-03-31,ADBE,GOOGL,0.08333333333333333,Information Technology,Communication Services,tail_threshold
+2020-03-31,ADBE,GS,0.08333333333333333,Information Technology,Financials,tail_threshold
+2020-03-31,ADBE,KO,0.08333333333333333,Information Technology,Consumer Staples,tail_threshold
+2020-03-31,ADBE,MS,0.08333333333333333,Information Technology,Financials,tail_threshold
+2020-03-31,ADBE,MSFT,0.09166666666666666,Information Technology,Information Technology,tail_threshold
+2020-03-31,ADBE,TXN,0.08333333333333333,Information Technology,Information Technology,tail_threshold
+2020-03-31,ADBE,XOM,0.09166666666666666,Information Technology,Energy,tail_threshold
+2020-03-31,AMT,DUK,0.08333333333333333,Real Estate,Utilities,tail_threshold
+2020-03-31,AMZN,BRK-B,0.08333333333333333,Consumer Discretionary,Financials,tail_threshold
+2020-03-31,AMZN,GOOG,0.09166666666666666,Consumer Discretionary,Communication Services,tail_threshold
+2020-03-31,AMZN,GOOGL,0.09166666666666666,Consumer Discretionary,Communication Services,tail_threshold
+2020-03-31,AMZN,MSFT,0.08333333333333333,Consumer Discretionary,Information Technology,tail_threshold
+2020-03-31,AMZN,TXN,0.08333333333333333,Consumer Discretionary,Information Technology,tail_threshold
+2020-03-31,AVGO,BRK-B,0.08333333333333333,Information Technology,Financials,tail_threshold
+2020-03-31,AVGO,INTC,0.08333333333333333,Information Technology,Information Technology,tail_threshold
+2020-03-31,AXP,BAC,0.08333333333333333,Financials,Financials,tail_threshold
+2020-03-31,AXP,BRK-B,0.08333333333333333,Financials,Financials,tail_threshold
+2020-03-31,AXP,C,0.09166666666666666,Financials,Financials,tail_threshold
+2020-03-31,AXP,COST,0.08333333333333333,Financials,Consumer Staples,tail_threshold
+2020-03-31,AXP,CVX,0.08333333333333333,Financials,Energy,tail_threshold
+2020-03-31,AXP,MA,0.08333333333333333,Financials,Financials,tail_threshold
+2020-03-31,AXP,RTX,0.09166666666666666,Financials,Industrials,tail_threshold
+2020-03-31,AXP,UNH,0.08333333333333333,Financials,Health Care,tail_threshold
+2020-03-31,AXP,V,0.08333333333333333,Financials,Financials,tail_threshold
+2020-03-31,BA,JPM,0.08333333333333333,Industrials,Financials,tail_threshold
+2020-03-31,BAC,BLK,0.08333333333333333,Financials,Financials,tail_threshold
+2020-03-31,BAC,BRK-B,0.09166666666666666,Financials,Financials,tail_threshold
+2020-03-31,BAC,C,0.08333333333333333,Financials,Financials,tail_threshold
+2020-03-31,BAC,DIS,0.08333333333333333,Financials,Communication Services,tail_threshold
+2020-03-31,BAC,HON,0.08333333333333333,Financials,Industrials,tail_threshold
+2020-03-31,BAC,MA,0.08333333333333333,Financials,Financials,tail_threshold
+2020-03-31,BAC,MS,0.08333333333333333,Financials,Financials,tail_threshold
+2020-03-31,BAC,RTX,0.08333333333333333,Financials,Industrials,tail_threshold
+2020-03-31,BAC,UNH,0.09166666666666666,Financials,Health Care,tail_threshold
+2020-03-31,BAC,V,0.08333333333333333,Financials,Financials,tail_threshold
+2020-03-31,BAC,XOM,0.08333333333333333,Financials,Energy,tail_threshold
+2020-03-31,BLK,BRK-B,0.08333333333333333,Financials,Financials,tail_threshold
+2020-03-31,BLK,C,0.08333333333333333,Financials,Financials,tail_threshold
+2020-03-31,BLK,CAT,0.08333333333333333,Financials,Industrials,tail_threshold
+2020-03-31,BLK,CSCO,0.08333333333333333,Financials,Information Technology,tail_threshold
+2020-03-31,BLK,DIS,0.08333333333333333,Financials,Communication Services,tail_threshold
+2020-03-31,BLK,GE,0.08333333333333333,Financials,Industrials,tail_threshold
+2020-03-31,BLK,GS,0.08333333333333333,Financials,Financials,tail_threshold
+2020-03-31,BLK,HON,0.08333333333333333,Financials,Industrials,tail_threshold
+2020-03-31,BLK,JPM,0.08333333333333333,Financials,Financials,tail_threshold
+2020-03-31,BLK,NKE,0.08333333333333333,Financials,Consumer Discretionary,tail_threshold
+2020-03-31,BLK,RTX,0.08333333333333333,Financials,Industrials,tail_threshold
+2020-03-31,BLK,V,0.08333333333333333,Financials,Financials,tail_threshold
+2020-03-31,BRK-B,C,0.08333333333333333,Financials,Financials,tail_threshold
+2020-03-31,BRK-B,CAT,0.08333333333333333,Financials,Industrials,tail_threshold
+2020-03-31,BRK-B,DIS,0.08333333333333333,Financials,Communication Services,tail_threshold
+2020-03-31,BRK-B,GOOG,0.08333333333333333,Financials,Communication Services,tail_threshold
+2020-03-31,BRK-B,GOOGL,0.08333333333333333,Financials,Communication Services,tail_threshold
+2020-03-31,BRK-B,HON,0.08333333333333333,Financials,Industrials,tail_threshold
+2020-03-31,BRK-B,MS,0.09166666666666666,Financials,Financials,tail_threshold
+2020-03-31,BRK-B,MSFT,0.08333333333333333,Financials,Information Technology,tail_threshold
+2020-03-31,BRK-B,RTX,0.08333333333333333,Financials,Industrials,tail_threshold
+2020-03-31,BRK-B,TXN,0.08333333333333333,Financials,Information Technology,tail_threshold
+2020-03-31,BRK-B,UNH,0.08333333333333333,Financials,Health Care,tail_threshold
+2020-03-31,BRK-B,V,0.08333333333333333,Financials,Financials,tail_threshold
+2020-03-31,BRK-B,XOM,0.08333333333333333,Financials,Energy,tail_threshold
+2020-03-31,C,CVX,0.08333333333333333,Financials,Energy,tail_threshold
+2020-03-31,C,DIS,0.08333333333333333,Financials,Communication Services,tail_threshold
+2020-03-31,C,GE,0.08333333333333333,Financials,Industrials,tail_threshold
+2020-03-31,C,GS,0.08333333333333333,Financials,Financials,tail_threshold
+2020-03-31,C,HON,0.08333333333333333,Financials,Industrials,tail_threshold
+2020-03-31,C,JPM,0.08333333333333333,Financials,Financials,tail_threshold
+2020-03-31,C,NKE,0.08333333333333333,Financials,Consumer Discretionary,tail_threshold
+2020-03-31,C,RTX,0.1,Financials,Industrials,tail_threshold
+2020-03-31,C,V,0.09166666666666666,Financials,Financials,tail_threshold
+2020-03-31,CAT,HON,0.08333333333333333,Industrials,Industrials,tail_threshold
+2020-03-31,CAT,V,0.08333333333333333,Industrials,Financials,tail_threshold
+2020-03-31,COP,CVX,0.08333333333333333,Energy,Energy,tail_threshold
+2020-03-31,COP,GE,0.09166666666666666,Energy,Industrials,tail_threshold
+2020-03-31,COP,JPM,0.08333333333333333,Energy,Financials,tail_threshold
+2020-03-31,COST,MA,0.08333333333333333,Consumer Staples,Financials,tail_threshold
+2020-03-31,CSCO,DIS,0.08333333333333333,Information Technology,Communication Services,tail_threshold
+2020-03-31,CVX,DIS,0.08333333333333333,Energy,Communication Services,tail_threshold
+2020-03-31,CVX,GE,0.08333333333333333,Energy,Industrials,tail_threshold
+2020-03-31,CVX,HON,0.08333333333333333,Energy,Industrials,tail_threshold
+2020-03-31,CVX,RTX,0.08333333333333333,Energy,Industrials,tail_threshold
+2020-03-31,CVX,V,0.09166666666666666,Energy,Financials,tail_threshold
+2020-03-31,DIS,GE,0.08333333333333333,Communication Services,Industrials,tail_threshold
+2020-03-31,DIS,GS,0.08333333333333333,Communication Services,Financials,tail_threshold
+2020-03-31,DIS,HON,0.08333333333333333,Communication Services,Industrials,tail_threshold
+2020-03-31,DIS,QCOM,0.08333333333333333,Communication Services,Information Technology,tail_threshold
+2020-03-31,DIS,RTX,0.08333333333333333,Communication Services,Industrials,tail_threshold
+2020-03-31,DIS,UNP,0.08333333333333333,Communication Services,Industrials,tail_threshold
+2020-03-31,DIS,V,0.08333333333333333,Communication Services,Financials,tail_threshold
+2020-03-31,DUK,LMT,0.09166666666666666,Utilities,Industrials,tail_threshold
+2020-03-31,DUK,PEP,0.08333333333333333,Utilities,Consumer Staples,tail_threshold
+2020-03-31,DUK,SO,0.08333333333333333,Utilities,Utilities,tail_threshold
+2020-03-31,GE,GS,0.08333333333333333,Industrials,Financials,tail_threshold
+2020-03-31,GE,HON,0.08333333333333333,Industrials,Industrials,tail_threshold
+2020-03-31,GE,JPM,0.09166666666666666,Industrials,Financials,tail_threshold
+2020-03-31,GE,RTX,0.08333333333333333,Industrials,Industrials,tail_threshold
+2020-03-31,GE,UNP,0.08333333333333333,Industrials,Industrials,tail_threshold
+2020-03-31,GE,V,0.08333333333333333,Industrials,Financials,tail_threshold
+2020-03-31,GOOG,GOOGL,0.1,Communication Services,Communication Services,tail_threshold
+2020-03-31,GOOG,TXN,0.08333333333333333,Communication Services,Information Technology,tail_threshold
+2020-03-31,GOOGL,TXN,0.08333333333333333,Communication Services,Information Technology,tail_threshold
+2020-03-31,GS,HD,0.08333333333333333,Financials,Consumer Discretionary,tail_threshold
+2020-03-31,GS,HON,0.08333333333333333,Financials,Industrials,tail_threshold
+2020-03-31,GS,JPM,0.08333333333333333,Financials,Financials,tail_threshold
+2020-03-31,GS,KO,0.08333333333333333,Financials,Consumer Staples,tail_threshold
+2020-03-31,GS,RTX,0.08333333333333333,Financials,Industrials,tail_threshold
+2020-03-31,HD,KO,0.08333333333333333,Consumer Discretionary,Consumer Staples,tail_threshold
+2020-03-31,HD,PEP,0.08333333333333333,Consumer Discretionary,Consumer Staples,tail_threshold
+2020-03-31,HON,JPM,0.08333333333333333,Industrials,Financials,tail_threshold
+2020-03-31,HON,RTX,0.08333333333333333,Industrials,Industrials,tail_threshold
+2020-03-31,HON,UNP,0.08333333333333333,Industrials,Industrials,tail_threshold
+2020-03-31,HON,V,0.09166666666666666,Industrials,Financials,tail_threshold
+2020-03-31,JPM,KO,0.08333333333333333,Financials,Consumer Staples,tail_threshold
+2020-03-31,JPM,MCD,0.08333333333333333,Financials,Consumer Discretionary,tail_threshold
+2020-03-31,JPM,RTX,0.08333333333333333,Financials,Industrials,tail_threshold
+2020-03-31,JPM,V,0.08333333333333333,Financials,Financials,tail_threshold
+2020-03-31,KO,PEP,0.08333333333333333,Consumer Staples,Consumer Staples,tail_threshold
+2020-03-31,LIN,V,0.08333333333333333,Materials,Financials,tail_threshold
+2020-03-31,LIN,XOM,0.08333333333333333,Materials,Energy,tail_threshold
+2020-03-31,LMT,NKE,0.08333333333333333,Industrials,Consumer Discretionary,tail_threshold
+2020-03-31,LMT,PEP,0.08333333333333333,Industrials,Consumer Staples,tail_threshold
+2020-03-31,LMT,SO,0.08333333333333333,Industrials,Utilities,tail_threshold
+2020-03-31,MA,UNH,0.08333333333333333,Financials,Health Care,tail_threshold
+2020-03-31,MSFT,TXN,0.08333333333333333,Information Technology,Information Technology,tail_threshold
+2020-03-31,MSFT,XOM,0.08333333333333333,Information Technology,Energy,tail_threshold
+2020-03-31,NKE,RTX,0.08333333333333333,Consumer Discretionary,Industrials,tail_threshold
+2020-03-31,NVDA,V,0.08333333333333333,Information Technology,Financials,tail_threshold
+2020-03-31,QCOM,TXN,0.08333333333333333,Information Technology,Information Technology,tail_threshold
+2020-03-31,RTX,V,0.09166666666666666,Industrials,Financials,tail_threshold
+2020-04-30,AAPL,BLK,0.08333333333333333,Information Technology,Financials,tail_threshold
+2020-04-30,AAPL,GOOG,0.08333333333333333,Information Technology,Communication Services,tail_threshold
+2020-04-30,AAPL,GOOGL,0.08333333333333333,Information Technology,Communication Services,tail_threshold
+2020-04-30,AAPL,NKE,0.08333333333333333,Information Technology,Consumer Discretionary,tail_threshold
+2020-04-30,ABBV,UNP,0.08333333333333333,Health Care,Industrials,tail_threshold
+2020-04-30,ADBE,MSFT,0.08333333333333333,Information Technology,Information Technology,tail_threshold
+2020-04-30,AMD,NVDA,0.08333333333333333,Information Technology,Information Technology,tail_threshold
+2020-04-30,AMT,DUK,0.08333333333333333,Real Estate,Utilities,tail_threshold
+2020-04-30,AMT,NEE,0.08333333333333333,Real Estate,Utilities,tail_threshold
+2020-04-30,AMT,SO,0.09166666666666666,Real Estate,Utilities,tail_threshold
+2020-04-30,AVGO,BRK-B,0.08333333333333333,Information Technology,Financials,tail_threshold
+2020-04-30,AVGO,GOOG,0.08333333333333333,Information Technology,Communication Services,tail_threshold
+2020-04-30,AVGO,GOOGL,0.08333333333333333,Information Technology,Communication Services,tail_threshold
+2020-04-30,AVGO,GS,0.08333333333333333,Information Technology,Financials,tail_threshold
+2020-04-30,AVGO,INTC,0.09166666666666666,Information Technology,Information Technology,tail_threshold
+2020-04-30,AVGO,MSFT,0.08333333333333333,Information Technology,Information Technology,tail_threshold
+2020-04-30,BAC,JPM,0.08333333333333333,Financials,Financials,tail_threshold
+2020-04-30,BAC,MA,0.08333333333333333,Financials,Financials,tail_threshold
+2020-04-30,BAC,UNH,0.08333333333333333,Financials,Health Care,tail_threshold
+2020-04-30,BLK,NKE,0.09166666666666666,Financials,Consumer Discretionary,tail_threshold
+2020-04-30,BLK,UNP,0.08333333333333333,Financials,Industrials,tail_threshold
+2020-04-30,BRK-B,C,0.08333333333333333,Financials,Financials,tail_threshold
+2020-04-30,BRK-B,GOOG,0.08333333333333333,Financials,Communication Services,tail_threshold
+2020-04-30,BRK-B,GOOGL,0.08333333333333333,Financials,Communication Services,tail_threshold
+2020-04-30,BRK-B,MS,0.08333333333333333,Financials,Financials,tail_threshold
+2020-04-30,BRK-B,MSFT,0.08333333333333333,Financials,Information Technology,tail_threshold
+2020-04-30,C,GE,0.08333333333333333,Financials,Industrials,tail_threshold
+2020-04-30,C,MCD,0.08333333333333333,Financials,Consumer Discretionary,tail_threshold
+2020-04-30,CAT,GOOG,0.08333333333333333,Industrials,Communication Services,tail_threshold
+2020-04-30,CAT,GOOGL,0.08333333333333333,Industrials,Communication Services,tail_threshold
+2020-04-30,CAT,GS,0.08333333333333333,Industrials,Financials,tail_threshold
+2020-04-30,CAT,IBM,0.08333333333333333,Industrials,Information Technology,tail_threshold
+2020-04-30,COP,GE,0.08333333333333333,Energy,Industrials,tail_threshold
+2020-04-30,COST,GOOG,0.08333333333333333,Consumer Staples,Communication Services,tail_threshold
+2020-04-30,COST,GOOGL,0.08333333333333333,Consumer Staples,Communication Services,tail_threshold
+2020-04-30,COST,JNJ,0.08333333333333333,Consumer Staples,Health Care,tail_threshold
+2020-04-30,COST,MSFT,0.08333333333333333,Consumer Staples,Information Technology,tail_threshold
+2020-04-30,COST,TXN,0.08333333333333333,Consumer Staples,Information Technology,tail_threshold
+2020-04-30,CRM,GOOG,0.08333333333333333,Information Technology,Communication Services,tail_threshold
+2020-04-30,CRM,GOOGL,0.08333333333333333,Information Technology,Communication Services,tail_threshold
+2020-04-30,CSCO,GOOG,0.08333333333333333,Information Technology,Communication Services,tail_threshold
+2020-04-30,CSCO,GOOGL,0.08333333333333333,Information Technology,Communication Services,tail_threshold
+2020-04-30,CVX,V,0.08333333333333333,Energy,Financials,tail_threshold
+2020-04-30,DUK,NEE,0.08333333333333333,Utilities,Utilities,tail_threshold
+2020-04-30,GE,JPM,0.09166666666666666,Industrials,Financials,tail_threshold
+2020-04-30,GE,LIN,0.08333333333333333,Industrials,Materials,tail_threshold
+2020-04-30,GE,MCD,0.08333333333333333,Industrials,Consumer Discretionary,tail_threshold
+2020-04-30,GOOG,GOOGL,0.1,Communication Services,Communication Services,tail_threshold
+2020-04-30,GOOG,GS,0.08333333333333333,Communication Services,Financials,tail_threshold
+2020-04-30,GOOG,IBM,0.08333333333333333,Communication Services,Information Technology,tail_threshold
+2020-04-30,GOOG,META,0.08333333333333333,Communication Services,Communication Services,tail_threshold
+2020-04-30,GOOG,MSFT,0.09166666666666666,Communication Services,Information Technology,tail_threshold
+2020-04-30,GOOG,TXN,0.08333333333333333,Communication Services,Information Technology,tail_threshold
+2020-04-30,GOOGL,GS,0.08333333333333333,Communication Services,Financials,tail_threshold
+2020-04-30,GOOGL,IBM,0.08333333333333333,Communication Services,Information Technology,tail_threshold
+2020-04-30,GOOGL,META,0.08333333333333333,Communication Services,Communication Services,tail_threshold
+2020-04-30,GOOGL,MSFT,0.09166666666666666,Communication Services,Information Technology,tail_threshold
+2020-04-30,GOOGL,TXN,0.08333333333333333,Communication Services,Information Technology,tail_threshold
+2020-04-30,GS,MSFT,0.08333333333333333,Financials,Information Technology,tail_threshold
+2020-04-30,HD,PEP,0.08333333333333333,Consumer Discretionary,Consumer Staples,tail_threshold
+2020-04-30,INTC,META,0.08333333333333333,Information Technology,Communication Services,tail_threshold
+2020-04-30,INTC,MSFT,0.08333333333333333,Information Technology,Information Technology,tail_threshold
+2020-04-30,JPM,LIN,0.08333333333333333,Financials,Materials,tail_threshold
+2020-04-30,JPM,V,0.08333333333333333,Financials,Financials,tail_threshold
+2020-04-30,MA,UNH,0.08333333333333333,Financials,Health Care,tail_threshold
+2020-04-30,META,MSFT,0.08333333333333333,Communication Services,Information Technology,tail_threshold
+2020-04-30,MSFT,TXN,0.09166666666666666,Information Technology,Information Technology,tail_threshold
+2020-04-30,NKE,UNP,0.08333333333333333,Consumer Discretionary,Industrials,tail_threshold
+2020-05-29,AAPL,GOOG,0.08333333333333333,Information Technology,Communication Services,tail_threshold
+2020-05-29,AAPL,GOOGL,0.08333333333333333,Information Technology,Communication Services,tail_threshold
+2020-05-29,AAPL,NKE,0.08333333333333333,Information Technology,Consumer Discretionary,tail_threshold
+2020-05-29,ABBV,UNP,0.08333333333333333,Health Care,Industrials,tail_threshold
+2020-05-29,ADBE,MSFT,0.08333333333333333,Information Technology,Information Technology,tail_threshold
+2020-05-29,AMT,DUK,0.08333333333333333,Real Estate,Utilities,tail_threshold
+2020-05-29,AMT,NEE,0.08333333333333333,Real Estate,Utilities,tail_threshold
+2020-05-29,AMT,SO,0.09166666666666666,Real Estate,Utilities,tail_threshold
+2020-05-29,AMZN,CSCO,0.08333333333333333,Consumer Discretionary,Information Technology,tail_threshold
+2020-05-29,AMZN,TXN,0.08333333333333333,Consumer Discretionary,Information Technology,tail_threshold
+2020-05-29,AVGO,INTC,0.1,Information Technology,Information Technology,tail_threshold
+2020-05-29,AVGO,MSFT,0.08333333333333333,Information Technology,Information Technology,tail_threshold
+2020-05-29,AVGO,TXN,0.08333333333333333,Information Technology,Information Technology,tail_threshold
+2020-05-29,BAC,JPM,0.08333333333333333,Financials,Financials,tail_threshold
+2020-05-29,BAC,MA,0.08333333333333333,Financials,Financials,tail_threshold
+2020-05-29,BAC,UNH,0.08333333333333333,Financials,Health Care,tail_threshold
+2020-05-29,BLK,NKE,0.08333333333333333,Financials,Consumer Discretionary,tail_threshold
+2020-05-29,BRK-B,C,0.08333333333333333,Financials,Financials,tail_threshold
+2020-05-29,BRK-B,GOOG,0.08333333333333333,Financials,Communication Services,tail_threshold
+2020-05-29,BRK-B,GOOGL,0.08333333333333333,Financials,Communication Services,tail_threshold
+2020-05-29,BRK-B,MSFT,0.08333333333333333,Financials,Information Technology,tail_threshold
+2020-05-29,C,GE,0.08333333333333333,Financials,Industrials,tail_threshold
+2020-05-29,C,GS,0.08333333333333333,Financials,Financials,tail_threshold
+2020-05-29,C,MCD,0.08333333333333333,Financials,Consumer Discretionary,tail_threshold
+2020-05-29,COST,GOOG,0.08333333333333333,Consumer Staples,Communication Services,tail_threshold
+2020-05-29,COST,GOOGL,0.08333333333333333,Consumer Staples,Communication Services,tail_threshold
+2020-05-29,COST,JNJ,0.08333333333333333,Consumer Staples,Health Care,tail_threshold
+2020-05-29,COST,MSFT,0.08333333333333333,Consumer Staples,Information Technology,tail_threshold
+2020-05-29,CSCO,GOOG,0.08333333333333333,Information Technology,Communication Services,tail_threshold
+2020-05-29,CSCO,GOOGL,0.08333333333333333,Information Technology,Communication Services,tail_threshold
+2020-05-29,CVX,V,0.08333333333333333,Energy,Financials,tail_threshold
+2020-05-29,DIS,GS,0.08333333333333333,Communication Services,Financials,tail_threshold
+2020-05-29,DUK,NEE,0.08333333333333333,Utilities,Utilities,tail_threshold
+2020-05-29,GE,JPM,0.09166666666666666,Industrials,Financials,tail_threshold
+2020-05-29,GE,MS,0.08333333333333333,Industrials,Financials,tail_threshold
+2020-05-29,GOOG,GOOGL,0.1,Communication Services,Communication Services,tail_threshold
+2020-05-29,GOOG,GS,0.08333333333333333,Communication Services,Financials,tail_threshold
+2020-05-29,GOOG,IBM,0.08333333333333333,Communication Services,Information Technology,tail_threshold
+2020-05-29,GOOG,META,0.08333333333333333,Communication Services,Communication Services,tail_threshold
+2020-05-29,GOOG,MSFT,0.09166666666666666,Communication Services,Information Technology,tail_threshold
+2020-05-29,GOOGL,GS,0.08333333333333333,Communication Services,Financials,tail_threshold
+2020-05-29,GOOGL,IBM,0.08333333333333333,Communication Services,Information Technology,tail_threshold
+2020-05-29,GOOGL,META,0.08333333333333333,Communication Services,Communication Services,tail_threshold
+2020-05-29,GOOGL,MSFT,0.09166666666666666,Communication Services,Information Technology,tail_threshold
+2020-05-29,GS,MSFT,0.08333333333333333,Financials,Information Technology,tail_threshold
+2020-05-29,HD,PEP,0.08333333333333333,Consumer Discretionary,Consumer Staples,tail_threshold
+2020-05-29,INTC,MSFT,0.08333333333333333,Information Technology,Information Technology,tail_threshold
+2020-05-29,INTC,TXN,0.08333333333333333,Information Technology,Information Technology,tail_threshold
+2020-05-29,JPM,LIN,0.08333333333333333,Financials,Materials,tail_threshold
+2020-05-29,JPM,V,0.08333333333333333,Financials,Financials,tail_threshold
+2020-05-29,MA,UNH,0.08333333333333333,Financials,Health Care,tail_threshold
+2020-05-29,META,MSFT,0.08333333333333333,Communication Services,Information Technology,tail_threshold
+2020-05-29,MSFT,TXN,0.08333333333333333,Information Technology,Information Technology,tail_threshold
+2020-05-29,NKE,UNP,0.08333333333333333,Consumer Discretionary,Industrials,tail_threshold
+2020-06-30,AAPL,COST,0.08333333333333333,Information Technology,Consumer Staples,tail_threshold
+2020-06-30,AAPL,GOOGL,0.08333333333333333,Information Technology,Communication Services,tail_threshold
+2020-06-30,ABBV,AMT,0.08333333333333333,Health Care,Real Estate,tail_threshold
+2020-06-30,ABBV,NEE,0.08333333333333333,Health Care,Utilities,tail_threshold
+2020-06-30,ABBV,UNP,0.08333333333333333,Health Care,Industrials,tail_threshold
+2020-06-30,AMT,HD,0.08333333333333333,Real Estate,Consumer Discretionary,tail_threshold
+2020-06-30,AMT,NEE,0.08333333333333333,Real Estate,Utilities,tail_threshold
+2020-06-30,AMT,SO,0.08333333333333333,Real Estate,Utilities,tail_threshold
+2020-06-30,AMZN,TXN,0.08333333333333333,Consumer Discretionary,Information Technology,tail_threshold
+2020-06-30,AVGO,INTC,0.09166666666666666,Information Technology,Information Technology,tail_threshold
+2020-06-30,AVGO,TXN,0.08333333333333333,Information Technology,Information Technology,tail_threshold
+2020-06-30,AXP,V,0.08333333333333333,Financials,Financials,tail_threshold
+2020-06-30,BLK,NKE,0.08333333333333333,Financials,Consumer Discretionary,tail_threshold
+2020-06-30,BRK-B,MCD,0.08333333333333333,Financials,Consumer Discretionary,tail_threshold
+2020-06-30,BRK-B,MS,0.08333333333333333,Financials,Financials,tail_threshold
+2020-06-30,BRK-B,NKE,0.08333333333333333,Financials,Consumer Discretionary,tail_threshold
+2020-06-30,C,GE,0.08333333333333333,Financials,Industrials,tail_threshold
+2020-06-30,C,MS,0.08333333333333333,Financials,Financials,tail_threshold
+2020-06-30,COST,CSCO,0.08333333333333333,Consumer Staples,Information Technology,tail_threshold
+2020-06-30,COST,MSFT,0.08333333333333333,Consumer Staples,Information Technology,tail_threshold
+2020-06-30,CSCO,DIS,0.08333333333333333,Information Technology,Communication Services,tail_threshold
+2020-06-30,CSCO,GOOG,0.08333333333333333,Information Technology,Communication Services,tail_threshold
+2020-06-30,CSCO,GOOGL,0.08333333333333333,Information Technology,Communication Services,tail_threshold
+2020-06-30,CSCO,MSFT,0.08333333333333333,Information Technology,Information Technology,tail_threshold
+2020-06-30,DIS,GOOGL,0.08333333333333333,Communication Services,Communication Services,tail_threshold
+2020-06-30,DIS,GS,0.08333333333333333,Communication Services,Financials,tail_threshold
+2020-06-30,DIS,MSFT,0.08333333333333333,Communication Services,Information Technology,tail_threshold
+2020-06-30,GE,MS,0.08333333333333333,Industrials,Financials,tail_threshold
+2020-06-30,GOOG,GOOGL,0.09166666666666666,Communication Services,Communication Services,tail_threshold
+2020-06-30,GOOG,GS,0.08333333333333333,Communication Services,Financials,tail_threshold
+2020-06-30,GOOG,META,0.08333333333333333,Communication Services,Communication Services,tail_threshold
+2020-06-30,GOOG,NKE,0.08333333333333333,Communication Services,Consumer Discretionary,tail_threshold
+2020-06-30,GOOGL,GS,0.09166666666666666,Communication Services,Financials,tail_threshold
+2020-06-30,GOOGL,NKE,0.09166666666666666,Communication Services,Consumer Discretionary,tail_threshold
+2020-06-30,GS,KO,0.08333333333333333,Financials,Consumer Staples,tail_threshold
+2020-06-30,GS,NKE,0.08333333333333333,Financials,Consumer Discretionary,tail_threshold
+2020-06-30,HD,MCD,0.08333333333333333,Consumer Discretionary,Consumer Discretionary,tail_threshold
+2020-06-30,HD,PEP,0.08333333333333333,Consumer Discretionary,Consumer Staples,tail_threshold
+2020-06-30,HD,SO,0.08333333333333333,Consumer Discretionary,Utilities,tail_threshold
+2020-06-30,JPM,LIN,0.08333333333333333,Financials,Materials,tail_threshold
+2020-06-30,MSFT,TXN,0.08333333333333333,Information Technology,Information Technology,tail_threshold
+2020-07-31,AAPL,COST,0.08333333333333333,Information Technology,Consumer Staples,tail_threshold
+2020-07-31,AAPL,GOOGL,0.08333333333333333,Information Technology,Communication Services,tail_threshold
+2020-07-31,ABBV,AMT,0.08333333333333333,Health Care,Real Estate,tail_threshold
+2020-07-31,ABBV,NEE,0.08333333333333333,Health Care,Utilities,tail_threshold
+2020-07-31,ABBV,UNP,0.09166666666666666,Health Care,Industrials,tail_threshold
+2020-07-31,ADBE,AVGO,0.08333333333333333,Information Technology,Information Technology,tail_threshold
+2020-07-31,AMD,NVDA,0.08333333333333333,Information Technology,Information Technology,tail_threshold
+2020-07-31,AMT,HD,0.08333333333333333,Real Estate,Consumer Discretionary,tail_threshold
+2020-07-31,AMT,NEE,0.08333333333333333,Real Estate,Utilities,tail_threshold
+2020-07-31,AMT,SO,0.08333333333333333,Real Estate,Utilities,tail_threshold
+2020-07-31,AMT,UNP,0.08333333333333333,Real Estate,Industrials,tail_threshold
+2020-07-31,AMZN,TXN,0.08333333333333333,Consumer Discretionary,Information Technology,tail_threshold
+2020-07-31,AVGO,GOOG,0.08333333333333333,Information Technology,Communication Services,tail_threshold
+2020-07-31,AVGO,INTC,0.09166666666666666,Information Technology,Information Technology,tail_threshold
+2020-07-31,AVGO,META,0.08333333333333333,Information Technology,Communication Services,tail_threshold
+2020-07-31,AVGO,MSFT,0.08333333333333333,Information Technology,Information Technology,tail_threshold
+2020-07-31,AVGO,NVDA,0.08333333333333333,Information Technology,Information Technology,tail_threshold
+2020-07-31,AVGO,TSLA,0.08333333333333333,Information Technology,Consumer Discretionary,tail_threshold
+2020-07-31,AVGO,TXN,0.08333333333333333,Information Technology,Information Technology,tail_threshold
+2020-07-31,AXP,V,0.08333333333333333,Financials,Financials,tail_threshold
+2020-07-31,BLK,NKE,0.08333333333333333,Financials,Consumer Discretionary,tail_threshold
+2020-07-31,BRK-B,MCD,0.08333333333333333,Financials,Consumer Discretionary,tail_threshold
+2020-07-31,BRK-B,MS,0.08333333333333333,Financials,Financials,tail_threshold
+2020-07-31,BRK-B,NKE,0.08333333333333333,Financials,Consumer Discretionary,tail_threshold
+2020-07-31,BRK-B,UNP,0.08333333333333333,Financials,Industrials,tail_threshold
+2020-07-31,C,GE,0.08333333333333333,Financials,Industrials,tail_threshold
+2020-07-31,C,MS,0.08333333333333333,Financials,Financials,tail_threshold
+2020-07-31,COST,CSCO,0.08333333333333333,Consumer Staples,Information Technology,tail_threshold
+2020-07-31,CSCO,DIS,0.08333333333333333,Information Technology,Communication Services,tail_threshold
+2020-07-31,CSCO,GOOG,0.08333333333333333,Information Technology,Communication Services,tail_threshold
+2020-07-31,CSCO,GOOGL,0.08333333333333333,Information Technology,Communication Services,tail_threshold
+2020-07-31,DIS,GOOGL,0.08333333333333333,Communication Services,Communication Services,tail_threshold
+2020-07-31,DIS,GS,0.08333333333333333,Communication Services,Financials,tail_threshold
+2020-07-31,GE,MS,0.08333333333333333,Industrials,Financials,tail_threshold
+2020-07-31,GOOG,GOOGL,0.09166666666666666,Communication Services,Communication Services,tail_threshold
+2020-07-31,GOOG,GS,0.08333333333333333,Communication Services,Financials,tail_threshold
+2020-07-31,GOOG,META,0.09166666666666666,Communication Services,Communication Services,tail_threshold
+2020-07-31,GOOG,NKE,0.08333333333333333,Communication Services,Consumer Discretionary,tail_threshold
+2020-07-31,GOOGL,GS,0.09166666666666666,Communication Services,Financials,tail_threshold
+2020-07-31,GOOGL,META,0.08333333333333333,Communication Services,Communication Services,tail_threshold
+2020-07-31,GOOGL,NKE,0.09166666666666666,Communication Services,Consumer Discretionary,tail_threshold
+2020-07-31,GS,KO,0.08333333333333333,Financials,Consumer Staples,tail_threshold
+2020-07-31,GS,NKE,0.08333333333333333,Financials,Consumer Discretionary,tail_threshold
+2020-07-31,GS,UNP,0.08333333333333333,Financials,Industrials,tail_threshold
+2020-07-31,HD,MCD,0.08333333333333333,Consumer Discretionary,Consumer Discretionary,tail_threshold
+2020-07-31,HD,PEP,0.08333333333333333,Consumer Discretionary,Consumer Staples,tail_threshold
+2020-07-31,HD,SO,0.08333333333333333,Consumer Discretionary,Utilities,tail_threshold
+2020-07-31,INTC,TSLA,0.08333333333333333,Information Technology,Consumer Discretionary,tail_threshold
+2020-07-31,JPM,LIN,0.08333333333333333,Financials,Materials,tail_threshold
+2020-07-31,MCD,UNP,0.08333333333333333,Consumer Discretionary,Industrials,tail_threshold
+2020-07-31,META,MSFT,0.08333333333333333,Communication Services,Information Technology,tail_threshold
+2020-07-31,MS,V,0.08333333333333333,Financials,Financials,tail_threshold
+2020-07-31,MSFT,TXN,0.08333333333333333,Information Technology,Information Technology,tail_threshold
+2020-07-31,NEE,UNP,0.08333333333333333,Utilities,Industrials,tail_threshold
+2020-07-31,NKE,UNP,0.08333333333333333,Consumer Discretionary,Industrials,tail_threshold
+2020-08-31,ADBE,MSFT,0.08333333333333333,Information Technology,Information Technology,tail_threshold
+2020-08-31,AVGO,INTC,0.08333333333333333,Information Technology,Information Technology,tail_threshold
+2020-08-31,BAC,JPM,0.08333333333333333,Financials,Financials,tail_threshold
+2020-08-31,BAC,MS,0.08333333333333333,Financials,Financials,tail_threshold
+2020-08-31,BAC,UNH,0.08333333333333333,Financials,Health Care,tail_threshold
+2020-08-31,BLK,CAT,0.08333333333333333,Financials,Industrials,tail_threshold
+2020-08-31,C,JPM,0.08333333333333333,Financials,Financials,tail_threshold
+2020-08-31,COP,CVX,0.08333333333333333,Energy,Energy,tail_threshold
+2020-08-31,DUK,NEE,0.08333333333333333,Utilities,Utilities,tail_threshold
+2020-08-31,GOOG,GOOGL,0.1,Communication Services,Communication Services,tail_threshold
+2020-08-31,HON,V,0.08333333333333333,Industrials,Financials,tail_threshold
+2020-08-31,LMT,PG,0.08333333333333333,Industrials,Consumer Staples,tail_threshold
+2020-08-31,MA,V,0.08333333333333333,Financials,Financials,tail_threshold
+2020-08-31,QCOM,TXN,0.08333333333333333,Information Technology,Information Technology,tail_threshold
+2020-08-31,UNH,UNP,0.08333333333333333,Health Care,Industrials,tail_threshold
+2020-08-31,UNH,V,0.08333333333333333,Health Care,Financials,tail_threshold
+2020-09-30,AMD,MSFT,0.09166666666666666,Information Technology,Information Technology,tail_threshold
+2020-09-30,AMD,NVDA,0.08333333333333333,Information Technology,Information Technology,tail_threshold
+2020-09-30,AMZN,MSFT,0.08333333333333333,Consumer Discretionary,Information Technology,tail_threshold
+2020-09-30,GOOG,GOOGL,0.09166666666666666,Communication Services,Communication Services,tail_threshold
+2020-10-30,BLK,HD,0.08333333333333333,Financials,Consumer Discretionary,tail_threshold
+2020-10-30,GOOG,GOOGL,0.1,Communication Services,Communication Services,tail_threshold
+2020-11-30,ADBE,NVDA,0.08333333333333333,Information Technology,Information Technology,tail_threshold
+2020-11-30,AMZN,NVDA,0.08333333333333333,Consumer Discretionary,Information Technology,tail_threshold
+2020-11-30,GOOG,GOOGL,0.1,Communication Services,Communication Services,tail_threshold
+2020-12-31,AMZN,NVDA,0.08333333333333333,Consumer Discretionary,Information Technology,tail_threshold
+2020-12-31,GOOG,GOOGL,0.1,Communication Services,Communication Services,tail_threshold
+2021-01-29,ADBE,NVDA,0.08333333333333333,Information Technology,Information Technology,tail_threshold
+2021-01-29,AMZN,NVDA,0.08333333333333333,Consumer Discretionary,Information Technology,tail_threshold
+2021-01-29,BAC,WFC,0.08333333333333333,Financials,Financials,tail_threshold
+2021-01-29,GOOG,GOOGL,0.1,Communication Services,Communication Services,tail_threshold
+2021-02-26,ADBE,AMZN,0.08333333333333333,Information Technology,Consumer Discretionary,tail_threshold
+2021-02-26,ADBE,NVDA,0.09166666666666666,Information Technology,Information Technology,tail_threshold
+2021-02-26,AMZN,NVDA,0.08333333333333333,Consumer Discretionary,Information Technology,tail_threshold
+2021-02-26,AVGO,TXN,0.08333333333333333,Information Technology,Information Technology,tail_threshold
+2021-02-26,BAC,WFC,0.08333333333333333,Financials,Financials,tail_threshold
+2021-02-26,BRK-B,DIS,0.08333333333333333,Financials,Communication Services,tail_threshold
+2021-02-26,CVX,XOM,0.08333333333333333,Energy,Energy,tail_threshold
+2021-02-26,GOOG,GOOGL,0.1,Communication Services,Communication Services,tail_threshold
+2021-03-31,ADBE,NVDA,0.08333333333333333,Information Technology,Information Technology,tail_threshold
+2021-03-31,AVGO,TXN,0.08333333333333333,Information Technology,Information Technology,tail_threshold
+2021-03-31,GOOG,GOOGL,0.1,Communication Services,Communication Services,tail_threshold
+2021-04-30,ADBE,AMZN,0.09166666666666666,Information Technology,Consumer Discretionary,tail_threshold
+2021-04-30,ADBE,MSFT,0.08333333333333333,Information Technology,Information Technology,tail_threshold
+2021-04-30,AVGO,TXN,0.08333333333333333,Information Technology,Information Technology,tail_threshold
+2021-04-30,GOOG,GOOGL,0.08333333333333333,Communication Services,Communication Services,tail_threshold
+2021-05-28,AAPL,MSFT,0.08333333333333333,Information Technology,Information Technology,tail_threshold
+2021-05-28,ADBE,GOOG,0.08333333333333333,Information Technology,Communication Services,tail_threshold
+2021-05-28,AVGO,NVDA,0.08333333333333333,Information Technology,Information Technology,tail_threshold
+2021-05-28,AVGO,TXN,0.08333333333333333,Information Technology,Information Technology,tail_threshold
+2021-05-28,CVX,XOM,0.08333333333333333,Energy,Energy,tail_threshold
+2021-05-28,GOOG,GOOGL,0.09166666666666666,Communication Services,Communication Services,tail_threshold
+2021-05-28,NVDA,TXN,0.08333333333333333,Information Technology,Information Technology,tail_threshold
+2021-06-30,AAPL,GOOG,0.08333333333333333,Information Technology,Communication Services,tail_threshold
+2021-06-30,ADBE,GOOG,0.08333333333333333,Information Technology,Communication Services,tail_threshold
+2021-06-30,ADBE,GOOGL,0.08333333333333333,Information Technology,Communication Services,tail_threshold
+2021-06-30,AVGO,NVDA,0.08333333333333333,Information Technology,Information Technology,tail_threshold
+2021-06-30,AVGO,TXN,0.08333333333333333,Information Technology,Information Technology,tail_threshold
+2021-06-30,CVX,XOM,0.08333333333333333,Energy,Energy,tail_threshold
+2021-06-30,GOOG,GOOGL,0.09166666666666666,Communication Services,Communication Services,tail_threshold
+2021-06-30,NVDA,QCOM,0.08333333333333333,Information Technology,Information Technology,tail_threshold
+2021-07-30,ADBE,QCOM,0.08333333333333333,Information Technology,Information Technology,tail_threshold
+2021-07-30,GOOG,GOOGL,0.09166666666666666,Communication Services,Communication Services,tail_threshold
+2021-08-31,CVX,XOM,0.08333333333333333,Energy,Energy,tail_threshold
+2021-09-30,AAPL,GOOGL,0.08333333333333333,Information Technology,Communication Services,tail_threshold
+2021-09-30,CVX,XOM,0.08333333333333333,Energy,Energy,tail_threshold
+2021-10-29,COP,XOM,0.08333333333333333,Energy,Energy,tail_threshold
+2021-10-29,CVX,XOM,0.09166666666666666,Energy,Energy,tail_threshold
+2021-10-29,GOOG,GOOGL,0.08333333333333333,Communication Services,Communication Services,tail_threshold
+2021-11-30,CVX,XOM,0.08333333333333333,Energy,Energy,tail_threshold
+2021-11-30,GOOG,GOOGL,0.09166666666666666,Communication Services,Communication Services,tail_threshold
+2021-12-31,COP,XOM,0.08333333333333333,Energy,Energy,tail_threshold
+2021-12-31,GOOG,GOOGL,0.08333333333333333,Communication Services,Communication Services,tail_threshold
+2022-01-31,GOOG,GOOGL,0.08333333333333333,Communication Services,Communication Services,tail_threshold
+2022-01-31,GS,MS,0.08333333333333333,Financials,Financials,tail_threshold
+2022-02-28,GOOG,GOOGL,0.09166666666666666,Communication Services,Communication Services,tail_threshold
+2022-02-28,GS,MS,0.08333333333333333,Financials,Financials,tail_threshold
+2022-03-31,CVX,XOM,0.08333333333333333,Energy,Energy,tail_threshold
+2022-03-31,GOOG,GOOGL,0.09166666666666666,Communication Services,Communication Services,tail_threshold
+2022-04-29,BAC,WFC,0.08333333333333333,Financials,Financials,tail_threshold
+2022-04-29,GOOG,GOOGL,0.09166666666666666,Communication Services,Communication Services,tail_threshold
+2022-04-29,JPM,MS,0.08333333333333333,Financials,Financials,tail_threshold
+2022-05-31,GOOG,GOOGL,0.09166666666666666,Communication Services,Communication Services,tail_threshold
+2022-05-31,MA,V,0.08333333333333333,Financials,Financials,tail_threshold
+2022-06-30,GOOG,GOOGL,0.08333333333333333,Communication Services,Communication Services,tail_threshold
+2022-06-30,JPM,MS,0.08333333333333333,Financials,Financials,tail_threshold
+2022-07-29,AMZN,BRK-B,0.08333333333333333,Consumer Discretionary,Financials,tail_threshold
+2022-07-29,BAC,WFC,0.08333333333333333,Financials,Financials,tail_threshold
+2022-07-29,GOOG,GOOGL,0.09166666666666666,Communication Services,Communication Services,tail_threshold
+2022-07-29,MA,V,0.09166666666666666,Financials,Financials,tail_threshold
+2022-08-31,AAPL,AMZN,0.08333333333333333,Information Technology,Consumer Discretionary,tail_threshold
+2022-08-31,AAPL,AXP,0.08333333333333333,Information Technology,Financials,tail_threshold
+2022-08-31,AMZN,AXP,0.08333333333333333,Consumer Discretionary,Financials,tail_threshold
+2022-08-31,AMZN,MA,0.08333333333333333,Consumer Discretionary,Financials,tail_threshold
+2022-08-31,AMZN,V,0.08333333333333333,Consumer Discretionary,Financials,tail_threshold
+2022-08-31,BRK-B,LIN,0.08333333333333333,Financials,Materials,tail_threshold
+2022-08-31,BRK-B,ORCL,0.08333333333333333,Financials,Information Technology,tail_threshold
+2022-08-31,GOOG,GOOGL,0.09166666666666666,Communication Services,Communication Services,tail_threshold
+2022-08-31,MA,V,0.1,Financials,Financials,tail_threshold
+2022-09-30,ADBE,AMZN,0.08333333333333333,Information Technology,Consumer Discretionary,tail_threshold
+2022-09-30,AMZN,MA,0.08333333333333333,Consumer Discretionary,Financials,tail_threshold
+2022-09-30,AMZN,V,0.08333333333333333,Consumer Discretionary,Financials,tail_threshold
+2022-09-30,BAC,BRK-B,0.08333333333333333,Financials,Financials,tail_threshold
+2022-09-30,DUK,SO,0.09166666666666666,Utilities,Utilities,tail_threshold
+2022-09-30,GOOG,GOOGL,0.09166666666666666,Communication Services,Communication Services,tail_threshold
+2022-09-30,MA,V,0.1,Financials,Financials,tail_threshold
+2022-10-31,BAC,C,0.08333333333333333,Financials,Financials,tail_threshold
+2022-10-31,BAC,WFC,0.08333333333333333,Financials,Financials,tail_threshold
+2022-10-31,COP,XOM,0.08333333333333333,Energy,Energy,tail_threshold
+2022-10-31,DUK,SO,0.08333333333333333,Utilities,Utilities,tail_threshold
+2022-10-31,GOOG,GOOGL,0.09166666666666666,Communication Services,Communication Services,tail_threshold
+2022-10-31,MA,V,0.09166666666666666,Financials,Financials,tail_threshold
+2022-11-30,COP,XOM,0.08333333333333333,Energy,Energy,tail_threshold
+2022-11-30,DUK,SO,0.08333333333333333,Utilities,Utilities,tail_threshold
+2022-11-30,GOOG,GOOGL,0.1,Communication Services,Communication Services,tail_threshold
+2022-11-30,MA,V,0.08333333333333333,Financials,Financials,tail_threshold
+2022-12-30,DUK,SO,0.08333333333333333,Utilities,Utilities,tail_threshold
+2022-12-30,GOOG,GOOGL,0.09166666666666666,Communication Services,Communication Services,tail_threshold
+2022-12-30,MA,V,0.08333333333333333,Financials,Financials,tail_threshold
+2023-01-31,AVGO,QCOM,0.08333333333333333,Information Technology,Information Technology,tail_threshold
+2023-01-31,GOOG,GOOGL,0.08333333333333333,Communication Services,Communication Services,tail_threshold
+2023-01-31,MA,V,0.08333333333333333,Financials,Financials,tail_threshold
+2023-02-28,GOOG,GOOGL,0.08333333333333333,Communication Services,Communication Services,tail_threshold
+2023-03-31,BAC,WFC,0.08333333333333333,Financials,Financials,tail_threshold
+2023-03-31,GOOG,GOOGL,0.08333333333333333,Communication Services,Communication Services,tail_threshold
+2023-03-31,JPM,WFC,0.08333333333333333,Financials,Financials,tail_threshold
+2023-04-28,GOOG,GOOGL,0.09166666666666666,Communication Services,Communication Services,tail_threshold
+2023-04-28,MA,V,0.08333333333333333,Financials,Financials,tail_threshold
+2023-05-31,GOOG,GOOGL,0.09166666666666666,Communication Services,Communication Services,tail_threshold
+2023-06-30,GOOG,GOOGL,0.09166666666666666,Communication Services,Communication Services,tail_threshold
+2023-07-31,GOOG,GOOGL,0.09166666666666666,Communication Services,Communication Services,tail_threshold
+2023-08-31,GOOG,GOOGL,0.1,Communication Services,Communication Services,tail_threshold
+2023-09-29,GOOG,GOOGL,0.09166666666666666,Communication Services,Communication Services,tail_threshold
+2023-10-31,GOOG,GOOGL,0.09166666666666666,Communication Services,Communication Services,tail_threshold
+2023-11-30,GOOG,GOOGL,0.09166666666666666,Communication Services,Communication Services,tail_threshold
+2023-12-29,GOOG,GOOGL,0.09166666666666666,Communication Services,Communication Services,tail_threshold
+2024-01-31,GOOG,GOOGL,0.09166666666666666,Communication Services,Communication Services,tail_threshold
+2024-02-29,GOOG,GOOGL,0.1,Communication Services,Communication Services,tail_threshold
+2024-03-28,GOOG,GOOGL,0.09166666666666666,Communication Services,Communication Services,tail_threshold
+2024-04-30,GOOG,GOOGL,0.09166666666666666,Communication Services,Communication Services,tail_threshold
+2024-05-31,GOOG,GOOGL,0.1,Communication Services,Communication Services,tail_threshold
+2024-06-28,GOOG,GOOGL,0.1,Communication Services,Communication Services,tail_threshold
+2024-07-31,GOOG,GOOGL,0.09166666666666666,Communication Services,Communication Services,tail_threshold
+2024-08-30,GOOG,GOOGL,0.1,Communication Services,Communication Services,tail_threshold
+2024-09-30,GOOG,GOOGL,0.1,Communication Services,Communication Services,tail_threshold
+2024-10-31,AMZN,META,0.08333333333333333,Consumer Discretionary,Communication Services,tail_threshold
+2024-10-31,GOOG,GOOGL,0.1,Communication Services,Communication Services,tail_threshold
+2024-10-31,GOOG,MSFT,0.08333333333333333,Communication Services,Information Technology,tail_threshold
+2024-10-31,GOOGL,MSFT,0.08333333333333333,Communication Services,Information Technology,tail_threshold
+2024-11-29,AMZN,META,0.08333333333333333,Consumer Discretionary,Communication Services,tail_threshold
+2024-11-29,GOOG,GOOGL,0.09166666666666666,Communication Services,Communication Services,tail_threshold
+2024-11-29,GOOG,MSFT,0.08333333333333333,Communication Services,Information Technology,tail_threshold
+2024-12-31,AMZN,META,0.08333333333333333,Consumer Discretionary,Communication Services,tail_threshold
+2024-12-31,DUK,SO,0.08333333333333333,Utilities,Utilities,tail_threshold
+2024-12-31,GOOG,GOOGL,0.09166666666666666,Communication Services,Communication Services,tail_threshold
+2025-01-31,GOOG,GOOGL,0.09166666666666666,Communication Services,Communication Services,tail_threshold
+2025-02-28,AMZN,GOOG,0.08333333333333333,Consumer Discretionary,Communication Services,tail_threshold
+2025-02-28,GOOG,GOOGL,0.09166666666666666,Communication Services,Communication Services,tail_threshold
+2025-03-31,BAC,WFC,0.08333333333333333,Financials,Financials,tail_threshold
+2025-03-31,C,GS,0.09166666666666666,Financials,Financials,tail_threshold
+2025-03-31,GOOG,GOOGL,0.1,Communication Services,Communication Services,tail_threshold
+2025-03-31,GS,MS,0.08333333333333333,Financials,Financials,tail_threshold
+2025-03-31,JPM,WFC,0.09166666666666666,Financials,Financials,tail_threshold
+2025-04-30,AXP,MS,0.08333333333333333,Financials,Financials,tail_threshold
+2025-04-30,BAC,C,0.08333333333333333,Financials,Financials,tail_threshold
+2025-04-30,C,GS,0.09166666666666666,Financials,Financials,tail_threshold
+2025-04-30,C,MS,0.09166666666666666,Financials,Financials,tail_threshold
+2025-04-30,GOOG,GOOGL,0.1,Communication Services,Communication Services,tail_threshold
+2025-04-30,GS,MS,0.09166666666666666,Financials,Financials,tail_threshold
+2025-04-30,JPM,WFC,0.08333333333333333,Financials,Financials,tail_threshold
+2025-04-30,MS,V,0.08333333333333333,Financials,Financials,tail_threshold
+2025-05-30,AXP,BAC,0.08333333333333333,Financials,Financials,tail_threshold
+2025-05-30,AXP,MS,0.08333333333333333,Financials,Financials,tail_threshold
+2025-05-30,AXP,V,0.08333333333333333,Financials,Financials,tail_threshold
+2025-05-30,BAC,MS,0.08333333333333333,Financials,Financials,tail_threshold
+2025-05-30,BAC,WFC,0.08333333333333333,Financials,Financials,tail_threshold
+2025-05-30,C,GS,0.08333333333333333,Financials,Financials,tail_threshold
+2025-05-30,C,MS,0.09166666666666666,Financials,Financials,tail_threshold
+2025-05-30,GOOG,GOOGL,0.1,Communication Services,Communication Services,tail_threshold
+2025-05-30,GS,MS,0.09166666666666666,Financials,Financials,tail_threshold
+2025-05-30,JPM,MS,0.08333333333333333,Financials,Financials,tail_threshold
+2025-05-30,JPM,WFC,0.08333333333333333,Financials,Financials,tail_threshold
+2025-05-30,MS,V,0.08333333333333333,Financials,Financials,tail_threshold
+2025-05-30,MS,WFC,0.08333333333333333,Financials,Financials,tail_threshold
+2025-06-30,AXP,MS,0.08333333333333333,Financials,Financials,tail_threshold
+2025-06-30,AXP,WFC,0.08333333333333333,Financials,Financials,tail_threshold
+2025-06-30,BA,JPM,0.08333333333333333,Industrials,Financials,tail_threshold
+2025-06-30,C,MS,0.08333333333333333,Financials,Financials,tail_threshold
+2025-06-30,C,WFC,0.08333333333333333,Financials,Financials,tail_threshold
+2025-06-30,COP,XOM,0.08333333333333333,Energy,Energy,tail_threshold
+2025-06-30,CVX,XOM,0.08333333333333333,Energy,Energy,tail_threshold
+2025-06-30,GOOG,GOOGL,0.1,Communication Services,Communication Services,tail_threshold
+2025-06-30,GS,MS,0.08333333333333333,Financials,Financials,tail_threshold
+2025-06-30,JPM,MS,0.08333333333333333,Financials,Financials,tail_threshold
+2025-06-30,JPM,WFC,0.08333333333333333,Financials,Financials,tail_threshold
+2025-06-30,MS,WFC,0.08333333333333333,Financials,Financials,tail_threshold
+2025-07-31,AMZN,MSFT,0.08333333333333333,Consumer Discretionary,Information Technology,tail_threshold
+2025-07-31,AXP,BLK,0.08333333333333333,Financials,Financials,tail_threshold
+2025-07-31,AXP,WFC,0.08333333333333333,Financials,Financials,tail_threshold
+2025-07-31,COP,XOM,0.08333333333333333,Energy,Energy,tail_threshold
+2025-07-31,GOOG,GOOGL,0.1,Communication Services,Communication Services,tail_threshold
+2025-07-31,GS,MS,0.09166666666666666,Financials,Financials,tail_threshold
+2025-07-31,JPM,WFC,0.08333333333333333,Financials,Financials,tail_threshold
+2025-07-31,MA,V,0.09166666666666666,Financials,Financials,tail_threshold
+2025-07-31,NVDA,ORCL,0.08333333333333333,Information Technology,Information Technology,tail_threshold
+2025-08-29,BAC,C,0.08333333333333333,Financials,Financials,tail_threshold
+2025-08-29,C,GS,0.08333333333333333,Financials,Financials,tail_threshold
+2025-08-29,GOOG,GOOGL,0.1,Communication Services,Communication Services,tail_threshold
+2025-08-29,GS,MS,0.08333333333333333,Financials,Financials,tail_threshold
+2025-08-29,MA,V,0.1,Financials,Financials,tail_threshold
+2025-08-29,MSFT,ORCL,0.08333333333333333,Information Technology,Information Technology,tail_threshold
+2025-09-30,BAC,C,0.08333333333333333,Financials,Financials,tail_threshold
+2025-09-30,BAC,MS,0.09166666666666666,Financials,Financials,tail_threshold
+2025-09-30,C,MS,0.08333333333333333,Financials,Financials,tail_threshold
+2025-09-30,GOOG,GOOGL,0.09166666666666666,Communication Services,Communication Services,tail_threshold
+2025-09-30,GS,JPM,0.08333333333333333,Financials,Financials,tail_threshold
+2025-09-30,MA,V,0.08333333333333333,Financials,Financials,tail_threshold
+2025-10-31,BAC,MS,0.08333333333333333,Financials,Financials,tail_threshold
+2025-10-31,GOOG,GOOGL,0.1,Communication Services,Communication Services,tail_threshold
+2025-11-28,GOOG,GOOGL,0.09166666666666666,Communication Services,Communication Services,tail_threshold
+2025-12-30,GOOG,GOOGL,0.1,Communication Services,Communication Services,tail_threshold
