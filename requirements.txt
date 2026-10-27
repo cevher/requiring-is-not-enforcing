@@ -1,14 +1,30 @@
-pip
-setuptools
-wheel
-pandas
-numpy
-scipy
+# Pinned where it matters, and unpinned where the version was not recorded.
+#
+# Why this file is pinned at all. The reproducibility check reported in
+# Section 5.5 found that the random-forest rows of
+# outputs/reports/expanding_window_results.csv are identical within an
+# environment but shift by up to 0.04 ROC-AUC between environments, while every
+# logistic row is bit-identical. Labels, snapshots and the Table 2 / S1 source
+# reproduce to machine precision. Every script is deterministic within a single
+# environment.
+#
+# The versions below were verified to produce the numbers reported in the paper,
+# on Linux. An unpinned install is not expected to reproduce the random-forest
+# rows exactly.
+
+numpy==2.2.6
+pandas==2.3.3
+scipy==1.18.1
+scikit-learn==1.7.2
+matplotlib==3.10.9
+openpyxl==3.1.5
+
+# Used only by the acquisition and network-construction steps (01-03, 06, 09, 10),
+# which are not re-run when reproducing from the archived data_processed/. The
+# versions used for the original download were not recorded, so they are left
+# unpinned rather than pinned to a guess.
+networkx
+pyarrow
+requests
 yfinance
 pandas-datareader
-requests
-networkx
-matplotlib
-scikit-learn
-openpyxl
-pyarrow

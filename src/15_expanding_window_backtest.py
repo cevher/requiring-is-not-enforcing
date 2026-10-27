@@ -67,6 +67,7 @@ SEPARATED_DIR = NETWORK_DIR / "separated"
 
 MIN_TRAIN_OBS = 60
 CALIBRATION_MONTHS = 24
+FORWARD_DAYS_EMBARGO = 20
 FIRST_TEST_YEAR = 2011
 
 
@@ -164,6 +165,7 @@ def load_dataset():
     labels = pd.read_csv(label_path, parse_dates=["date"]).sort_values("date")
 
     daily = pd.read_csv(LABEL_DIR / "stress_labels.csv", parse_dates=["date"]).sort_values("date")
+    set_trading_calendar(daily["date"])
     macro_cols = [
         c for c in [
             "vix", "nfci", "treasury_10y", "treasury_2y",
@@ -309,6 +311,38 @@ def evaluate_predictions(y_true, y_prob):
     }
 
 
+_TRADING_DAYS = None
+
+
+def set_trading_calendar(dates):
+    """Record the daily trading calendar so the embargo is counted in trading days."""
+    global _TRADING_DAYS
+    _TRADING_DAYS = pd.DatetimeIndex(sorted(pd.to_datetime(dates).unique()))
+
+
+def first_trading_day(year):
+    """First trading day of a calendar year, from the daily calendar."""
+    if _TRADING_DAYS is None or not len(_TRADING_DAYS):
+        return pd.Timestamp(year=int(year), month=1, day=1)
+    pos = _TRADING_DAYS.searchsorted(pd.Timestamp(year=int(year), month=1, day=1))
+    return _TRADING_DAYS[min(pos, len(_TRADING_DAYS) - 1)]
+
+
+def embargo_cutoff(first_test_obs, horizon=FORWARD_DAYS_EMBARGO):
+    """First training date that is still unsafe.
+
+    A training label at t is built from returns over the next `horizon` trading
+    days, so t is contaminated once t + horizon reaches the first observation of
+    the test period. The boundary is the first trading day of the test YEAR, not
+    the first monthly snapshot in it: a snapshot dated 31 December resolves over
+    January of the test year even though the first test snapshot is 31 January.
+    """
+    if _TRADING_DAYS is None or not len(_TRADING_DAYS):
+        return first_test_obs - pd.Timedelta(days=int(horizon * 1.5))
+    pos = _TRADING_DAYS.searchsorted(first_test_obs)
+    return _TRADING_DAYS[max(0, pos - horizon)]
+
+
 def run_backtest_for_target(df, target, groups):
     rows = df.dropna(subset=[target]).copy()
     rows[target] = rows[target].astype(int)
@@ -323,8 +357,14 @@ def run_backtest_for_target(df, target, groups):
     fold_summary = []
 
     for test_year in test_years:
-        train_all = rows[rows["year"] < test_year].copy()
         test = rows[rows["year"] == test_year].copy()
+        # Embargo. A training label at date t is built from returns over the next
+        # FORWARD_DAYS trading days, so a training row closer than that to the first
+        # observation of the test period was resolved using test-period returns.
+        train_all = rows[rows["year"] < test_year].copy()
+        if len(test):
+            cutoff = embargo_cutoff(first_trading_day(test_year))
+            train_all = train_all[train_all["date"] < cutoff].copy()
 
         if len(train_all) < MIN_TRAIN_OBS or len(test) == 0:
             continue

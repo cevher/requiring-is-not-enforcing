@@ -114,8 +114,13 @@ mret = daily["universe_market_return"]
 fwd_cum = mret[::-1].rolling(FORWARD_DAYS, min_periods=FORWARD_DAYS).sum()[::-1].shift(-1)
 fwd_vol = mret[::-1].rolling(FORWARD_DAYS, min_periods=FORWARD_DAYS).std()[::-1].shift(-1)
 
-dd_thr = fwd_cum.expanding(min_periods=BURN_IN).quantile(0.10).shift(1)
-vol_thr = fwd_vol.expanding(min_periods=BURN_IN).quantile(0.80).shift(1)
+# Embargo. fwd_cum[t] and fwd_vol[t] are built from returns over t+1..t+FORWARD_DAYS,
+# so the value at t-1 is not observable until t-1+FORWARD_DAYS. shift(1) therefore
+# leaves roughly FORWARD_DAYS of forward information inside the threshold itself.
+# The threshold is shifted by the full horizon instead, so every value entering it
+# is realised at the decision date.
+dd_thr = fwd_cum.expanding(min_periods=BURN_IN).quantile(0.10).shift(FORWARD_DAYS + 1)
+vol_thr = fwd_vol.expanding(min_periods=BURN_IN).quantile(0.80).shift(FORWARD_DAYS + 1)
 
 variants = {
     "L0_published": ((vix_stress_L0 == 1) | (nfci_stress == 1)).astype(float),

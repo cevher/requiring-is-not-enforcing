@@ -177,7 +177,14 @@ def call_ollama_native(provider, messages):
         },
     }
 
-    if provider.get("format_json", False):
+    # Ollama >= 0.5 accepts a JSON schema in `format`, not only the string "json".
+    # This branch is additive: it fires only when a provider declares
+    # format_json_schema, so every earlier run is byte-identical to before.
+    # The schema object is the same one the LM Studio runs receive, so decoder
+    # enforcement is the single manipulation across the two model families.
+    if provider.get("format_json_schema"):
+        payload["format"] = resolve_schema(provider["format_json_schema"])["schema"]
+    elif provider.get("format_json", False):
         payload["format"] = "json"
 
     r = requests.post(url, headers=headers, json=payload, timeout=provider.get("timeout", 240))

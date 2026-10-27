@@ -1,0 +1,9 @@
+condition,model,n,has_network_evidence,json_recoverable,citation_correctness,invented_ids_mean,uncertainty_reported,uncertainty_required,uncertainty_met_of_required,role_separation_published,role_separation_corrected
+Full evidence,Llama 3,10,10,1.00,0.9732,0.20,1.00,6/10,6/6,0.00,0.00
+Full evidence,GPT-OSS,10,10,1.00,1.0000,0.00,1.00,6/10,6/6,0.40,0.40
+No-network,Llama 3,10,0,1.00,1.0000,0.00,1.00,6/10,6/6,1.00,n.a.
+No-network,GPT-OSS,10,0,1.00,1.0000,0.00,1.00,6/10,6/6,1.00,n.a.
+No-reliability,Llama 3,10,10,1.00,0.9584,0.40,1.00,6/10,6/6,n.a.,0.00
+No-reliability,GPT-OSS,10,10,1.00,1.0000,0.00,1.00,6/10,6/6,n.a.,0.00
+Free-form,Llama 3,10,0,1.00,n.d.,0.00,0.40,6/10,0/6,n.a.,n.a.
+Free-form,GPT-OSS,10,0,1.00,n.d.,0.00,0.40,6/10,0/6,n.a.,n.a.

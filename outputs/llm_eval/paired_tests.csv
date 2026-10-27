@@ -1,0 +1,13 @@
+contrast,family,arm_a,arm_b,k_a,k_b,n_pairs,both,only_a,only_b,neither,fisher_p,mcnemar_p,mcnemar_floor,in_primary_family,holm_p
+Secondary model: instruction -> required field,role separation,instruction,required field,3,10,10,3,0,7,0,0.0030959752321981426,0.015625,0.015625,True,0.03125
+Secondary model: required field -> decoder enforced,role separation,required field,decoder enforced,10,10,10,10,0,0,0,1.0,1.0,1.0,False,
+Primary model: instruction -> required field,role separation,instruction,required field,1,0,10,0,1,0,9,1.0,1.0,1.0,False,
+Primary model: required field -> decoder enforced,role separation,required field,decoder enforced,0,0,10,0,0,0,10,1.0,1.0,1.0,False,
+Primary model: run 1 -> run 2 (pinned build),replication,moving tag,pinned build,0,1,10,0,0,1,9,1.0,1.0,1.0,False,
+Across models under a required field,role separation,primary,secondary,0,10,10,0,0,10,0,1.082508822446903e-05,0.001953125,0.001953125,True,0.005859375
+Across models under decoder enforcement,role separation,primary,secondary,0,10,10,0,0,10,0,1.082508822446903e-05,0.001953125,0.001953125,False,
+Primary model: instruction -> decoder enforced,role separation,instruction,decoder enforced,1,0,10,0,1,0,9,1.0,1.0,1.0,False,
+"Primary model: evidence list -> none, all snapshots",uncertainty,full,free-form,7,0,10,0,7,0,3,0.0030959752321981426,0.015625,0.015625,False,
+"Primary model: evidence list -> none, where required",uncertainty,full,free-form,6,0,6,0,6,0,0,0.0021645021645021645,0.03125,0.03125,True,0.03125
+"Secondary model: evidence list -> none, all snapshots",uncertainty,full,free-form,9,0,10,0,9,0,1,0.00011907597046915932,0.00390625,0.00390625,False,
+"Secondary model: evidence list -> none, where required",uncertainty,full,free-form,6,0,6,0,6,0,0,0.0021645021645021645,0.03125,0.03125,False,

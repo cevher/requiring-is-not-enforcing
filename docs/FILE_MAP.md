@@ -45,3 +45,50 @@ numbers come from:
 | First, unanchored 1–5 rating (failed) | `archive/superseded/` | — | `src/34_human_review_statistics.py`, `src/42_human_review_analysis.py` |
 | Second, instrument validation (16 items) | `binary_rating_sheet_rater{1,2}_filled.xlsx` | `binary_rating_key_rater{1,2}.csv` | `src/45_instrument_validation.py` |
 | Second, role statement coding (60 items) | `role_statement_sheet_rater{1,2}.xlsx` | `role_statement_key_rater{1,2}.csv` | `src/50_role_statement_analysis.py` |
+| Third, decoder-enforced condition (30 items: 10 new, 10 paired, 10 repeats) | `role_statement_r2_sheet_rater{1,2}.xlsx` | `role_statement_r2_key_rater{1,2}.csv` | `src/56_round2_role_analysis.py` |
+
+
+## Added after the first submission draft
+
+The decoder-enforced condition on the primary model, the paired tests, and two
+corrections to the monitoring layer. Each is a separate script so the change is
+auditable against the earlier state.
+
+| Script | What it does |
+|---|---|
+| `src/52_check_ollama_schema.py` | Pre-flight: verifies that this Ollama build actually enforces a JSON schema passed in `format`, rather than silently ignoring it |
+| `src/53_build_round2_role_sheets.py` | Builds the third coding round: the new condition, the same ten decisions unenforced, and ten repeats from round two |
+| `src/54_rebuild_cross_model_table.py` | Rebuilds the cross-model table from the corrected coding and audits every reported table for values carried over from the defective branch |
+| `src/55_paired_tests.py` | McNemar's exact test for every binary contrast, with the discordant counts, Fisher alongside, and Holm within a pre-specified family |
+| `src/56_round2_role_analysis.py` | Round-two agreement, test-retest against round one, and the new condition's result |
+
+`src/28_run_llm_generation.py` gained one branch: the Ollama adapter now accepts
+a JSON schema in `format`. The branch fires only for a provider that declares
+`format_json_schema`, so every earlier run is byte-identical to before.
+
+### Two corrections to the monitoring layer
+
+`src/33_leakfree_label_variants.py` shifted the forward-outcome thresholds by one
+day rather than by the full horizon, so the threshold itself carried about twenty
+days of forward information. `src/15_expanding_window_backtest.py` split train
+from test on the calendar year with no gap, so a training label dated 31 December
+resolved over January of the test year.
+
+Both are corrected. The effect is reported in Section 5.5 and measured here:
+
+- 12 of 4,947 daily L3 labels change, 16 of 4,947 L4 labels, and **no monthly
+  snapshot**;
+- one early snapshot (2006-12-29) leaves the training set to the longer burn-in,
+  which moves the L3 and L4 rows of Table 2 by at most 0.052 and leaves the
+  method ordering at the top unchanged;
+- the decision layer's flag rates move by under 1.5 points, and **none of the ten
+  snapshots in the generation experiment changes any categorical field** -- only
+  its continuous scores, by at most 0.018.
+
+`archive/pre_embargo/` holds the labels, backtest outputs and decision records as
+they stood before these corrections. They are kept because the generation
+experiment was run from those decision records: the prompts in
+`data_processed/evidence/llm_prompt_conditions*.jsonl` and every file in
+`outputs/llm_generations/` derive from `archive/pre_embargo/evidence/`, while the
+decision-layer statistics reported in Section 4.1 derive from the corrected files
+in `data_processed/evidence/`.

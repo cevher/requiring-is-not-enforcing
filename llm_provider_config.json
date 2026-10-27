@@ -106,6 +106,30 @@
       "timeout": 600,
       "response_format_json_schema": "required_role",
       "_note": "Same as lmstudio_gptoss20b_jsonmode except that the schema enforces the presence of relational_evidence_role_statement at the decoder. Everything else is unconstrained, so the single manipulation is decoder enforcement."
+    },
+    {
+      "provider_name": "ollama_llama3_q4_required_role_enforced",
+      "adapter": "ollama_native",
+      "base_url": "http://127.0.0.1:11434/api",
+      "model": "llama3:8b-instruct-q4_0",
+      "temperature": 0.1,
+      "max_tokens": 1200,
+      "timeout": 240,
+      "format_json_schema": "required_role",
+      "_note": "Same as ollama_llama3_q4_pinned except that the schema enforces the presence of relational_evidence_role_statement at the decoder. Token budget is held at 1200 so the only difference from the unenforced run is decoder enforcement. The schema object is REQUIRED_ROLE_SCHEMA, the same one used for the secondary model.",
+      "_model_provenance": {
+        "resolved_tag": "llama3:8b-instruct-q4_0",
+        "architecture": "llama",
+        "parameters": "8.0B",
+        "quantization": "Q4_0",
+        "context_length": 8192,
+        "embedding_length": 4096,
+        "model_blob_digest_prefix": "sha256:6a0746a1ec1a",
+        "params_blob_digest_prefix": "sha256:3f8eb4da87fa",
+        "upstream_release": "Meta Llama 3, release date 2024-04-18",
+        "verified_on": "2026-10-26",
+        "verified_with": "ollama show llama3:8b-instruct-q4_0"
+      }
     }
   ]
 }

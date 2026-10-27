@@ -14,7 +14,7 @@ reproducible from this archive.
 
 | Path | Contents |
 |---|---|
-| `src/` | The pipeline, numbered in execution order (`01`–`51`). |
+| `src/` | The pipeline, numbered in execution order (`01`–`56`). |
 | `data_raw/` | Prices (parquet), macro series from FRED, universe metadata. |
 | `data_processed/` | Returns, networks, labels, decision records, evidence records. |
 | `outputs/llm_generations/` | Model outputs for every reported condition and run. |
@@ -41,10 +41,29 @@ The five scripts added for the required-role condition and the corrected audit:
 - `49_build_role_statement_sheets.py` — builds the blind human coding workbooks.
 - `50_role_statement_analysis.py` — the human coding, and the lexical criterion
   validated against it.
+- `52_check_ollama_schema.py` — verifies that the local Ollama build really
+  enforces a JSON schema before the decoder-enforced run is launched.
+- `53_build_round2_role_sheets.py`, `56_round2_role_analysis.py` — the third
+  coding round, which covers the decoder-enforced condition on the primary model.
+- `54_rebuild_cross_model_table.py` — rebuilds the cross-model table from the
+  corrected coding and flags any reported value still carrying the defective one.
+- `55_paired_tests.py` — McNemar's exact test for every binary contrast. The
+  design is paired: the same ten snapshots appear in every condition.
 
 `docs/FILE_MAP.md` says which file produces which table and figure.
 
-## Three things stated plainly
+## Five things stated plainly
+
+**The monitoring layer carries two corrections.** The forward-outcome
+thresholds were shifted by one day rather than by the full horizon, and the
+expanding-window split carried no gap between train and test. Both are fixed.
+No monthly snapshot changes label, one early snapshot leaves the training set,
+and no categorical field of the ten generation snapshots moves. `archive/pre_embargo/` holds the pre-correction files, because the generation
+experiment was run from those decision records. `docs/FILE_MAP.md` has the numbers.
+
+**Versions are pinned.** The random-forest rows of the backtest grid are
+deterministic within an environment but move by up to 0.04 ROC-AUC between
+environments. `requirements.txt` pins what produced the reported numbers.
 
 **The naive variants are retained.** Section 4 of the paper reports what an
 uncorrected audit returns on the same outputs. Those scorings are in
