@@ -1,7 +1,7 @@
 {
   "title": "Requiring is not enforcing: replication package",
   "upload_type": "software",
-  "description": "<p>Code, data and evaluation artefacts for the paper <em>Requiring is not enforcing: interface constraints and audit validity in evidence-grounded LLM explanation for financial risk monitoring</em>.</p><p>The archive contains the pipeline scripts in execution order, the processed returns, networks, labels and evidence records, the model outputs for every reported condition and run, the human coding sheets and item-level keys for both review rounds, the model tags, digests and quantisation settings, and the scripts that generate every table and figure in the paper. The naive variants of the audit and rating analyses are retained so that the naive-variant results reported in Section 4 remain reproducible.</p>",
+  "description": "<p>Code, data and evaluation artefacts for the paper <em>Requiring is not enforcing: interface constraints and audit validity in evidence-grounded LLM explanation for financial risk monitoring</em>.</p><p>The archive contains the pipeline scripts in execution order, the processed returns, networks, labels and evidence records, the model outputs for every reported condition and run, the human coding sheets and item-level keys for all three review rounds, the model tags, digests and quantisation settings, and the scripts that generate every table and figure in the paper. The naive variants of the audit and rating analyses are retained so that the naive-variant results reported in Section 4 remain reproducible.</p>",
   "creators": [
     {
       "name": "Özden, Cevher",
