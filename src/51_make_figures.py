@@ -171,80 +171,65 @@ def figure_workflow():
 
 # ---------------------------------------------------------------- Figure 4
 def figure_role():
-    """S_NOT as bars, S_CTX as dashes, the lexical criterion as open circles.
+    """The two halves of the role constraint across three interface levels.
 
-    The fourth bar in the primary group is the decoder-enforced run added after
-    the first submission draft. It is the point of the figure: enforcement lifts
-    S_CTX in that model and leaves S_NOT on the floor, so the two halves of the
-    construct have to be drawn separately or the result is invisible.
+    Reader consensus from the coding pass over 30 notes, two readers external to
+    the institution. S_CTX asks whether the note calls relational evidence
+    context or attribution; S_NOT asks whether it states that the evidence is
+    not the primary predictor. The system instruction demands both. Drawing them
+    separately is the point of the figure: the two halves do not move together,
+    and the level that secures S_CTX completely is the level at which S_NOT
+    fails.
     """
-    groups = [
-        ("Primary model", [
-            # label, S_NOT k, n, wilson lo, hi, S_CTX k, S_CTX n, lexical k, level
-            ("Instruction\n(run 1)",  0, 10, 0.000, 0.278,  0, 10,  0, 0),
-            ("Instruction\n(run 2)",  1, 10, 0.018, 0.404,  2,  9,  0, 0),
-            ("Required\nfield",       0, 10, 0.000, 0.278,  2,  9,  0, 1),
-            ("Decoder-\nenforced",    0, 10, 0.000, 0.278,  7,  7,  0, 2),
-        ]),
-        ("Secondary model", [
-            ("Instruction",            3, 10, 0.108, 0.603,  5, 10,  4, 0),
-            ("Required\nfield",      10, 10, 0.722, 1.000, 10, 10,  3, 1),
-            ("Decoder-\nenforced",   10, 10, 0.722, 1.000, 10, 10, 10, 2),
-        ]),
-    ]
-    fills = ["white", "#bfbfbf", "#4d4d4d"]
+    def wilson(k, n, z=1.959963985):
+        if n == 0:
+            return 0.0, 0.0
+        p = k / n
+        d = 1 + z * z / n
+        c = (p + z * z / (2 * n)) / d
+        h = z * ((p * (1 - p) / n + z * z / (4 * n * n)) ** 0.5) / d
+        return max(0.0, c - h), min(1.0, c + h)
 
-    fig, ax = plt.subplots(figsize=(7.44, 4.55))
-    xs, labels, gap, pos = [], [], 0.9, 0.0
-    for _, bars in groups:
-        for b in bars:
-            xs.append(pos); labels.append(b[0]); pos += 1.0
-        pos += gap
+    LEVELS = ["Requirement in the\nsystem instruction",
+              "Requirement as a\nrequired output field",
+              "Required field enforced\nat the decoder"]
+    S_CTX = [(0, 10), (9, 9), (10, 10)]
+    S_NOT = [(0, 10), (10, 10), (0, 10)]
 
-    i = 0
-    for _, bars in groups:
-        for lab, k, n, lo, hi, ck, cn, rg, lvl in bars:
-            x, p_ = xs[i], k / n
-            ax.bar(x, p_, width=0.72, color=fills[lvl], edgecolor=INK, lw=1.1, zorder=2)
-            ax.errorbar(x, p_, yerr=[[p_ - lo], [hi - p_]], fmt="none", ecolor=INK,
-                        elinewidth=1.1, capsize=5, capthick=1.1, zorder=3)
-            ax.text(x, hi + 0.04, f"{k}/{n}", ha="center", va="bottom",
-                    fontsize=8.0, fontweight="bold", zorder=4)
-            ax.plot([x - 0.43, x + 0.43], [ck / cn] * 2, color=INK, lw=2.6,
-                    solid_capstyle="butt", zorder=5)
-            ax.plot([x], [rg / n], marker="o", ms=8, mfc="white", mec=INK,
-                    mew=1.5, ls="none", zorder=6)
-            i += 1
+    fig, ax = plt.subplots(figsize=(7.44, 4.0))
+    w = 0.34
+    xs = np.arange(3.0)
+    for off, series, fill in ((-w / 2 - 0.02, S_CTX, "#bfbfbf"),
+                              (w / 2 + 0.02, S_NOT, "#4d4d4d")):
+        for x, (k, n) in zip(xs, series):
+            p_ = k / n
+            lo, hi = wilson(k, n)
+            ax.bar(x + off, p_, width=w, color=fill, edgecolor=INK, lw=1.1, zorder=2)
+            ax.errorbar(x + off, p_, yerr=[[p_ - lo], [hi - p_]], fmt="none",
+                        ecolor=INK, elinewidth=1.1, capsize=4, capthick=1.1, zorder=3)
+            ax.text(x + off, hi + 0.035, f"{k}/{n}", ha="center", va="bottom",
+                    fontsize=8.0, fontweight="bold", zorder=5)
 
-    centres = [np.mean(xs[0:4]), np.mean(xs[4:7])]
-    for c, (name, _) in zip(centres, groups):
-        ax.text(c, -0.175, name, ha="center", va="center", fontsize=9.2,
-                fontweight="bold", transform=ax.get_xaxis_transform())
-    ax.plot([np.mean([xs[3], xs[4]])] * 2, [0, 1.10], color=RULE, lw=0.8,
-            ls=(0, (4, 4)), zorder=1)
-
-    ax.set_xticks(xs); ax.set_xticklabels(labels, fontsize=7.6, linespacing=1.3)
-    ax.set_ylim(0, 1.12); ax.set_yticks(np.arange(0, 1.01, 0.25))
-    ax.set_ylabel("Share of notes (human coding)", fontsize=8.8)
+    ax.set_xticks(xs)
+    ax.set_xticklabels(LEVELS, fontsize=8.2, linespacing=1.4)
+    ax.set_ylim(0, 1.16)
+    ax.set_yticks(np.arange(0, 1.01, 0.25))
+    ax.set_ylabel("Share of notes (reader consensus)", fontsize=8.8)
     ax.spines[["top", "right"]].set_visible(False)
     ax.yaxis.grid(True, color=RULE, lw=0.6, alpha=0.6, zorder=0)
     ax.set_axisbelow(True)
-    ax.tick_params(axis="x", length=0, pad=8)
+    ax.tick_params(axis="x", length=0, pad=7)
 
-    from matplotlib.lines import Line2D
     from matplotlib.patches import Patch
     handles = [
-        Patch(fc=fills[0], ec=INK, lw=1.1, label="Requirement in the system instruction"),
-        Patch(fc=fills[1], ec=INK, lw=1.1, label="Requirement as a required output field"),
-        Patch(fc=fills[2], ec=INK, lw=1.1, label="Required field enforced at the decoder"),
-        Line2D([], [], color=INK, lw=2.6, label="S_CTX: evidence called context"),
-        Line2D([], [], marker="o", ms=8, mfc="white", mec=INK, mew=1.5, ls="none",
-               label="Lexical criterion on the same notes"),
+        Patch(fc="#bfbfbf", ec=INK, lw=1.1,
+              label="S_CTX: evidence called context or attribution"),
+        Patch(fc="#4d4d4d", ec=INK, lw=1.1,
+              label="S_NOT: evidence stated not to be the primary predictor"),
     ]
-    ax.legend(handles=handles, loc="upper center", fontsize=7.5, frameon=False,
-              ncol=2, bbox_to_anchor=(0.5, -0.27), handlelength=1.8, columnspacing=2.0)
+    ax.legend(handles=handles, loc="upper center", fontsize=7.9, frameon=False,
+              ncol=2, bbox_to_anchor=(0.5, -0.19), handlelength=1.8, columnspacing=2.2)
     save(fig, "Figure_3")
-
 
 
 figure1(); figure_workflow(); figure_role()

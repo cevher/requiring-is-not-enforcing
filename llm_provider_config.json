@@ -130,6 +130,28 @@
         "verified_on": "2026-10-26",
         "verified_with": "ollama show llama3:8b-instruct-q4_0"
       }
+    },
+    {
+      "provider_name": "ollama_llama3_q8_pinned",
+      "adapter": "ollama_native",
+      "base_url": "http://127.0.0.1:11434/api",
+      "model": "llama3:8b-instruct-q8_0",
+      "temperature": 0.1,
+      "max_tokens": 1200,
+      "timeout": 240,
+      "format_json": true,
+      "_note": "Quantisation control. Byte-identical to ollama_llama3_q4_pinned in every decoding setting; the model tag is the single manipulation."
+    },
+    {
+      "provider_name": "ollama_llama3_q8_required_role_enforced",
+      "adapter": "ollama_native",
+      "base_url": "http://127.0.0.1:11434/api",
+      "model": "llama3:8b-instruct-q8_0",
+      "temperature": 0.1,
+      "max_tokens": 1200,
+      "timeout": 240,
+      "format_json_schema": "required_role",
+      "_note": "Quantisation control. Byte-identical to ollama_llama3_q4_required_role_enforced in every decoding setting; the model tag is the single manipulation."
     }
   ]
 }

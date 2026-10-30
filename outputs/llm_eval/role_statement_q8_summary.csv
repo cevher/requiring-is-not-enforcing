@@ -1,0 +1,4 @@
+block,level,S_CTX_k,S_CTX_n,S_NOT_k,S_NOT_n,lexical_k,n
+Q8-INSTR,instruction,0,10,0,10,0,10
+Q8-RR,required field,9,9,10,10,10,10
+Q8-RR-ENF,decoder-enforced,10,10,0,10,0,10
